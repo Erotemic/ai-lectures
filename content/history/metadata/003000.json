@@ -195,13 +195,22 @@
   "places": [
     "Cambridge",
     "Egypt",
-    "Nile"
+    "Nile",
+    "Essex"
   ],
   "tags": [
     "History of science and mathematics",
     "Biography",
     "Lord Rayleigh",
-    "Applied mathematics"
+    "Applied mathematics",
+    "Acoustics",
+    "Cavendish Laboratory",
+    "Electrical measurement",
+    "Rayleigh quotient",
+    "Variational principles",
+    "Residual bounds",
+    "Spectral gaps",
+    "Eigenvector approximation"
   ],
   "tag_paths": [
     [
@@ -215,9 +224,19 @@
       "Place: Britain",
       "Place: England",
       "Place: Cambridge"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Acoustics"
+    ],
+    [
+      "Mathematics",
+      "Numerical analysis",
+      "Eigenvalue approximation"
     ]
   ],
-  "description": "Follows Lord Rayleigh from Cambridge mathematics and convalescence in Egypt to his private laboratory, tracing acoustics, precision measurement, and the institutions supporting his research.",
+  "description": "Follows Lord Rayleigh from Cambridge mathematics and convalescence in Egypt to his private laboratory and the Cavendish, then develops the Rayleigh quotient and the limitations of residual-based eigenvector estimates without a spectral gap.",
   "chronology": {
     "life": {
       "start": 1842,

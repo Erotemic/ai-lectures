@@ -299,7 +299,12 @@
     }
   ],
   "places": [
-    "Britain"
+    "Britain",
+    "London",
+    "Cambridge",
+    "Dublin",
+    "Woolwich",
+    "Charlottesville"
   ],
   "periods": [
     "Victorian era"
@@ -308,15 +313,39 @@
     "History of science and mathematics",
     "Biography",
     "James Joseph Sylvester",
-    "Mathematics"
+    "Mathematics",
+    "Matrix multiplication",
+    "Noncommutativity",
+    "Invariant theory",
+    "Quadratic forms",
+    "Sylvester's law of inertia",
+    "Determinants",
+    "Resultants",
+    "Religious tests",
+    "Mathematical education"
   ],
-  "description": "Follows James Joseph Sylvester from a London Jewish upbringing through Cambridge exclusion, an unhappy American appointment, and work at Woolwich, placing his early algebra in the institutions of Victorian mathematics.",
+  "description": "Follows James Joseph Sylvester from a London Jewish upbringing through Cambridge exclusion, an unhappy American appointment, legal work and teaching at Woolwich, then explains early matrix language, invariants of quadratic forms and the determinant methods behind resultants.",
   "tag_paths": [
     [
       "History",
       "History of science",
       "Scientific biography",
       "James Joseph Sylvester"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Matrix theory"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Quadratic forms"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Invariant theory"
     ]
   ],
   "chronology": {
