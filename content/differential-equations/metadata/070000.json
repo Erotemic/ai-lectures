@@ -48,7 +48,7 @@
       "Prove the wave energy balance and compare it with heat dissipation."
     ]
   },
-  "description": "Derives vibrating-string and cooling-rod equations from physical laws and compares the oscillatory wave modes with dissipative heat modes.",
+  "description": "Derives the ideal vibrating-string equation, solves a triangular pluck using Fourier modes and initial displacement and velocity, and contrasts conserved wave energy, forced resonance, and free-end drift with heat diffusion.",
   "tag_paths": [
     [
       "Mathematics",
@@ -65,5 +65,17 @@
       "Differential equations",
       "Plucked string"
     ]
+  ],
+  "tags": [
+    "Small-slope approximation",
+    "Wave speed",
+    "Initial displacement and velocity",
+    "Modal oscillators",
+    "Fourier sine coefficients",
+    "Triangular initial displacement",
+    "Harmonic frequencies",
+    "Energy solutions",
+    "Forced oscillation",
+    "Free-end zero mode"
   ]
 }

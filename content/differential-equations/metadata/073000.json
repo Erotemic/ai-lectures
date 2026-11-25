@@ -40,7 +40,7 @@
       "Prove the sign of its quadratic form and compare a discrete sine eigenvalue."
     ]
   },
-  "description": "Builds finite-difference approximations from Taylor expansion and examines their accuracy when spatial derivatives become matrix operators.",
+  "description": "Derives forward, backward, and centered finite differences using Taylor expansions, builds the sparse Dirichlet second-difference matrix, and checks its energy sign, discrete spectrum, and conservative variable-coefficient flux formulation.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,18 @@
       "Differential equations",
       "Discrete Laplacian"
     ]
+  ],
+  "tags": [
+    "Forward and backward differences",
+    "Centered differences",
+    "Truncation error",
+    "Polynomial exactness",
+    "Tridiagonal matrix",
+    "Dirichlet data",
+    "Discrete energy identity",
+    "Negative definiteness",
+    "Discrete sine eigenvectors",
+    "Variable conductivity",
+    "Flux differences"
   ]
 }

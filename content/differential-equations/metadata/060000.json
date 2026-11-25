@@ -36,7 +36,7 @@
       "Use trace, determinant and discriminant with correct edge-case qualifications."
     ]
   },
-  "description": "Reads nonlinear and linear phase portraits through vector fields, eigenvalues, stable and unstable directions, and qualitative orbit behavior.",
+  "description": "Reads two-dimensional linear phase portraits using vector fields, invariant eigenvector lines, slow and fast modes, and trace–determinant classification, then explains when local nonlinear linearization determines stability.",
   "tag_paths": [
     [
       "Mathematics",
@@ -53,5 +53,16 @@
       "Differential equations",
       "Saddles"
     ]
+  ],
+  "tags": [
+    "Autonomous systems",
+    "Invariant lines",
+    "Noncrossing trajectories",
+    "Slow modes",
+    "Unstable nodes",
+    "Stable and unstable directions",
+    "Characteristic discriminant",
+    "Jacobian linearization",
+    "Asymptotic stability"
   ]
 }

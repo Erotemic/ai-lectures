@@ -40,7 +40,7 @@
       "Explain why weak conservation and entropy admissibility are separate requirements."
     ]
   },
-  "description": "Derives a nonlinear conservation law whose transport speed depends on the state, then explains how compression can form a shock from initially smooth data.",
+  "description": "Uses inviscid Burgers characteristics to derive finite-time gradient blow-up with bounded states, then develops the weak conservation balance, shock speed, rarefaction fan and vanishing-viscosity entropy selection.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,16 @@
       "Differential equations",
       "Gradient blow-up"
     ]
+  ],
+  "tags": [
+    "State-dependent wave speed",
+    "Characteristic crossing",
+    "Gradient singularity",
+    "Quadratic flux",
+    "Moving control volume",
+    "Rankine–Hugoniot condition",
+    "Rarefaction fans",
+    "Entropy solutions",
+    "Vanishing viscosity"
   ]
 }

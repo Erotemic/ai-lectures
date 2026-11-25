@@ -40,7 +40,7 @@
       "Explain how two estimates can guide adaptive step selection."
     ]
   },
-  "description": "Constructs Runge–Kutta methods from sampled slopes and compares numerical accuracy through a worked initial-value problem.",
+  "description": "Constructs classical fourth-order Runge–Kutta from four sampled slopes, compares a worked step with Euler and midpoint, and introduces step doubling and embedded local-error estimates for adaptive integration.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,17 @@
       "Differential equations",
       "Adaptive stepping"
     ]
+  ],
+  "tags": [
+    "One-step methods",
+    "Runge-Kutta stages",
+    "Order conditions",
+    "Taylor expansion",
+    "Local defect",
+    "Fourth-order convergence",
+    "Step doubling",
+    "Embedded Runge-Kutta",
+    "Function evaluation cost",
+    "Energy drift"
   ]
 }

@@ -44,7 +44,7 @@
       "Distinguish numerical verification from physical model validation."
     ]
   },
-  "description": "Separates consistency, stability, and convergence in numerical PDE schemes and explains why grid refinement alone is not a proof of correctness.",
+  "description": "Derives maximum-norm convergence for explicit heat stepping and develops an energy-norm error argument for centered wave stepping, then tests both against exact modes and distinguishes numerical verification from physical validation.",
   "tag_paths": [
     [
       "Mathematics",
@@ -61,5 +61,18 @@
       "Differential equations",
       "Convergence"
     ]
+  ],
+  "tags": [
+    "Local residual versus step defect",
+    "Maximum-norm error estimate",
+    "Heat equation convergence",
+    "Parabolic refinement scaling",
+    "Discrete wave energy",
+    "Forced error equation",
+    "Second-order Taylor start",
+    "Fixed-Courant refinement",
+    "Observed convergence order",
+    "Boundary compatibility",
+    "Verification versus validation"
   ]
 }

@@ -52,7 +52,7 @@
       "Identify which conservation, CFL, TVD and error claims require separate hypotheses."
     ]
   },
-  "description": "Introduces MUSCL reconstruction and slope limiters to sharpen numerical fronts without creating spurious oscillations near discontinuities.",
+  "description": "Builds average-preserving limited piecewise-linear MUSCL reconstructions and conservative Riemann fluxes, compares Hancock prediction with SSP Runge–Kutta time stepping, and explains the conditions for controlling new extrema and total variation.",
   "tag_paths": [
     [
       "Mathematics",
@@ -69,5 +69,19 @@
       "Differential equations",
       "Monotonized central"
     ]
+  ],
+  "tags": [
+    "Piecewise-linear reconstruction",
+    "Cell-average preservation",
+    "Interface states",
+    "Van Leer limiter",
+    "Superbee limiter",
+    "MUSCL–Hancock",
+    "Godunov flux",
+    "Half-step predictor",
+    "SSP RK2",
+    "Total-variation diminishing",
+    "Order reduction near extrema",
+    "Reconstructed-state CFL"
   ]
 }

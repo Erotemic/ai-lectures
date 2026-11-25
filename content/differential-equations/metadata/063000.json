@@ -40,7 +40,7 @@
       "Explain why a vector system uses the same update formulas."
     ]
   },
-  "description": "Derives Euler and midpoint time stepping from an initial-value problem, then compares exact trajectories, local approximations, and numerical stability.",
+  "description": "Derives forward Euler, explicit midpoint, and Heun’s method from slope predictions, compares them on a solvable nonlinear initial-value problem, and explains step-size and finite-time blow-up limitations.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,16 @@
       "Differential equations",
       "Heun method"
     ]
+  ],
+  "tags": [
+    "Explicit time stepping",
+    "Tangent-line approximation",
+    "Slope evaluations",
+    "Explicit trapezoidal method",
+    "Provisional states",
+    "Second-order methods",
+    "Finite-time blow-up",
+    "Vector-valued ODEs",
+    "Step-size refinement"
   ]
 }

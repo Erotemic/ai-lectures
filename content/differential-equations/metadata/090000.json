@@ -63,7 +63,7 @@
       "Compute the density peak of an exactly on-bin cosine and distinguish integrated power."
     ]
   },
-  "description": "Introduces power spectral density as a distribution of signal variance, analyzes noisy periodograms, and explains Welch averaging and the difference between tones and noise floors.",
+  "description": "Defines one- and two-sided power spectral density through variance and window-energy normalization, compares periodograms with Welch segment averaging, and explains the variance–resolution tradeoff, integrated tone power, and limits of stationary spectral summaries.",
   "tag_paths": [
     [
       "Mathematics",
@@ -80,5 +80,19 @@
       "Differential equations",
       "Periodogram"
     ]
+  ],
+  "tags": [
+    "Variance density",
+    "One-sided PSD",
+    "Two-sided PSD",
+    "Periodogram inconsistency",
+    "Gaussian white noise",
+    "Segment averaging",
+    "Estimator variance",
+    "Effective degrees of freedom",
+    "Stationarity",
+    "Spectral lines",
+    "Integrated tone power",
+    "Noise floor"
   ]
 }

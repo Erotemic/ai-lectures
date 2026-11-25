@@ -40,7 +40,7 @@
       "Derive Fourier amplification for centered Euler and contrast its stability with upwind."
     ]
   },
-  "description": "Derives an upwind finite-difference scheme from the direction of information flow, follows a pulse across sample cells, and explains the Courant–Friedrichs–Lewy stability limit.",
+  "description": "Derives donor-cell upwinding from characteristic direction and face fluxes, calculates a periodic pulse update, and uses the CFL condition, monotonicity, and Fourier analysis to contrast stable upwind with unstable forward-time centered advection.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,18 @@
       "Differential equations",
       "Numerical stability"
     ]
+  ],
+  "tags": [
+    "Donor-cell method",
+    "Courant number",
+    "Domain of dependence",
+    "Upwind flux",
+    "Convex combinations",
+    "Periodic advection",
+    "Exact one-cell shift",
+    "FTCS advection",
+    "Fourier amplification factors",
+    "L1 contraction",
+    "Discrete conservation"
   ]
 }

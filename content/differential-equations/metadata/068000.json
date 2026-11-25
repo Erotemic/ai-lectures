@@ -40,7 +40,7 @@
       "Identify forcing that makes a resonant boundary problem impossible."
     ]
   },
-  "description": "Solves a fixed-end eigenvalue problem, develops Sturm–Liouville orthogonality, and explains why boundary conditions select a family of Fourier modes.",
+  "description": "Derives fixed, insulated, and mixed-end spatial spectra, proves orthogonality for distinct modes, and uses boundary resonance and the regular Sturm–Liouville generalization to explain compatibility and weighted Fourier expansions.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,17 @@
       "Differential equations",
       "Sine and cosine bases"
     ]
+  ],
+  "tags": [
+    "Dirichlet eigenvalue problem",
+    "Neumann eigenvalue problem",
+    "Mixed boundary conditions",
+    "Zero eigenvalue",
+    "Self-adjoint boundary conditions",
+    "Integration by parts",
+    "Weighted orthogonality",
+    "Completeness",
+    "Rayleigh quotient",
+    "Nullspace compatibility"
   ]
 }

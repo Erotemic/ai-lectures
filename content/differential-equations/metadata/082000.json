@@ -48,7 +48,7 @@
       "Solve the four-cell periodic heat problem and recover its forward-Euler stability limit."
     ]
   },
-  "description": "Explains the FFT's recursive reduction of Fourier calculations and why spectral methods use fast transforms for PDE computation.",
+  "description": "Derives radix-two FFT butterflies and their N log N work, distinguishes fast circular from padded linear convolution, and solves a periodic semidiscrete heat equation by Fourier diagonalization, including its explicit stability bound.",
   "tag_paths": [
     [
       "Mathematics",
@@ -65,5 +65,18 @@
       "Differential equations",
       "Cooley-Tukey"
     ]
+  ],
+  "tags": [
+    "Even-odd decomposition",
+    "Twiddle factors",
+    "Mixed-radix FFT",
+    "Direct DFT complexity",
+    "Circular convolution",
+    "Linear convolution padding",
+    "Periodic second differences",
+    "Fourier diagonalization",
+    "Constant mode conservation",
+    "Semidiscrete exact evolution",
+    "Euler diffusion stability"
   ]
 }

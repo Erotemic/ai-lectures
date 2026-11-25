@@ -36,7 +36,7 @@
       "Translate a simple second difference into a linear system."
     ]
   },
-  "description": "Formulates two-point boundary-value problems, distinguishes solution existence from uniqueness, and derives simple steady-state profiles with boundary constraints.",
+  "description": "Formulates two-point boundary-value problems using fixed values, fluxes, and Robin data, derives steady profiles and Neumann compatibility conditions, and compares shooting with a finite-difference system.",
   "tag_paths": [
     [
       "Mathematics",
@@ -53,5 +53,16 @@
       "Differential equations",
       "Robin conditions"
     ]
+  ],
+  "tags": [
+    "Steady heat conduction",
+    "Fourier heat law",
+    "Homogeneous boundary conditions",
+    "Boundary lifting",
+    "Pure Neumann compatibility",
+    "Additive constant nullspace",
+    "Outward normal",
+    "Shooting method",
+    "Central second difference"
   ]
 }

@@ -40,7 +40,7 @@
       "Explain why norm stability and positivity are different properties."
     ]
   },
-  "description": "Explains upwind schemes for transport and derives the numerical diffusion responsible for smearing steep fronts.",
+  "description": "Derives the leading artificial diffusivity of upwind transport through a modified equation and a random-walk calculation, then contrasts Lax–Wendroff accuracy with oscillations, monotonicity, and slope limiting near jumps.",
   "tag_paths": [
     [
       "Mathematics",
@@ -57,5 +57,16 @@
       "Differential equations",
       "Lax-Wendroff"
     ]
+  ],
+  "tags": [
+    "Artificial diffusivity",
+    "Fixed-Courant refinement",
+    "Binomial spreading",
+    "Random-walk representation",
+    "Overshoot and undershoot",
+    "Total variation",
+    "Godunov order barrier",
+    "Minmod limiter",
+    "Discontinuous solutions"
   ]
 }

@@ -48,7 +48,7 @@
       "Explain conservation of the average under insulated ends."
     ]
   },
-  "description": "Derives separation-of-variables solutions for heat flow, showing how spatial eigenmodes decay and why high frequencies disappear faster.",
+  "description": "Derives the heat equation from conservation and Fourier conduction, evolves initial profiles by boundary-selected eigenmodes, and compares insulated mean conservation with Dirichlet energy decay and boundary lifting.",
   "tag_paths": [
     [
       "Mathematics",
@@ -65,5 +65,17 @@
       "Differential equations",
       "Separation of variables"
     ]
+  ],
+  "tags": [
+    "Thermal diffusivity",
+    "Fourier heat law",
+    "Modal decay rates",
+    "Parabolic initial profile",
+    "Neumann zero mode",
+    "Mean temperature conservation",
+    "Dirichlet boundaries",
+    "Poincare inequality",
+    "Boundary lifting",
+    "Steady state and transient"
   ]
 }

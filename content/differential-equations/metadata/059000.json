@@ -45,7 +45,7 @@
       "Solve the same triangular system by integrating factors and eigenvectors."
     ]
   },
-  "description": "Solves coupled linear ODE systems by eigenvectors and matrix exponentials, explaining how modes combine to produce a system trajectory.",
+  "description": "Builds constant-coefficient linear ODE systems from state variables and solves the diagonalizable two-mode case using eigenvectors and initial data, comparing modal and triangular-system solutions.",
   "tag_paths": [
     [
       "Mathematics",
@@ -62,5 +62,16 @@
       "Differential equations",
       "Eigenvectors"
     ]
+  ],
+  "tags": [
+    "Constant-coefficient systems",
+    "Homogeneous systems",
+    "Characteristic polynomial",
+    "Damped oscillator",
+    "Triangular systems",
+    "Integrating factors",
+    "Diagonalizable matrices",
+    "Initial states",
+    "Superposition"
   ]
 }

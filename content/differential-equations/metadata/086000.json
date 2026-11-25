@@ -48,7 +48,7 @@
       "Explain when preservation, dissipation or event handling is the appropriate numerical objective."
     ]
   },
-  "description": "Compares ordinary time integrators with symplectic schemes, showing how preservation of geometric structure changes long-term oscillator behavior.",
+  "description": "Compares forward and backward Euler, symplectic Euler, Verlet and implicit midpoint on the harmonic oscillator, distinguishing phase-plane area preservation, modified energy, reversibility and exact quadratic-energy conservation.",
   "tag_paths": [
     [
       "Mathematics",
@@ -65,5 +65,18 @@
       "Differential equations",
       "Hamiltonian systems"
     ]
+  ],
+  "tags": [
+    "Forward Euler",
+    "Backward Euler",
+    "Kick–drift splitting",
+    "Phase-plane area",
+    "Symplecticity",
+    "Velocity Verlet",
+    "Time reversibility",
+    "Implicit midpoint",
+    "Quadratic invariants",
+    "Step-size-dependent stability",
+    "Adaptive symplectic integration"
   ]
 }
