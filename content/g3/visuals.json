@@ -1,5 +1,483 @@
 {
   "equations": {
+    "000000-weyl": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><msub><mover><mi>λ</mi><mo>^</mo></mover><mi>j</mi></msub><mo>−</mo><msub><mi>λ</mi><mi>j</mi></msub><mo>|</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "Compare the eigenvalues of A + H and A in increasing order."
+    },
+    "000000-swap": {
+      "mathml": "<math><mrow><mi>A</mi><mo>=</mo><mo>diag</mo><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mi>ε</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "Â has the reversed diagonal (ε, 0). The zero eigenvector changes from e₁ to e₂."
+    },
+    "000000-rotation-cost": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow><mo>=</mo><mi>ε</mi><mi>sin</mi><mi>φ</mi></mrow></math>"
+    },
+    "000000-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "000000-perturbation-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><mi>H</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "000000-sine-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "000000-sharpness": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>sin</mi><msub><mi>θ</mi><mn>0</mn></msub><mo>=</mo><mrow><mo>‖</mo><mi>R</mi><mo>‖</mo></mrow><mo>=</mo><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "000000-sylvester-bridge": {
+      "mathml": "<math><mrow><msub><mi>Λ</mi><mn>1</mn></msub><mi>X</mi><mo>−</mo><mi>X</mi><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><mi>R</mi></mrow></math>",
+      "caption": "X is the trial frame in the unwanted coordinates."
+    },
+    "000500-eigenvalue-stability": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><msub><mover><mi>λ</mi><mo>^</mo></mover><mi>j</mi></msub><mo>−</mo><msub><mi>λ</mi><mi>j</mi></msub><mo>|</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "Weyl’s inequality compares the ordered eigenvalues of A + H and A."
+    },
+    "000500-sylvester-equation": {
+      "mathml": "<math><mrow><mi>A</mi><mi>X</mi><mo>−</mo><mi>X</mi><mi>B</mi><mo>=</mo><mi>C</mi></mrow></math>"
+    },
+    "000500-separated-estimate": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>C</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "The course develops the separation hypotheses for this estimate."
+    },
+    "003900-line-angle": {
+      "mathml": "<math><mrow><mi>cos</mi><mi>θ</mi><mo>=</mo><mrow><mo>|</mo><mrow><mo>⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>⟩</mo></mrow><mo>|</mo></mrow></mrow></math>"
+    },
+    "003900-two-plane-projection": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>Q</mi><mi>u</mi><msup><mo>‖</mo><mn>2</mn></msup><mo>=</mo><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>φ</mi><mo>+</mo><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>φ</mi></mrow></math>"
+    },
+    "003900-jordan-maximum": {
+      "mathml": "<math><mrow><mi>cos</mi><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mo>max</mo><mrow><mo>|</mo><mrow><mo>⟨</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>⟩</mo></mrow><mo>|</mo></mrow></mrow></math>",
+      "caption": "Maximize over unit vectors u in the first subspace and v in the second."
+    },
+    "003900-overlap": {
+      "mathml": "<math><mrow><mo>(</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Y</mi><msub><mo>)</mo><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><mrow><mo>⟨</mo><msub><mi>x</mi><mi>i</mi></msub><mo>,</mo><msub><mi>y</mi><mi>j</mi></msub><mo>⟩</mo></mrow></mrow></math>",
+      "caption": "Here xᵢ and yⱼ denote basis vectors. The displayed convention is linear in the second argument."
+    },
+    "003900-change-of-basis": {
+      "mathml": "<math><mrow><msup><mover><mi>X</mi><mo>~</mo></mover><mo>*</mo></msup><mover><mi>Y</mi><mo>~</mo></mover><mo>=</mo><msup><mi>G</mi><mo>*</mo></msup><mrow><mo>(</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Y</mi><mo>)</mo></mrow><mi>H</mi></mrow></math>",
+      "caption": "The new basis matrices are XG and YH."
+    },
+    "003900-principal-cosines": {
+      "mathml": "<math><mrow><mi>cos</mi><msub><mi>θ</mi><mi>i</mi></msub><mo>=</mo><msub><mi>σ</mi><mi>i</mi></msub><mrow><mo>(</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Y</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "003900-principal-pairs": {
+      "mathml": "<math><mrow><mrow><mo>⟨</mo><msub><mi>x</mi><mi>i</mi></msub><mo>,</mo><msub><mi>y</mi><mi>j</mi></msub><mo>⟩</mo></mrow><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mi>cos</mi><msub><mi>θ</mi><mi>i</mi></msub></mrow></math>"
+    },
+    "003900-landing-compression": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>Q</mi><mi>X</mi><mi>a</mi><msup><mo>‖</mo><mn>2</mn></msup><mo>=</mo><mrow><mo>⟨</mo><mi>a</mi><mo>,</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Q</mi><mi>X</mi><mi>a</mi><mo>⟩</mo></mrow></mrow></math>"
+    },
+    "003900-escaping-compression": {
+      "mathml": "<math><mrow><msup><mi>X</mi><mo>*</mo></msup><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mi>X</mi><mo>=</mo><mi>I</mi><mo>−</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Q</mi><mi>X</mi></mrow></math>"
+    },
+    "003900-difference-eigenvalues": {
+      "mathml": "<math><mrow><mi>λ</mi><mo>=</mo><mi>±</mi><mi>sin</mi><msub><mi>θ</mi><mi>i</mi></msub></mrow></math>",
+      "caption": "These are the eigenvalues of P − Q on a nondegenerate principal plane."
+    },
+    "003900-directed-sine": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mi>P</mi><mo>‖</mo></mrow><mo>=</mo><mi>sin</mi><msub><mi>θ</mi><mrow><mo>max</mo></mrow></msub></mrow></math>"
+    },
+    "003900-principal-plane": {
+      "mathml": "<math><mrow><msub><mi>y</mi><mi>i</mi></msub><mo>=</mo><mi>cos</mi><msub><mi>θ</mi><mi>i</mi></msub><mtext>\u2009</mtext><msub><mi>x</mi><mi>i</mi></msub><mo>+</mo><mi>sin</mi><msub><mi>θ</mi><mi>i</mi></msub><mtext>\u2009</mtext><msub><mi>w</mi><mi>i</mi></msub></mrow></math>"
+    },
+    "004000-continuous-angle": {
+      "mathml": "<math><mrow><mrow><mo>(</mo><msub><mi>Θ</mi><mn>0</mn></msub><mi>f</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mi>φ</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mi>f</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "004000-cosine-compression": {
+      "mathml": "<math><mrow><msup><mi>cos</mi><mn>2</mn></msup><msub><mi>Θ</mi><mn>0</mn></msub><mo>=</mo><mi>P</mi><mi>Q</mi><mi>P</mi><msub><mo>|</mo><mi>U</mi></msub></mrow></math>"
+    },
+    "004000-sine-compression": {
+      "mathml": "<math><mrow><msup><mi>sin</mi><mn>2</mn></msup><msub><mi>Θ</mi><mn>0</mn></msub><mo>=</mo><mi>P</mi><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mi>P</mi><msub><mo>|</mo><mi>U</mi></msub></mrow></math>"
+    },
+    "004000-functional-calculus": {
+      "mathml": "<math><mrow><msub><mi>Θ</mi><mn>0</mn></msub><mo>=</mo><mi>arccos</mi><mrow><mo>(</mo><mi>cos</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "004000-directed-escape": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>‖</mo></mrow><mo>=</mo><mrow><mo>‖</mo><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mi>P</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "004000-full-angle": {
+      "mathml": "<math><mrow><mi>Θ</mi><mo>=</mo><msub><mi>Θ</mi><mn>0</mn></msub><mo>⊕</mo><msub><mi>Θ</mi><mn>1</mn></msub></mrow></math>"
+    },
+    "004000-projection-square": {
+      "mathml": "<math><mrow><msup><mi>Δ</mi><mn>2</mn></msup><mo>=</mo><mi>P</mi><mo>+</mo><mi>Q</mi><mo>−</mo><mi>P</mi><mi>Q</mi><mo>−</mo><mi>Q</mi><mi>P</mi></mrow></math>",
+      "caption": "Here Δ = P − Q."
+    },
+    "004000-full-sine": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><mi>P</mi><mo>−</mo><mi>Q</mi><mo>|</mo></mrow><mo>=</mo><mi>sin</mi><mi>Θ</mi></mrow></math>"
+    },
+    "004000-trial-cosine": {
+      "mathml": "<math><mrow><mi>cos</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><msub><mi>P</mi><mrow><mi>exact</mi></mrow></msub><msub><mi>E</mi><mn>0</mn></msub></mrow></msqrt></mrow></math>"
+    },
+    "004000-escaping-map": {
+      "mathml": "<math><mrow><msup><mi>S</mi><mo>*</mo></msup><mi>S</mi><mo>=</mo><mi>I</mi><mo>−</mo><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><msub><mi>P</mi><mrow><mi>exact</mi></mrow></msub><msub><mi>E</mi><mn>0</mn></msub></mrow></math>",
+      "caption": "S is the part of the trial frame orthogonal to the exact wanted subspace."
+    },
+    "004000-sine-modulus": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><mi>S</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><msup><mi>S</mi><mo>*</mo></msup><mi>S</mi></mrow></msqrt><mo>=</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "004000-unwanted-coordinates": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><msub><mi>E</mi><mn>0</mn></msub><mo>|</mo></mrow><mo>=</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "004500-defects": {
+      "mathml": "<math><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>=</mo><mi>U</mi><mo>∩</mo><msup><mi>V</mi><mi>⟂</mi></msup><mo>,</mo><mtext>\u2002</mtext><msub><mi>D</mi><mn>1</mn></msub><mo>=</mo><msup><mi>U</mi><mi>⟂</mi></msup><mo>∩</mo><mi>V</mi></mrow></math>"
+    },
+    "004500-defect-signs": {
+      "mathml": "<math><mrow><mrow><mo>(</mo><mi>P</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><msub><mo>|</mo><mrow><msub><mi>D</mi><mi>j</mi></msub></mrow></msub><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><msup><mo>)</mo><mi>j</mi></msup><mi>I</mi></mrow></math>",
+      "caption": "The source defect D₀ has sign +1 and the target defect D₁ has sign −1."
+    },
+    "004500-generic-compression": {
+      "mathml": "<math><mrow><msup><mi>C</mi><mn>2</mn></msup><mo>=</mo><mi>P</mi><mi>Q</mi><mi>P</mi><msub><mo>|</mo><mi>K</mi></msub></mrow></math>"
+    },
+    "004500-off-diagonal-block": {
+      "mathml": "<math><mrow><msup><mi>B</mi><mo>*</mo></msup><mi>B</mi><mo>=</mo><msup><mi>C</mi><mn>2</mn></msup><msup><mi>S</mi><mn>2</mn></msup></mrow></math>",
+      "caption": "Here B takes the part of Qx that lies in L, for x in K."
+    },
+    "004500-polar-block": {
+      "mathml": "<math><mrow><mi>B</mi><mo>=</mo><mi>W</mi><mi>C</mi><mi>S</mi></mrow></math>"
+    },
+    "004500-halmos-diagonal": {
+      "mathml": "<math><mrow><msub><mi>Q</mi><mrow><mn>11</mn></mrow></msub><mo>=</mo><msup><mi>C</mi><mn>2</mn></msup><mo>,</mo><mtext>\u2002</mtext><msub><mi>Q</mi><mrow><mn>22</mn></mrow></msub><mo>=</mo><msup><mi>S</mi><mn>2</mn></msup></mrow></math>",
+      "caption": "The two off-diagonal blocks are CS in the common K coordinates."
+    },
+    "004500-generic-invariant": {
+      "mathml": "<math><mrow><mi>C</mi><mo>≅</mo><msup><mi>C</mi><mi>′</mi></msup></mrow></math>",
+      "caption": "Unitary equivalence of the generic cosine operators is required in addition to matching the four elementary dimensions."
+    },
+    "004500-unequal-defects": {
+      "mathml": "<math><mrow><mi>dim</mi><msub><mi>D</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><mtext>\u2002</mtext><mi>dim</mi><msub><mi>D</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math>"
+    },
+    "005000-intertwining": {
+      "mathml": "<math><mrow><mi>W</mi><mi>P</mi><mo>=</mo><mi>Q</mi><mi>W</mi></mrow></math>"
+    },
+    "005000-positive-blocks": {
+      "mathml": "<math><mrow><msub><mi>C</mi><mn>0</mn></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mtext>\u2002</mtext><msub><mi>C</mi><mn>1</mn></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mtext>\u2002</mtext><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><msubsup><mi>S</mi><mn>0</mn><mo>*</mo></msubsup></mrow></math>"
+    },
+    "005000-preliminary-transport": {
+      "mathml": "<math><mrow><mi>T</mi><mo>=</mo><mi>Q</mi><mi>P</mi><mo>+</mo><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>P</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "005000-polar-modulus": {
+      "mathml": "<math><mrow><msup><mi>T</mi><mo>*</mo></msup><mi>T</mi><mo>=</mo><mi>I</mi><mo>−</mo><mo>(</mo><mi>P</mi><mo>−</mo><mi>Q</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>Θ</mi></mrow></math>"
+    },
+    "005000-polar-factor": {
+      "mathml": "<math><mrow><msub><mi>U</mi><mrow><mi>dr</mi></mrow></msub><mo>=</mo><mi>T</mi><mo>(</mo><mi>cos</mi><mi>Θ</mi><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>",
+      "caption": "This formula applies when the cosine is invertible."
+    },
+    "005000-source-diagonal": {
+      "mathml": "<math><mrow><mi>P</mi><msub><mi>U</mi><mrow><mi>dr</mi></mrow></msub><mi>P</mi><msub><mo>|</mo><mi>U</mi></msub><mo>=</mo><mi>cos</mi><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "005000-reflection-inverse": {
+      "mathml": "<math><mrow><mi>J</mi><msub><mi>U</mi><mrow><mi>dr</mi></mrow></msub><mi>J</mi><mo>=</mo><msubsup><mi>U</mi><mrow><mi>dr</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>",
+      "caption": "J is the reflection 2P − I through U."
+    },
+    "005000-product-of-reflections": {
+      "mathml": "<math><mrow><msubsup><mi>U</mi><mrow><mi>dr</mi></mrow><mn>2</mn></msubsup><mo>=</mo><mrow><mo>(</mo><mn>2</mn><mi>Q</mi><mo>−</mo><mi>I</mi><mo>)</mo></mrow><mrow><mo>(</mo><mn>2</mn><mi>P</mi><mo>−</mo><mi>I</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "005000-angle-form": {
+      "mathml": "<math><mrow><msub><mi>U</mi><mrow><mi>dr</mi></mrow></msub><mo>=</mo><mi>cos</mi><mi>Θ</mi><mo>+</mo><msub><mi>J</mi><mrow><mi>skew</mi></mrow></msub><mi>sin</mi><mi>Θ</mi></mrow></math>"
+    },
+    "005500-right-angle-square": {
+      "mathml": "<math><mrow><msup><mi>W</mi><mn>2</mn></msup><mo>=</mo><mo>−</mo><mi>I</mi></mrow></math>"
+    },
+    "005500-forced-diagonal": {
+      "mathml": "<math><mrow><msubsup><mi>C</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mi>P</mi><mi>Q</mi><mi>P</mi><msub><mo>|</mo><mi>U</mi></msub><mo>=</mo><msup><mi>cos</mi><mn>2</mn></msup><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "005500-defect-transport": {
+      "mathml": "<math><mrow><mi>W</mi><msub><mo>|</mo><mrow><msub><mi>D</mi><mn>0</mn></msub></mrow></msub><mi>:</mi><msub><mi>D</mi><mn>0</mn></msub><mo>→</mo><msub><mi>D</mi><mn>1</mn></msub></mrow></math>"
+    },
+    "005500-defect-square": {
+      "mathml": "<math><mrow><msup><mi>W</mi><mn>2</mn></msup><msub><mo>|</mo><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>⊕</mo><msub><mi>D</mi><mn>1</mn></msub></mrow></msub><mo>=</mo><mo>−</mo><mi>I</mi></mrow></math>"
+    },
+    "005500-existence": {
+      "mathml": "<math><mrow><mi>dim</mi><msub><mi>D</mi><mn>0</mn></msub><mo>=</mo><mi>dim</mi><msub><mi>D</mi><mn>1</mn></msub></mrow></math>",
+      "caption": "This is the condition for a direct rotation to exist."
+    },
+    "005500-shift-defects": {
+      "mathml": "<math><mrow><mi>dim</mi><msub><mi>D</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><mtext>\u2002</mtext><mi>dim</mi><msub><mi>D</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math>"
+    },
+    "005500-acute-square-criterion": {
+      "mathml": "<math><mrow><msubsup><mi>C</mi><mn>0</mn><mn>2</mn></msubsup><mo>≥</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mi>I</mi></mrow></math>",
+      "caption": "This is the hypothesis of Proposition 3.4."
+    },
+    "005500-reflected-projection": {
+      "mathml": "<math><mrow><msub><mi>Q</mi><mo>−</mo></msub><mo>=</mo><mi>J</mi><mi>Q</mi><mi>J</mi><mo>,</mo><mtext>\u2002</mtext><mi>J</mi><mo>=</mo><mn>2</mn><mi>P</mi><mo>−</mo><mi>I</mi></mrow></math>"
+    },
+    "001000-example-spectrum": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mo>=</mo><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></mrow></math>"
+    },
+    "001000-exact-frames": {
+      "mathml": "<math><mrow><msub><mi>F</mi><mn>0</mn></msub><mo>=</mo><mrow><mo>(</mo><msub><mi>e</mi><mn>1</mn></msub><mtext>\u2009</mtext><msub><mi>e</mi><mn>2</mn></msub><mo>)</mo></mrow><mo>,</mo><mtext>\u2002</mtext><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><msub><mi>e</mi><mn>3</mn></msub></mrow></math>"
+    },
+    "001000-reducing": {
+      "mathml": "<math><mrow><mi>A</mi><mi>U</mi><mo>⊆</mo><mi>U</mi><mtext>\u2009</mtext><mo>⇒</mo><mtext>\u2009</mtext><mi>A</mi><msup><mi>U</mi><mi>⟂</mi></msup><mo>⊆</mo><msup><mi>U</mi><mi>⟂</mi></msup></mrow></math>",
+      "caption": "For bounded self-adjoint A and closed U."
+    },
+    "001000-intertwining": {
+      "mathml": "<math><mrow><mi>A</mi><msub><mi>F</mi><mi>j</mi></msub><mo>=</mo><msub><mi>F</mi><mi>j</mi></msub><msub><mi>Λ</mi><mi>j</mi></msub></mrow></math>",
+      "caption": "The block is Λⱼ = Fⱼ*AFⱼ."
+    },
+    "001000-block-spectrum": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mo>=</mo><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>∪</mo><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "001000-finite-spectral-theorem": {
+      "mathml": "<math><mrow><mi>A</mi><mo>=</mo><munder><mo>∑</mo><mi>j</mi></munder><msub><mi>λ</mi><mi>j</mi></msub><msub><mi>E</mi><mi>j</mi></msub></mrow></math>"
+    },
+    "001000-spectral-integral": {
+      "mathml": "<math><mrow><mi>A</mi><mo>=</mo><msub><mo>∫</mo><mrow><mi>ℝ</mi></mrow></msub><mi>λ</mi><mtext>\u2009</mtext><mi>d</mi><mi>E</mi><mrow><mo>(</mo><mi>λ</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "001000-spectral-projection": {
+      "mathml": "<math><mrow><mi>E</mi><mrow><mo>(</mo><mi>S</mi><mo>)</mo></mrow><mi>f</mi><mo>=</mo><msub><mi>χ</mi><mi>S</mi></msub><mi>f</mi></mrow></math>",
+      "caption": "For the example in which A multiplies by t."
+    },
+    "001000-riesz-projection": {
+      "mathml": "<math><mrow><msub><mi>P</mi><mi>Γ</mi></msub><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn><mi>π</mi><mi>i</mi></mrow></mfrac><msub><mo>∮</mo><mi>Γ</mi></msub><mo>(</mo><mi>z</mi><mi>I</mi><mo>−</mo><mi>A</mi><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>\u2009</mtext><mi>d</mi><mi>z</mi></mrow></math>"
+    },
+    "011000-beam": {
+      "mathml": "<math><mrow><mi>A</mi><mi>u</mi><mo>=</mo><msup><mi>u</mi><mrow><mrow><mo>(</mo><mn>4</mn><mo>)</mo></mrow></mrow></msup></mrow></math>",
+      "caption": "The second and third derivatives vanish at both ends."
+    },
+    "011000-diagonal-domain": {
+      "mathml": "<math><mrow><mo>(</mo><mi>N</mi><mi>a</mi><msub><mo>)</mo><mi>n</mi></msub><mo>=</mo><mi>n</mi><msub><mi>a</mi><mi>n</mi></msub></mrow></math>",
+      "caption": "The domain consists of sequences for which the sum of n²|aₙ|² is finite."
+    },
+    "011000-domain-integrability": {
+      "mathml": "<math><mrow><msub><mo>∫</mo><mrow><mi>ℝ</mi></mrow></msub><msup><mi>λ</mi><mn>2</mn></msup><mtext>\u2009</mtext><mi>d</mi><mrow><mo>⟨</mo><mi>E</mi><mrow><mo>(</mo><mi>λ</mi><mo>)</mo></mrow><mi>x</mi><mo>,</mo><mi>x</mi><mo>⟩</mo></mrow><mo>&lt;</mo><mo>∞</mo></mrow></math>",
+      "caption": "This condition defines the domain of A."
+    },
+    "011000-spectral-cutoff": {
+      "mathml": "<math><mrow><mi>A</mi><mi>E</mi><mrow><mo>(</mo><mrow><mo>[</mo><mo>−</mo><mi>m</mi><mo>,</mo><mi>m</mi><mo>]</mo></mrow><mo>)</mo></mrow><mi>x</mi><mi>⟶</mi><mi>A</mi><mi>x</mi></mrow></math>",
+      "caption": "For x in the domain of A."
+    },
+    "011000-quadratic-bound": {
+      "mathml": "<math><mrow><mrow><mo>⟨</mo><mi>A</mi><mi>x</mi><mo>,</mo><mi>x</mi><mo>⟩</mo></mrow><mo>≥</mo><mi>a</mi><mo>‖</mo><mi>x</mi><msup><mo>‖</mo><mn>2</mn></msup></mrow></math>",
+      "caption": "The inequality is required for every x in the operator domain."
+    },
+    "011000-exact-intertwining": {
+      "mathml": "<math><mrow><mover><mi>A</mi><mo>^</mo></mover><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><msub><mi>F</mi><mn>1</mn></msub><msub><mi>Λ</mi><mn>1</mn></msub></mrow></math>",
+      "caption": "On the domain of Λ₁."
+    },
+    "011000-unbounded-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub></mrow></math>",
+      "caption": "On the domain of A₀, with R extended boundedly."
+    },
+    "011000-inherited-domain": {
+      "mathml": "<math><mrow><mo>dom</mo><mover><mi>A</mi><mo>^</mo></mover><mo>=</mo><mo>dom</mo><mi>A</mi></mrow></math>",
+      "caption": "When H is bounded in the perturbation Â = A + H."
+    },
+    "003000-vector-residual": {
+      "mathml": "<math><mrow><mi>r</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><mi>v</mi><mo>−</mo><mi>ρ</mi><mi>v</mi></mrow></math>"
+    },
+    "003000-rayleigh-quotient": {
+      "mathml": "<math><mrow><mi>ρ</mi><mo>=</mo><mrow><mo>⟨</mo><mi>v</mi><mo>,</mo><mover><mi>A</mi><mo>^</mo></mover><mi>v</mi><mo>⟩</mo></mrow></mrow></math>"
+    },
+    "003000-projected-residual": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><msubsup><mi>P</mi><mrow><mi>exact</mi></mrow><mi>⟂</mi></msubsup><mi>r</mi><mo>‖</mo></mrow><mo>=</mo><mi>δ</mi><mi>sin</mi><mi>θ</mi></mrow></math>"
+    },
+    "003000-one-vector-bound": {
+      "mathml": "<math><mrow><mi>sin</mi><mi>θ</mi><mo>≤</mo><mfrac><mrow><mrow><mo>‖</mo><mi>r</mi><mo>‖</mo></mrow></mrow><mrow><mi>δ</mi></mrow></mfrac></mrow></math>"
+    },
+    "003000-isometry": {
+      "mathml": "<math><mrow><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>I</mi></mrow></math>"
+    },
+    "003000-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub></mrow></math>",
+      "caption": "On the domain of A₀."
+    },
+    "003000-in-subspace-residual": {
+      "mathml": "<math><mrow><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><mi>R</mi><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>A</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "003000-compression": {
+      "mathml": "<math><mrow><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mtext>\u2009</mtext><mo>⇒</mo><mtext>\u2009</mtext><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><mi>R</mi><mo>=</mo><mn>0</mn></mrow></math>"
+    },
+    "003000-perturbation-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><mi>H</mi><msub><mi>E</mi><mn>0</mn></msub><mo>,</mo><mtext>\u2002</mtext><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "003000-spectral-distance": {
+      "mathml": "<math><mrow><mo>dist</mo><mrow><mo>(</mo><mi>ρ</mi><mo>,</mo><mi>σ</mi><mrow><mo>(</mo><mover><mi>A</mi><mo>^</mo></mover><mo>)</mo></mrow><mo>)</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>r</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "002000-interlaced-example": {
+      "mathml": "<math><mrow><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>}</mo></mrow><mo>,</mo><mtext>\u2002</mtext><mrow><mo>{</mo><mn>2</mn><mo>}</mo></mrow><mo>,</mo><mtext>\u2002</mtext><mi>δ</mi><mo>=</mo><mn>1</mn></mrow></math>"
+    },
+    "002000-interval-exterior": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mi>C</mi><mo>)</mo></mrow><mo>∩</mo><mrow><mo>(</mo><mi>β</mi><mo>−</mo><mi>δ</mi><mo>,</mo><mi>α</mi><mo>+</mo><mi>δ</mi><mo>)</mo></mrow><mo>=</mo><mo>∅</mo></mrow></math>",
+      "caption": "Here σ(B) ⊆ [β, α]. The two operators can exchange roles."
+    },
+    "002000-ordered": {
+      "mathml": "<math><mrow><mi>B</mi><mo>≤</mo><mi>b</mi><mi>I</mi><mo>,</mo><mtext>\u2002</mtext><mi>C</mi><mo>≥</mo><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mi>δ</mi><mo>)</mo></mrow><mi>I</mi></mrow></math>",
+      "caption": "These are form bounds on the respective domains."
+    },
+    "002000-distance": {
+      "mathml": "<math><mrow><mo>dist</mo><mrow><mo>(</mo><mi>σ</mi><mrow><mo>(</mo><mi>B</mi><mo>)</mo></mrow><mo>,</mo><mi>σ</mi><mrow><mo>(</mo><mi>C</mi><mo>)</mo></mrow><mo>)</mo></mrow><mo>≥</mo><mi>δ</mi></mrow></math>"
+    },
+    "002000-centered-bounds": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>B</mi><mo>‖</mo></mrow><mo>≤</mo><mi>a</mi><mo>,</mo><mtext>\u2002</mtext><mrow><mo>‖</mo><msup><mi>C</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>‖</mo></mrow><mo>≤</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>δ</mi></mrow></mfrac></mrow></math>"
+    },
+    "002000-exponential-decay": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mi>C</mi></mrow></msup><mi>Y</mi><msup><mi>e</mi><mrow><mi>t</mi><mi>B</mi></mrow></msup><mo>‖</mo></mrow><mo>≤</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mi>δ</mi></mrow></msup><mrow><mo>‖</mo><mi>Y</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "Here the spectrum of C is above that of B by at least δ."
+    },
+    "002000-sine-theta-pair": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><msub><mi>A</mi><mn>0</mn></msub><mo>)</mo></mrow><mtext>\u2002</mtext><mtext>and</mtext><mtext>\u2002</mtext><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "002000-doubled-sine-pair": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>0</mn></msub><mo>)</mo></mrow><mtext>\u2002</mtext><mtext>and</mtext><mtext>\u2002</mtext><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "002000-doubled-tangent-pair": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><msub><mi>A</mi><mn>0</mn></msub><mo>)</mo></mrow><mtext>\u2002</mtext><mtext>and</mtext><mtext>\u2002</mtext><mi>σ</mi><mrow><mo>(</mo><msub><mi>A</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "006000-unitary-invariance": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>U</mi><mi>Z</mi><mi>V</mi><mo>)</mo></mrow><mo>=</mo><mi>N</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "Here U and V are unitary multiplier operators."
+    },
+    "006000-symmetric-gauge": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mo>=</mo><mi>Φ</mi><mrow><mo>(</mo><mi>s</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mo>)</mo></mrow></mrow></math>",
+      "caption": "The vector s(Z) lists the singular values in decreasing order."
+    },
+    "006000-rank-one-normalization": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>u</mi><msup><mi>v</mi><mo>*</mo></msup><mo>)</mo></mrow><mo>=</mo><mrow><mo>‖</mo><mi>u</mi><mo>‖</mo></mrow><mtext>\u2009</mtext><mrow><mo>‖</mo><mi>v</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "006000-contraction": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>K</mi><mi>Z</mi><mi>L</mi><mo>)</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>K</mi><mo>‖</mo></mrow><mi>N</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mrow><mo>‖</mo><mi>L</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "006000-ky-fan-sum": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>Z</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></munderover><msub><mi>s</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "006000-ky-fan-dominance": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>K</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>L</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub></mrow></math>",
+      "caption": "For every k, these inequalities imply N(K) ≤ N(L) for every unitarily invariant norm."
+    },
+    "006000-weak-majorization-example": {
+      "mathml": "<math><mrow><mrow><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow><msub><mo>≺</mo><mi>w</mi></msub><mrow><mo>(</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></mrow></math>",
+      "caption": "The partial sums compare as 2 ≤ 3 and 4 ≤ 4."
+    },
+    "006000-q-norm": {
+      "mathml": "<math><mrow><mi>N</mi><mo>(</mo><mi>Z</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><mi>M</mi><mrow><mo>(</mo><msup><mi>Z</mi><mo>*</mo></msup><mi>Z</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "013000-approximation-number": {
+      "mathml": "<math><mrow><msub><mi>a</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mo>=</mo><msub><mo>inf</mo><mrow><mo>rank</mo><mi>F</mi><mo>&lt;</mo><mi>j</mi></mrow></msub><mrow><mo>‖</mo><mi>Z</mi><mo>−</mo><mi>F</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "013000-finite-gauge-ideal": {
+      "mathml": "<math><mrow><msub><mi>ℑ</mi><mi>N</mi></msub><mo>=</mo><mrow><mo>{</mo><mi>Z</mi><mi>:</mi><mi>N</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mo>&lt;</mo><mo>∞</mo><mo>}</mo></mrow></mrow></math>"
+    },
+    "013000-schatten-norm": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>Z</mi><msub><mo>‖</mo><mrow><msub><mi>S</mi><mi>p</mi></msub></mrow></msub><mo>=</mo><msup><mrow><mo>(</mo><msub><mo>∑</mo><mi>j</mi></msub><msub><mi>s</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>Z</mi><msup><mo>)</mo><mi>p</mi></msup><mo>)</mo></mrow></mrow><mrow><mn>1</mn><mo>/</mo><mi>p</mi></mrow></msup></mrow></math>"
+    },
+    "013000-diagonal-hilbert-schmidt": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>D</mi><msub><mo>‖</mo><mrow><msub><mi>S</mi><mn>2</mn></msub></mrow></msub><mo>=</mo><mfrac><mrow><mi>π</mi></mrow><mrow><msqrt><mn>6</mn></msqrt></mrow></mfrac></mrow></math>",
+      "caption": "The diagonal entries 1/n are square summable and their sum diverges."
+    },
+    "013000-ideal-bound": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>K</mi><mi>Z</mi><mi>L</mi><mo>)</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>K</mi><mo>‖</mo></mrow><mi>N</mi><mrow><mo>(</mo><mi>Z</mi><mo>)</mo></mrow><mrow><mo>‖</mo><mi>L</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "013000-cutoff-limit": {
+      "mathml": "<math><mrow><msub><mi>a</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>K</mi><msub><mi>Ω</mi><mi>t</mi></msub><mo>)</mo></mrow><mi>⟶</mi><msub><mi>a</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>K</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "Each j is fixed, and the orthogonal projections Ωₜ converge strongly to I."
+    },
+    "013000-truncation": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>D</mi><mo>−</mo><msub><mi>D</mi><mi>m</mi></msub><mo>‖</mo></mrow><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+    },
+    "008000-cross-block": {
+      "mathml": "<math><mrow><mi>X</mi><mo>=</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><msub><mi>E</mi><mn>0</mn></msub><mo>,</mo><mtext>\u2002</mtext><mrow><mo>|</mo><mi>X</mi><mo>|</mo></mrow><mo>=</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "008000-residual-equation": {
+      "mathml": "<math><mrow><msub><mi>Λ</mi><mn>1</mn></msub><mi>X</mi><mo>−</mo><mi>X</mi><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><mi>R</mi></mrow></math>",
+      "caption": "The identity is on the domain of A₀."
+    },
+    "008000-entry-form": {
+      "mathml": "<math><mrow><msub><mi>x</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>y</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><mrow><msub><mi>c</mi><mi>i</mi></msub><mo>−</mo><msub><mi>b</mi><mi>j</mi></msub></mrow></mfrac></mrow></math>"
+    },
+    "008000-diagonal-estimate": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><mi>X</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>Y</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub></mrow></math>"
+    },
+    "008000-window-assumptions": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>B</mi><mo>‖</mo></mrow><mo>≤</mo><mi>a</mi><mo>,</mo><mtext>\u2002</mtext><mrow><mo>‖</mo><msup><mi>C</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>‖</mo></mrow><mo>≤</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>δ</mi></mrow></mfrac></mrow></math>"
+    },
+    "008000-rearrangement": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow><mo>≤</mo><mfrac><mrow><mi>N</mi><mrow><mo>(</mo><mi>Y</mi><mo>)</mo></mrow><mo>+</mo><mi>a</mi><mi>N</mi><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow></mrow><mrow><mi>a</mi><mo>+</mo><mi>δ</mi></mrow></mfrac></mrow></math>",
+      "caption": "Multiply by a + δ and cancel aN(X) to obtain δN(X) ≤ N(Y)."
+    },
+    "008000-centered-inverse": {
+      "mathml": "<math><mrow><mo>‖</mo><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>−</mo><mi>c</mi><mi>I</mi><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>‖</mo><mo>≤</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>δ</mi></mrow></mfrac></mrow></math>",
+      "caption": "The center c is (α + β)/2 and the half-width a is (α − β)/2."
+    },
+    "008000-sine-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "009000-scalar-integral": {
+      "mathml": "<math><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>c</mi><mo>−</mo><mi>b</mi></mrow></mfrac><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mo>∞</mo></msubsup><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mrow><mo>(</mo><mi>c</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow></mrow></msup><mtext>\u2009</mtext><mi>d</mi><mi>t</mi></mrow></math>",
+      "caption": "For c > b."
+    },
+    "009000-ordered-form-bounds": {
+      "mathml": "<math><mrow><mi>C</mi><mo>≥</mo><mrow><mo>(</mo><mi>γ</mi><mo>+</mo><mi>δ</mi><mo>)</mo></mrow><mi>I</mi><mo>,</mo><mtext>\u2002</mtext><mi>B</mi><mo>≤</mo><mi>γ</mi><mi>I</mi></mrow></math>"
+    },
+    "009000-solution-integral": {
+      "mathml": "<math><mrow><mi>X</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mo>∞</mo></msubsup><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mi>C</mi></mrow></msup><mi>Y</mi><msup><mi>e</mi><mrow><mi>t</mi><mi>B</mi></mrow></msup><mtext>\u2009</mtext><mi>d</mi><mi>t</mi></mrow></math>"
+    },
+    "009000-sylvester-identity": {
+      "mathml": "<math><mrow><mi>C</mi><mi>X</mi><mo>−</mo><mi>X</mi><mi>B</mi><mo>=</mo><mi>Y</mi></mrow></math>"
+    },
+    "009000-integrand-estimate": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mi>C</mi></mrow></msup><mi>Y</mi><msup><mi>e</mi><mrow><mi>t</mi><mi>B</mi></mrow></msup><mo>)</mo></mrow><mo>≤</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi><mi>δ</mi></mrow></msup><mi>N</mi><mrow><mo>(</mo><mi>Y</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "009000-domain-inclusion": {
+      "mathml": "<math><mrow><mi>X</mi><mrow><mo>(</mo><mo>dom</mo><mi>B</mi><mo>)</mo></mrow><mo>⊆</mo><mo>dom</mo><mi>C</mi></mrow></math>"
+    },
+    "009000-scalar-sharpness": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>|</mo><mi>x</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>y</mi><mo>|</mo></mrow></mrow></math>"
+    },
+    "009000-sine-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "010000-hilbert-schmidt-inner-product": {
+      "mathml": "<math><mrow><mo>⟨</mo><mi>X</mi><mo>,</mo><mi>Z</mi><msub><mo>⟩</mo><mrow><mi>HS</mi></mrow></msub><mo>=</mo><mo>tr</mo><mrow><mo>(</mo><msup><mi>X</mi><mo>*</mo></msup><mi>Z</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "010000-sylvester-map": {
+      "mathml": "<math><mrow><mrow><mo>(</mo><msub><mi>L</mi><mi>C</mi></msub><mo>−</mo><msub><mi>R</mi><mi>B</mi></msub><mo>)</mo></mrow><mi>X</mi><mo>=</mo><mi>C</mi><mi>X</mi><mo>−</mo><mi>X</mi><mi>B</mi></mrow></math>"
+    },
+    "010000-spectral-differences": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mi>S</mi><mo>)</mo></mrow><mo>⊆</mo><mover><mrow><mi>σ</mi><mrow><mo>(</mo><mi>C</mi><mo>)</mo></mrow><mo>−</mo><mi>σ</mi><mrow><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mrow><mo>―</mo></mover></mrow></math>",
+      "caption": "S is the Sylvester map L_C − R_B."
+    },
+    "010000-hilbert-schmidt-estimate": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><mi>X</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>C</mi><mi>X</mi><mo>−</mo><mi>X</mi><mi>B</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub></mrow></math>"
+    },
+    "010000-operator-norm-obstruction": {
+      "mathml": "<math><mrow><mn>2</mn><mo>+</mo><msqrt><mrow><mn>10</mn></mrow></msqrt><mo>&gt;</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>",
+      "caption": "The operator norm of X on the left exceeds that of Y on the right."
+    },
+    "010000-finite-rank-estimate": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><mi>X</mi><msub><mo>‖</mo><mrow><mi>op</mi></mrow></msub><mo>≤</mo><msqrt><mrow><mo>rank</mo><mi>Y</mi></mrow></msqrt><mtext>\u2009</mtext><mo>‖</mo></mrow><mi>Y</mi><msub><mo>‖</mo><mrow><mi>op</mi></mrow></msub></mrow></math>"
+    },
+    "010000-sine-distance-estimate": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>ε</mi><mrow><mo>‖</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>R</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub></mrow></math>",
+      "caption": "Here E₀*E₀ is bounded below by ε²I."
+    },
+    "012000-residual-domain": {
+      "mathml": "<math><mrow><msub><mi>E</mi><mn>0</mn></msub><mrow><mo>(</mo><mo>dom</mo><msub><mi>A</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>⊆</mo><mo>dom</mo><mover><mi>A</mi><mo>^</mo></mover></mrow></math>"
+    },
+    "012000-duality-bound": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><mrow><mo>⟨</mo><msub><mi>Λ</mi><mn>1</mn></msub><mi>z</mi><mo>,</mo><mi>y</mi><mo>⟩</mo></mrow><mo>|</mo></mrow><mo>≤</mo><mrow><mo>‖</mo><mi>z</mi><mo>‖</mo></mrow><mtext>\u2009</mtext><mrow><mo>‖</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mi>x</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "Test y = F₁*E₀x against z in the domain of Λ₁."
+    },
+    "012000-unbounded-identity": {
+      "mathml": "<math><mrow><msub><mi>Λ</mi><mn>1</mn></msub><mi>X</mi><mi>x</mi><mo>−</mo><mi>X</mi><msub><mi>A</mi><mn>0</mn></msub><mi>x</mi><mo>=</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><mi>R</mi><mi>x</mi></mrow></math>",
+      "caption": "For x in the domain of A₀."
+    },
+    "012000-cutoff-projection": {
+      "mathml": "<math><mrow><mi>P</mi><mrow><mo>(</mo><mi>τ</mi><mo>)</mo></mrow><mo>=</mo><msub><mi>E</mi><mi>C</mi></msub><mrow><mo>(</mo><mrow><mo>[</mo><mo>−</mo><mi>τ</mi><mo>,</mo><mi>τ</mi><mo>]</mo></mrow><mo>)</mo></mrow></mrow></math>"
+    },
+    "012000-filled-cutoff": {
+      "mathml": "<math><mrow><msubsup><mi>C</mi><mi>τ</mi><mrow><mi>fill</mi></mrow></msubsup><mo>=</mo><mi>C</mi><msub><mi>P</mi><mi>τ</mi></msub><mo>+</mo><mi>a</mi><mrow><mo>(</mo><mi>I</mi><mo>−</mo><msub><mi>P</mi><mi>τ</mi></msub><mo>)</mo></mrow></mrow></math>",
+      "caption": "If C is bounded below by aI as a form, so is the filled cutoff."
+    },
+    "012000-compressed-unknown": {
+      "mathml": "<math><mrow><msub><mi>X</mi><mi>τ</mi></msub><mo>=</mo><msub><mi>P</mi><mi>τ</mi></msub><mi>X</mi><msub><mi>Q</mi><mi>τ</mi></msub></mrow></math>",
+      "caption": "The right-hand side is compressed by the same two projections."
+    },
+    "012000-uniform-ky-fan-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><msub><mi>P</mi><mi>τ</mi></msub><mi>X</mi><msub><mi>Q</mi><mi>τ</mi></msub><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>Y</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub></mrow></math>"
+    },
+    "012000-ky-fan-limit": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><msub><mi>P</mi><mi>τ</mi></msub><mi>X</mi><msub><mi>Q</mi><mi>τ</mi></msub><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub><mi>⟶</mi><mo>‖</mo></mrow><mi>X</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub></mrow></math>",
+      "caption": "For each fixed k, as the projections converge strongly to I."
+    },
     "trial-residual": {
       "mathml": "<math><mi>R</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub></math>",
       "caption": "On the domain of A₀."
@@ -44,9 +522,1026 @@
     },
     "certified-separation": {
       "mathml": "<math><mi>δ</mi><mo>≥</mo><mi>g</mi><mo>−</mo><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow><mo>=</mo><mn>3</mn><mo>−</mo><mn>0.5</mn><mo>=</mo><mn>2.5</mn></math>"
+    },
+    "020500-directed-sharpness": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>sin</mi><mi>θ</mi><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mo>‖</mo><mi>R</mi><msub><mo>‖</mo><mrow><mi>op</mi></mrow></msub></mrow></math>"
+    },
+    "020500-full-angle-obstruction": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><mi>sin</mi><mi>Θ</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub><mo>=</mo><mn>2</mn><mo>&gt;</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>‖</mo></mrow><mi>H</mi><msub><mo>‖</mo><mrow><mi>HS</mi></mrow></msub></mrow></math>",
+      "caption": "The full angle sees both directions of the planar pair."
+    },
+    "020500-pinching": {
+      "mathml": "<math><mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mrow><mo>(</mo><mi>K</mi><mo>+</mo><msub><mi>J</mi><mn>1</mn></msub><mi>K</mi><msub><mi>J</mi><mn>2</mn></msub><mo>)</mo></mrow></mrow></math>",
+      "caption": "The two reflections select the diagonal blocks, and averaging decreases every unitarily invariant norm."
+    },
+    "020500-projected-perturbation": {
+      "mathml": "<math><mrow><msub><mi>Λ</mi><mn>1</mn></msub><msub><mi>X</mi><mn>0</mn></msub><mo>−</mo><msub><mi>X</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>F</mi><mn>1</mn><mo>*</mo></msubsup><mi>H</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math>",
+      "caption": "The complementary equation exchanges the wanted and unwanted blocks."
+    },
+    "020500-direct-sum-angle": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><mi>Θ</mi><mo>)</mo></mrow><mo>=</mo><mi>N</mi><mrow><mo>(</mo><msub><mi>X</mi><mn>0</mn></msub><mo>⊕</mo><msub><mi>X</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>"
+    },
+    "020500-symmetric-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><mi>Θ</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "The same certified δ must work for both crossed spectral pairs."
+    },
+    "020500-frame-lower-bound": {
+      "mathml": "<math><mrow><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><msub><mi>E</mi><mn>0</mn></msub><mo>≥</mo><msup><mi>ε</mi><mn>2</mn></msup><mi>I</mi></mrow></math>"
+    },
+    "020500-nonorthonormal-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>ε</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "The factor ε comes from the lower bound on the trial frame."
+    },
+    "020700-complexification": {
+      "mathml": "<math><mrow><msub><mi>E</mi><mrow><mi>ℂ</mi></mrow></msub><mo>=</mo><mi>E</mi><mo>⊕</mo><mi>i</mi><mi>E</mi></mrow></math>"
+    },
+    "020700-complexified-action": {
+      "mathml": "<math><mrow><msub><mi>T</mi><mrow><mi>ℂ</mi></mrow></msub><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>i</mi><mi>y</mi><mo>)</mo></mrow><mo>=</mo><mi>T</mi><mi>x</mi><mo>+</mo><mi>i</mi><mi>T</mi><mi>y</mi></mrow></math>"
+    },
+    "020700-singular-values": {
+      "mathml": "<math><mrow><msub><mi>s</mi><mi>j</mi></msub><mrow><mo>(</mo><msub><mi>T</mi><mrow><mi>ℂ</mi></mrow></msub><mo>)</mo></mrow><mo>=</mo><msub><mi>s</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>T</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "020700-real-ky-fan-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mrow><mo>‖</mo><mi>X</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub><mo>≤</mo><mo>‖</mo></mrow><mi>Y</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub></mrow></math>",
+      "caption": "Apply the complex estimate and use the equality of the real and complexified Ky Fan norms."
+    },
+    "020700-direct-rotation-cost": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>D</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mrow><mo>(</mo><mi>θ</mi><mo>/</mo><mn>2</mn><mo>)</mo></mrow></mrow></math>"
+    },
+    "020700-phase-rotation-cost": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>θ</mi></mrow></msup><mi>D</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>2</mn><mi>sin</mi><mi>θ</mi></mrow></math>"
+    },
+    "020700-realified-pair-cost": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mi>θ</mi></mrow></math>",
+      "caption": "This competitor couples two real principal planes of the same angle."
+    },
+    "020700-unequal-pair-cost": {
+      "mathml": "<math><mrow><msub><mi>e</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mfrac><mrow><msub><mi>θ</mi><mi>i</mi></msub><mo>+</mo><msub><mi>θ</mi><mi>j</mi></msub></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math>",
+      "caption": "This is the cost of coupling two real principal planes."
+    },
+    "014000-line-graph": {
+      "mathml": "<math><mrow><mi>y</mi><mo>=</mo><mrow><mo>(</mo><mi>tan</mi><mi>θ</mi><mo>)</mo></mrow><mi>x</mi></mrow></math>"
+    },
+    "014000-graph": {
+      "mathml": "<math><mrow><mi>V</mi><mo>=</mo><mrow><mo>{</mo><mi>u</mi><mo>+</mo><mi>T</mi><mi>u</mi><mi>:</mi><mi>u</mi><mo>∈</mo><mi>U</mi><mo>}</mo></mrow></mrow></math>"
+    },
+    "014000-bounded-graph-criterion": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>P</mi><mo>−</mo><mi>Q</mi><mo>‖</mo></mrow><mo>&lt;</mo><mn>1</mn></mrow></math>"
+    },
+    "014000-principal-vector-slope": {
+      "mathml": "<math><mrow><mi>T</mi><msub><mi>x</mi><mi>i</mi></msub><mo>=</mo><mi>tan</mi><msub><mi>θ</mi><mi>i</mi></msub><mtext>\u2009</mtext><msub><mi>w</mi><mi>i</mi></msub></mrow></math>"
+    },
+    "014000-halmos-slope": {
+      "mathml": "<math><mrow><mi>T</mi><mo>=</mo><mi>S</mi><msup><mi>C</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
+    },
+    "014000-convert-to-sine": {
+      "mathml": "<math><mrow><mi>sin</mi><mi>θ</mi><mo>≤</mo><mfrac><mrow><mi>t</mi></mrow><mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac></mrow></math>",
+      "caption": "If tan θ ≤ t for an acute angle."
+    },
+    "014000-tangent-corner": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><msub><mi>J</mi><mn>0</mn></msub><mi>tan</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>‖</mo></mrow><mo>=</mo><mrow><mo>‖</mo><mi>tan</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>‖</mo></mrow></mrow></math>",
+      "caption": "The other off-diagonal corner comes from the complementary subspace."
+    },
+    "021000-ritz-condition": {
+      "mathml": "<math><mrow><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mo>*</mo></msubsup><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub></mrow></math>",
+      "caption": "The trial spectrum is below the unwanted spectrum, with separation at least δ."
+    },
+    "021000-directed-tangent": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>tan</mi><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "021000-off-diagonal-residual": {
+      "mathml": "<math><mrow><mi>R</mi><mo>=</mo><msub><mi>E</mi><mn>1</mn></msub><mi>B</mi></mrow></math>"
+    },
+    "021000-tangent-identity": {
+      "mathml": "<math><mrow><msub><mi>C</mi><mn>1</mn></msub><mi>B</mi><mo>=</mo><msub><mi>S</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub><mo>−</mo><msub><mi>Λ</mi><mn>1</mn></msub><msub><mi>S</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "021000-principal-vector-estimate": {
+      "mathml": "<math><mrow><mi>cos</mi><mi>θ</mi><mtext>\u2009</mtext><mrow><mo>|</mo><mrow><mo>⟨</mo><mi>y</mi><mo>,</mo><mi>B</mi><mi>x</mi><mo>⟩</mo></mrow><mo>|</mo></mrow><mo>≥</mo><mi>δ</mi><mi>sin</mi><mi>θ</mi></mrow></math>"
+    },
+    "021000-ky-fan-tangent": {
+      "mathml": "<math><mrow><mi>δ</mi><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></munderover><mi>tan</mi><msub><mi>θ</mi><mi>j</mi></msub><mo>≤</mo><mo>‖</mo><mi>B</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mi>k</mi><mo>)</mo></mrow></mrow></msub></mrow></math>",
+      "caption": "Sum over the k largest angles."
+    },
+    "021000-comparable-tangent": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>tan</mi><mi>Θ</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "The full-angle form uses the paired blocks and the defect hypothesis."
+    },
+    "021000-planar-saturation": {
+      "mathml": "<math><mrow><mfrac><mrow><mrow><mo>‖</mo><mi>r</mi><mo>‖</mo></mrow></mrow><mrow><mi>δ</mi></mrow></mfrac><mo>=</mo><mi>tan</mi><mi>θ</mi></mrow></math>"
+    },
+    "021000-interlaced-failure": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>tan</mi><mi>θ</mi><mo>&gt;</mo><mrow><mo>‖</mo><mi>r</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "In this example δ = 1 while the residual has norm 1/√2."
+    },
+    "016000-reflection-sign": {
+      "mathml": "<math><mrow><mi>J</mi><mrow><mo>(</mo><mi>A</mi><mo>+</mo><mi>H</mi><mo>)</mo></mrow><mi>J</mi><mo>=</mo><mi>A</mi><mo>−</mo><mi>H</mi></mrow></math>",
+      "caption": "The reflection J fixes the reference subspace and negates its complement."
+    },
+    "016000-planar-eigenvalues": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mi>A</mi><mo>+</mo><mi>H</mi><mo>)</mo></mrow><mo>=</mo><mrow><mo>{</mo><mi>±</mi><msqrt><mrow><mn>4</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></msqrt><mo>}</mo></mrow></mrow></math>",
+      "caption": "The off-diagonal entries of H are h."
+    },
+    "016000-preserved-gap": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><mover><mi>A</mi><mo>^</mo></mover><mo>)</mo></mrow><mo>∩</mo><mrow><mo>(</mo><mi>α</mi><mo>,</mo><mi>α</mi><mo>+</mo><mi>δ</mi><mo>)</mo></mrow><mo>=</mo><mo>∅</mo></mrow></math>",
+      "caption": "Here Â = A + H."
+    },
+    "016000-acute-projection": {
+      "mathml": "<math><mrow><mi>Q</mi><mo>=</mo><msub><mi>E</mi><mrow><mi>A</mi><mo>+</mo><mi>H</mi></mrow></msub><mrow><mo>(</mo><mrow><mo>(</mo><mrow><mo>−</mo><mo>∞</mo></mrow><mo>,</mo><mi>α</mi><mo>]</mo></mrow><mo>)</mo></mrow></mrow></math>"
+    },
+    "016000-acute-branch": {
+      "mathml": "<math><mrow><mi>Θ</mi><mo>≤</mo><mi>π</mi><mo>/</mo><mn>4</mn></mrow></math>",
+      "caption": "Under the defect-dimension assumption, this is the branch with the perturbed blocks on their original sides of the gap."
+    },
+    "016000-repulsion-form": {
+      "mathml": "<math><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>−</mo><mi>α</mi><mi>I</mi><mo>≤</mo><msub><mi>C</mi><mn>1</mn></msub><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>−</mo><mi>α</mi><mi>I</mi><mo>)</mo></mrow><msub><mi>C</mi><mn>1</mn></msub></mrow></math>",
+      "caption": "C₁ is the cosine on the complementary block."
+    },
+    "016000-eigenvalue-repulsion": {
+      "mathml": "<math><mrow><msub><mi>α</mi><mi>k</mi></msub><mo>−</mo><mi>α</mi><mo>≤</mo><mo>‖</mo><msub><mi>C</mi><mn>1</mn></msub><msup><mo>‖</mo><mn>2</mn></msup><mrow><mo>(</mo><msub><mi>λ</mi><mi>k</mi></msub><mo>−</mo><mi>α</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "022000-perturbed-gap": {
+      "mathml": "<math><mrow><mi>σ</mi><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>)</mo></mrow><mo>∩</mo><msub><mi>I</mi><mi>δ</mi></msub><mo>=</mo><mo>∅</mo></mrow></math>",
+      "caption": "The exclusion interval Iδ is (β − δ, α + δ). The wanted spectrum lies in [β, α]."
+    },
+    "022000-doubled-sine-ambient": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><mn>2</mn><mi>Θ</mi><mo>)</mo></mrow><mo>≤</mo><mn>2</mn><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "The directed residual version uses Θ₀ and R."
+    },
+    "022000-reflected-subspace": {
+      "mathml": "<math><mrow><msub><mi>Q</mi><mo>−</mo></msub><mo>=</mo><mi>J</mi><mi>Q</mi><mi>J</mi></mrow></math>"
+    },
+    "022000-difference-norm": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>−</mo><mi>J</mi><mi>H</mi><mi>J</mi><mo>)</mo></mrow><mo>≤</mo><mn>2</mn><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "022000-doubled-sine-directed": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>sin</mi><mn>2</mn><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mn>2</mn><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "022000-plane-equality": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>sin</mi><mn>2</mn><mi>θ</mi><mo>=</mo><mn>1</mn><mo>=</mo><mn>2</mn><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow></mrow></math>"
+    },
+    "022000-residual-factor-two": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>sin</mi><mn>2</mn><msub><mi>θ</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn><mo>=</mo><mn>2</mn><mrow><mo>‖</mo><mi>R</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "The perturbed spectral gap is 2, even if the reference gap is much larger."
+    },
+    "022000-smallness": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow><mo>&lt;</mo><mi>δ</mi><mo>/</mo><mn>2</mn><mtext>\u2002</mtext><mtext>or</mtext><mtext>\u2002</mtext><mrow><mo>‖</mo><mi>R</mi><mo>‖</mo></mrow><mo>&lt;</mo><mi>δ</mi><mo>/</mo><mn>2</mn></mrow></math>",
+      "caption": "Theorem 8.2 also requires the trial spectrum to lie in the stated enlarged interval and the defect dimensions to match."
+    },
+    "022000-continuation": {
+      "mathml": "<math><mrow><mi>A</mi><mrow><mo>(</mo><mi>σ</mi><mo>)</mo></mrow><mo>=</mo><mi>A</mi><mo>+</mo><mi>H</mi><mo>−</mo><mi>σ</mi><mi>H</mi></mrow></math>",
+      "caption": "Follow the spectral subspace from σ = 0 to σ = 1."
+    },
+    "023000-off-diagonal": {
+      "mathml": "<math><mrow><msub><mi>H</mi><mn>0</mn></msub><mo>=</mo><msub><mi>H</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math>",
+      "caption": "The ordered gap is between the two reference blocks A₀ and A₁."
+    },
+    "023000-doubled-tangent-bound": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>tan</mi><mn>2</mn><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mn>2</mn><mi>N</mi><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "023000-planar-angle": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><mi>tan</mi><mn>2</mn><mi>θ</mi><mo>|</mo></mrow><mo>=</mo><mfrac><mrow><mn>2</mn><mrow><mo>|</mo><mi>b</mi><mo>|</mo></mrow></mrow><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>−</mo><msub><mi>a</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
+    },
+    "023000-planar-values": {
+      "mathml": "<math><mrow><mrow><mo>|</mo><mi>tan</mi><mn>2</mn><mi>θ</mi><mo>|</mo></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mrow></math>",
+      "caption": "For a₀ = −2, a₁ = 2, and b = 1."
+    },
+    "023000-principal-plane-inequality": {
+      "mathml": "<math><mrow><mn>2</mn><mrow><mo>|</mo><mi>b</mi><mi>cos</mi><mn>2</mn><mi>θ</mi><mo>|</mo></mrow><mo>≥</mo><mi>δ</mi><mi>sin</mi><mn>2</mn><mi>θ</mi></mrow></math>",
+      "caption": "Here b is the real part of the inner product of y with Bx."
+    },
+    "023000-doubled-tangent-ambient": {
+      "mathml": "<math><mrow><mi>δ</mi><mi>N</mi><mrow><mo>(</mo><mi>tan</mi><mn>2</mn><mi>Θ</mi><mo>)</mo></mrow><mo>≤</mo><mn>2</mn><mi>N</mi><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "023000-beam-bound": {
+      "mathml": "<math><mrow><mi>tan</mi><mn>2</mn><msub><mi>θ</mi><mn>1</mn></msub><mo>&lt;</mo><mfrac><mrow><mn>0.0010328</mn><mi>ε</mi></mrow><mrow><mn>1</mn><mo>−</mo><mn>0.0015774</mn><mi>ε</mi></mrow></mfrac></mrow></math>"
+    },
+    "017000-transporter": {
+      "mathml": "<math><mrow><mi>W</mi><mi>P</mi><msup><mi>W</mi><mo>*</mo></msup><mo>=</mo><mi>Q</mi></mrow></math>"
+    },
+    "017000-freedom": {
+      "mathml": "<math><mrow><mi>W</mi><mo>=</mo><msub><mi>U</mi><mrow><mi>dr</mi></mrow></msub><mrow><mo>(</mo><msub><mi>Z</mi><mn>0</mn></msub><mo>⊕</mo><msub><mi>Z</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow></math>",
+      "caption": "The two Z blocks are unitary on the source and its complement."
+    },
+    "017000-turning-chord": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>x</mi><mo>−</mo><mi>W</mi><mi>x</mi><mo>‖</mo></mrow><mo>=</mo><mn>2</mn><mi>sin</mi><mrow><mo>(</mo><mi>φ</mi><mo>/</mo><mn>2</mn><mo>)</mo></mrow></mrow></math>",
+      "caption": "For a unit vector x and turning angle φ."
+    },
+    "017000-restricted-displacement": {
+      "mathml": "<math><mrow><msub><mi>Δ</mi><mi>W</mi></msub><mo>=</mo><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><mo>)</mo></mrow><mi>P</mi></mrow></math>"
+    },
+    "017000-squared-displacement": {
+      "mathml": "<math><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><msup><mo>)</mo><mo>*</mo></msup><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "017000-singular-value-bound": {
+      "mathml": "<math><mrow><msub><mi>λ</mi><mi>k</mi></msub><mo>≥</mo><mn>2</mn><mi>sin</mi><mrow><mo>(</mo><msub><mi>θ</mi><mi>k</mi></msub><mo>/</mo><mn>2</mn><mo>)</mo></mrow></mrow></math>",
+      "caption": "λₖ is the kth singular value of the restricted displacement. The principal angles are ordered from largest to smallest."
+    },
+    "017000-angle-to-target": {
+      "mathml": "<math><mrow><mo>∠</mo><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>W</mi><mi>x</mi><mo>)</mo></mrow><mo>≥</mo><mi>arccos</mi><mrow><mo>‖</mo><mi>Q</mi><mi>x</mi><mo>‖</mo></mrow></mrow></math>",
+      "caption": "For a unit source vector."
+    },
+    "017000-restricted-minimizer": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><msub><mi>Δ</mi><mi>D</mi></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><msub><mi>Δ</mi><mi>W</mi></msub><mo>)</mo></mrow></mrow></math>",
+      "caption": "D is the direct rotation."
+    },
+    "018000-vector-angle": {
+      "mathml": "<math><mrow><mo>∠</mo><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow><mo>=</mo><mi>arccos</mi><mfrac><mrow><mo>Re</mo><mrow><mo>⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>⟩</mo></mrow></mrow><mrow><mrow><mo>‖</mo><mi>x</mi><mo>‖</mo></mrow><mtext>\u2009</mtext><mrow><mo>‖</mo><mi>y</mi><mo>‖</mo></mrow></mrow></mfrac></mrow></math>",
+      "caption": "For nonzero vectors x and y."
+    },
+    "018000-one-vector-bound": {
+      "mathml": "<math><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>∠</mo><mrow><mo>(</mo><mi>v</mi><mo>,</mo><mi>W</mi><mi>v</mi><mo>)</mo></mrow><mo>≥</mo><mo>‖</mo><mi>v</mi><mo>−</mo><mi>Q</mi><mi>v</mi><msup><mo>‖</mo><mn>2</mn></msup></mrow></math>"
+    },
+    "018000-basis-independent-sum": {
+      "mathml": "<math><mrow><munder><mo>∑</mo><mi>k</mi></munder><mrow><mo>‖</mo><msub><mi>v</mi><mi>k</mi></msub><mo>−</mo><mi>Q</mi><msub><mi>v</mi><mi>k</mi></msub><msup><mo>‖</mo><mn>2</mn></msup><mo>=</mo><mo>‖</mo></mrow><mi>sin</mi><msub><mi>Θ</mi><mn>0</mn></msub><msubsup><mo>‖</mo><mrow><mi>HS</mi></mrow><mn>2</mn></msubsup></mrow></math>",
+      "caption": "Both sides can be infinite."
+    },
+    "018000-proposition-bound": {
+      "mathml": "<math><mrow><munder><mo>∑</mo><mi>k</mi></munder><msup><mi>sin</mi><mn>2</mn></msup><msub><mi>φ</mi><mi>k</mi></msub><mo>≥</mo><munder><mo>∑</mo><mi>k</mi></munder><msup><mi>sin</mi><mn>2</mn></msup><msub><mi>θ</mi><mi>k</mi></msub></mrow></math>",
+      "caption": "φₖ is the angle from the basis vector vₖ to Wvₖ."
+    },
+    "018000-angle-basis-example": {
+      "mathml": "<math><mrow><msup><mi>sin</mi><mn>2</mn></msup><msup><mn>30</mn><mo>∘</mo></msup><mo>+</mo><msup><mi>sin</mi><mn>2</mn></msup><msup><mn>60</mn><mo>∘</mo></msup><mo>=</mo><mn>1</mn></mrow></math>"
+    },
+    "018500-squared-displacement": {
+      "mathml": "<math><mrow><mi>G</mi><mrow><mo>(</mo><mi>W</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>I</mi><mo>−</mo><mi>W</mi><mo>−</mo><msup><mi>W</mi><mo>*</mo></msup></mrow></math>"
+    },
+    "018500-direct-rotation-gram": {
+      "mathml": "<math><mrow><mi>G</mi><mrow><mo>(</mo><mi>D</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>I</mi><mo>−</mo><mn>2</mn><mi>cos</mi><mi>Θ</mi></mrow></math>"
+    },
+    "018500-restricted-gram": {
+      "mathml": "<math><mrow><mi>P</mi><mi>G</mi><mrow><mo>(</mo><mi>W</mi><mo>)</mo></mrow><mi>P</mi><mo>=</mo><msubsup><mi>Δ</mi><mi>W</mi><mo>*</mo></msubsup><msub><mi>Δ</mi><mi>W</mi></msub></mrow></math>",
+      "caption": "Δ is the restricted displacement (I − W)P."
+    },
+    "018500-squared-minimizer": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>G</mi><mrow><mo>(</mo><mi>D</mi><mo>)</mo></mrow><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>G</mi><mrow><mo>(</mo><mi>W</mi><mo>)</mo></mrow><mo>)</mo></mrow></mrow></math>"
+    },
+    "018500-q-norm": {
+      "mathml": "<math><mrow><mi>N</mi><mo>(</mo><mi>Z</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><mi>M</mi><mrow><mo>(</mo><msup><mi>Z</mi><mo>*</mo></msup><mi>Z</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "018500-q-norm-minimizer": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>D</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "For Q-norms and acute pairs in finite dimensions."
+    },
+    "018500-roots-reverse-trace": {
+      "mathml": "<math><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>&gt;</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math>",
+      "caption": "The original lists compare as (3, 3) weakly majorized by (5, 1)."
+    },
+    "024000-direct-trace-cost": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>D</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>8</mn><mi>sin</mi><mrow><mo>(</mo><mi>θ</mi><mo>/</mo><mn>2</mn><mo>)</mo></mrow></mrow></math>"
+    },
+    "024000-coupled-trace-cost": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mi>θ</mi></mrow></math>"
+    },
+    "024000-strict-trace-improvement": {
+      "mathml": "<math><mrow><mn>4</mn><mi>sin</mi><mi>θ</mi><mo>&lt;</mo><mn>8</mn><mi>sin</mi><mrow><mo>(</mo><mi>θ</mi><mo>/</mo><mn>2</mn><mo>)</mo></mrow></mrow></math>",
+      "caption": "The ratio is cos(θ/2) for a positive principal angle."
+    },
+    "024000-trace-lower-bound": {
+      "mathml": "<math><mrow><mi>N</mi><mrow><mo>(</mo><mi>P</mi><mo>−</mo><mi>Q</mi><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mrow><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "This lower bound holds for every unitarily invariant norm."
+    },
+    "024000-attains-trace-lower-bound": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>P</mi><mo>−</mo><mi>Q</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mi>θ</mi><mo>=</mo><mo>‖</mo></mrow><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mn>1</mn></msub></mrow></math>"
+    },
+    "024000-reversed-operator-norm": {
+      "mathml": "<math><mrow><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>D</mi><msub><mo>‖</mo><mrow><mi>op</mi></mrow></msub><mo>&lt;</mo><mo>‖</mo></mrow><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mrow><mi>op</mi></mrow></msub></mrow></math>",
+      "caption": "The direct rotation costs 2 sin(θ/2) and the coupled map costs 2 sin θ in operator norm."
+    },
+    "024000-restriction-obstruction": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>K</mi><msub><mo>‖</mo><mrow><mrow><mo>(</mo><mn>4</mn><mo>)</mo></mrow></mrow></msub><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>&lt;</mo><mn>4</mn></mrow></math>",
+      "caption": "Each restricted Ky Fan 2-norm is 2, so the sum of the restrictions exceeds the full Ky Fan 4-norm."
+    },
+    "024000-complex-phase": {
+      "mathml": "<math><mrow><msup><mi>W</mi><mrow><mi>ℂ</mi></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>θ</mi></mrow></msup><msup><mi>D</mi><mrow><mi>ℂ</mi></mrow></msup></mrow></math>",
+      "caption": "Realifying this phase couples the two real principal planes."
+    },
+    "025000-objective": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mn>1</mn></msub></mrow></math>",
+      "caption": "Minimize over real orthogonal maps W carrying K onto L."
+    },
+    "025000-singleton-cost": {
+      "mathml": "<math><mrow><msub><mi>s</mi><mi>i</mi></msub><mo>=</mo><mo>min</mo><mrow><mo>{</mo><mn>4</mn><mi>sin</mi><mrow><mo>(</mo><msub><mi>θ</mi><mi>i</mi></msub><mo>/</mo><mn>2</mn><mo>)</mo></mrow><mo>,</mo><mn>2</mn><mo>}</mo></mrow></mrow></math>"
+    },
+    "025000-pair-cost": {
+      "mathml": "<math><mrow><msub><mi>e</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><mn>4</mn><mi>sin</mi><mfrac><mrow><msub><mi>θ</mi><mi>i</mi></msub><mo>+</mo><msub><mi>θ</mi><mi>j</mi></msub></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math>"
+    },
+    "025000-matching-cost": {
+      "mathml": "<math><mrow><munder><mo>∑</mo><mrow><mrow><mo>{</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>}</mo></mrow><mo>∈</mo><mi>M</mi></mrow></munder><msub><mi>e</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>+</mo><munder><mo>∑</mo><mrow><mi>i</mi><mtext>\u2009</mtext><mtext>unmatched</mtext></mrow></munder><msub><mi>s</mi><mi>i</mi></msub></mrow></math>"
+    },
+    "025000-equal-minima": {
+      "mathml": "<math><mrow><msub><mo>min</mo><mi>W</mi></msub><mo>‖</mo><mi>I</mi><mo>−</mo><mi>W</mi><msub><mo>‖</mo><mn>1</mn></msub><mo>=</mo><msub><mo>min</mo><mi>M</mi></msub><msub><mi>c</mi><mi>M</mi></msub></mrow></math>",
+      "caption": "W ranges over real orthogonal maps carrying K onto L. On the right, minimize over matching costs."
+    },
+    "025000-edge-saving": {
+      "mathml": "<math><mrow><msub><mi>w</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><msub><mi>s</mi><mi>i</mi></msub><mo>+</mo><msub><mi>s</mi><mi>j</mi></msub><mo>−</mo><msub><mi>e</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow></math>"
+    },
+    "025000-worked-optimum": {
+      "mathml": "<math><mrow><msub><mi>e</mi><mrow><mn>12</mn></mrow></msub><mo>+</mo><msub><mi>s</mi><mn>3</mn></msub><mo>≈</mo><mn>4.435</mn></mrow></math>",
+      "caption": "Pair the 30° and 45° planes, then reflect on the 75° plane."
+    },
+    "025500-smoothed-cost": {
+      "mathml": "<math><mrow><msub><mi>Φ</mi><mi>p</mi></msub><mrow><mo>(</mo><mi>W</mi><mo>)</mo></mrow><mo>=</mo><munder><mo>∑</mo><mi>j</mi></munder><msub><mi>s</mi><mi>j</mi></msub><mo>(</mo><mi>I</mi><mo>−</mo><mi>W</mi><msup><mo>)</mo><mi>p</mi></msup></mrow></math>",
+      "caption": "Use 1 < p < 2."
+    },
+    "025500-feasibility": {
+      "mathml": "<math><mrow><mi>W</mi><msub><mi>P</mi><mi>K</mi></msub><msup><mi>W</mi><mrow><mtext>T</mtext></mrow></msup><mo>=</mo><msub><mi>P</mi><mi>L</mi></msub></mrow></math>"
+    },
+    "025500-feasible-variation": {
+      "mathml": "<math><mrow><mi>W</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mi>W</mi><msup><mi>e</mi><mrow><mi>t</mi><mi>Ω</mi></mrow></msup></mrow></math>",
+      "caption": "Ω is skew-symmetric and commutes with the projection onto K."
+    },
+    "025500-spectral-gradient": {
+      "mathml": "<math><mrow><mi>G</mi><mo>=</mo><msup><mi>φ</mi><mi>′</mi></msup><mrow><mo>(</mo><mi>ϑ</mi><mo>)</mo></mrow><mi>J</mi></mrow></math>",
+      "caption": "On a rotation plane with angle ϑ and quarter-turn J."
+    },
+    "025500-first-variation": {
+      "mathml": "<math><mrow><mi>f</mi><mi>′</mi><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow><mo>=</mo><mo>−</mo><mo>tr</mo><mrow><mo>(</mo><mi>G</mi><mi>Ω</mi><mo>)</mo></mrow></mrow></math>",
+      "caption": "Here f(t) is the smoothed cost along the curve W exp(tΩ)."
+    },
+    "025500-gradient-reflection": {
+      "mathml": "<math><mrow><msub><mi>J</mi><mi>K</mi></msub><mi>G</mi><msub><mi>J</mi><mi>K</mi></msub><mo>=</mo><mo>−</mo><mi>G</mi></mrow></math>",
+      "caption": "Reflection across the source subspace negates the off-diagonal gradient."
+    },
+    "025500-complex-structure": {
+      "mathml": "<math><mrow><mi>𝒥</mi><mo>=</mo><mi>G</mi><mo>/</mo><mi>g</mi><mo>,</mo><mtext>\u2002</mtext><msup><mi>𝒥</mi><mn>2</mn></msup><mo>=</mo><mo>−</mo><mi>I</mi></mrow></math>",
+      "caption": "On the eigenspace of −G² for a positive eigenvalue g²."
+    },
+    "025500-real-part-relations": {
+      "mathml": "<math><mrow><msup><mi>ℛ</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ℐ</mi><mn>2</mn></msup><mo>=</mo><mi>ℛ</mi></mrow></math>",
+      "caption": "This is the real part of the projection identity Π² = Π."
+    },
+    "025500-paired-real-block": {
+      "mathml": "<math><mrow><mo>span</mo><mrow><mo>{</mo><mi>u</mi><mo>,</mo><mi>v</mi><mo>,</mo><mi>𝒥</mi><mi>u</mi><mo>,</mo><mi>𝒥</mi><mi>v</mi><mo>}</mo></mrow></mrow></math>",
+      "caption": "A paired block carries two source directions in four real dimensions."
+    },
+    "025700-one-angle-minimum": {
+      "mathml": "<math><mrow><msub><mi>a</mi><mi>i</mi></msub><mrow><mo>(</mo><mi>p</mi><mo>)</mo></mrow><mo>=</mo><mo>min</mo><mrow><mo>{</mo><mn>2</mn><mi>φ</mi><mrow><mo>(</mo><msub><mi>θ</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>,</mo><msup><mn>2</mn><mi>p</mi></msup><mo>}</mo></mrow></mrow></math>"
+    },
+    "025700-mid-angle-and-half-difference": {
+      "mathml": "<math><mrow><mi>m</mi><mo>=</mo><mfrac><mrow><msub><mi>θ</mi><mi>i</mi></msub><mo>+</mo><msub><mi>θ</mi><mi>j</mi></msub></mrow><mrow><mn>2</mn></mrow></mfrac><mo>,</mo><mtext>\u2002</mtext><mi>h</mi><mo>=</mo><mfrac><mrow><msub><mi>θ</mi><mi>i</mi></msub><mo>−</mo><msub><mi>θ</mi><mi>j</mi></msub></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math>"
+    },
+    "025700-determinant-one-cost": {
+      "mathml": "<math><mrow><mn>2</mn><mrow><mo>[</mo><mi>φ</mi><mrow><mo>(</mo><mi>m</mi><mo>+</mo><mover><mi>r</mi><mo>~</mo></mover><mo>)</mo></mrow><mo>+</mo><mi>φ</mi><mrow><mo>(</mo><mi>m</mi><mo>−</mo><mover><mi>r</mi><mo>~</mo></mover><mo>)</mo></mrow><mo>]</mo></mrow></mrow></math>",
+      "caption": "Minimize over h ≤ r̃ ≤ m to obtain the candidate bᵢⱼ(p)."
+    },
+    "025700-determinant-minus-one-cost": {
+      "mathml": "<math><mrow><msup><mn>2</mn><mi>p</mi></msup><mo>+</mo><mn>2</mn><mi>φ</mi><mrow><mo>(</mo><msub><mi>θ</mi><mi>j</mi></msub><mo>)</mo></mrow></mrow></math>",
+      "caption": "The smaller principal angle is θⱼ."
+    },
+    "025700-matching-minimum": {
+      "mathml": "<math><mrow><msub><mo>min</mo><mi>W</mi></msub><msub><mi>Φ</mi><mi>p</mi></msub><mrow><mo>(</mo><mi>W</mi><mo>)</mo></mrow><mo>=</mo><msub><mo>min</mo><mi>M</mi></msub><msub><mi>c</mi><mrow><mi>p</mi><mo>,</mo><mi>M</mi></mrow></msub></mrow></math>",
+      "caption": "For 1 < p < 2, minimize the smoothed cost over feasible transporters or the block cost over matchings."
+    },
+    "025700-uniform-limit": {
+      "mathml": "<math><mrow><msub><mo>sup</mo><mrow><mn>0</mn><mo>≤</mo><mi>s</mi><mo>≤</mo><mn>2</mn></mrow></msub><mrow><mo>|</mo><msup><mi>s</mi><mi>p</mi></msup><mo>−</mo><mi>s</mi><mo>|</mo></mrow><mi>⟶</mi><mn>0</mn></mrow></math>",
+      "caption": "Every displacement singular value lies in this interval."
+    },
+    "025700-singleton-limit": {
+      "mathml": "<math><mrow><mo>min</mo><mrow><mo>{</mo><mn>4</mn><mi>sin</mi><mrow><mo>(</mo><msub><mi>θ</mi><mi>i</mi></msub><mo>/</mo><mn>2</mn><mo>)</mo></mrow><mo>,</mo><mn>2</mn><mo>}</mo></mrow></mrow></math>",
+      "caption": "This is the limiting singleton cost as p decreases to 1."
+    },
+    "025700-pair-endpoint": {
+      "mathml": "<math><mrow><msub><mi>b</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mi>sin</mi><mi>m</mi></mrow></math>",
+      "caption": "At p = 1 the minimum occurs at the endpoint r̃ = m."
     }
   },
   "lectures": {
+    "000000": {
+      "inline": [
+        {
+          "equation": "000000-weyl",
+          "after": "stretching factor, the operator norm. Eigenvalues are stable."
+        },
+        {
+          "equation": "000000-swap",
+          "after": "turned the eigenvector for zero through ninety degrees."
+        },
+        {
+          "equation": "000000-rotation-cost",
+          "after": "H is epsilon times the sine of phi."
+        },
+        {
+          "equation": "000000-residual",
+          "after": "from the exact spectral subspace of A hat?"
+        },
+        {
+          "equation": "000000-perturbation-residual",
+          "after": "size is at most the size of H."
+        },
+        {
+          "equation": "000000-sine-bound",
+          "after": "are the principal angles between the two subspaces."
+        },
+        {
+          "equation": "000000-sharpness",
+          "after": "for exactly this reason: two-dimensional examples attain them."
+        },
+        {
+          "equation": "000000-sylvester-bridge",
+          "after": "shape of the gap decides which estimate applies."
+        }
+      ]
+    },
+    "000500": {
+      "inline": [
+        {
+          "equation": "000500-eigenvalue-stability",
+          "after": "in something more, a gap in the spectrum."
+        },
+        {
+          "equation": "000500-sylvester-equation",
+          "after": "studied the case of self-adjoint coefficients in 1969."
+        },
+        {
+          "equation": "000500-separated-estimate",
+          "after": "the bridge from a residual to an angle."
+        }
+      ]
+    },
+    "003900": {
+      "inline": [
+        {
+          "equation": "003900-line-angle",
+          "after": "coincide, and ninety degrees means they are perpendicular."
+        },
+        {
+          "equation": "003900-two-plane-projection",
+          "after": "phi, plus one quarter times sine squared phi."
+        },
+        {
+          "equation": "003900-jordan-maximum",
+          "after": "of U makes with any vector of V."
+        },
+        {
+          "equation": "003900-overlap",
+          "after": "are the cosines of thirty and sixty degrees."
+        },
+        {
+          "equation": "003900-change-of-basis",
+          "after": "the pair of subspaces, not to the bases."
+        },
+        {
+          "equation": "003900-principal-cosines",
+          "after": "the i-th singular value of X star Y."
+        },
+        {
+          "equation": "003900-principal-pairs",
+          "after": "pairs overlap, with inner product cosine theta i."
+        },
+        {
+          "equation": "003900-landing-compression",
+          "after": "the squared cosines of thirty and sixty degrees."
+        },
+        {
+          "equation": "003900-escaping-compression",
+          "after": "than the sine of the largest principal angle."
+        },
+        {
+          "equation": "003900-difference-eigenvalues",
+          "after": "and Q agree, and their difference is zero."
+        },
+        {
+          "equation": "003900-directed-sine",
+          "after": "the norm of P minus Q all coincide."
+        },
+        {
+          "equation": "003900-principal-plane",
+          "after": "i, plus sine theta i times w i."
+        }
+      ]
+    },
+    "004000": {
+      "inline": [
+        {
+          "equation": "004000-continuous-angle",
+          "after": "rest of this lecture constructs it in general."
+        },
+        {
+          "equation": "004000-cosine-compression",
+          "after": "root of P Q P restricted to U."
+        },
+        {
+          "equation": "004000-sine-compression",
+          "after": "squared Theta zero equals the identity on U."
+        },
+        {
+          "equation": "004000-functional-calculus",
+          "after": "x squared, for x between zero and one."
+        },
+        {
+          "equation": "004000-directed-escape",
+          "after": "escaping component of a unit vector of U."
+        },
+        {
+          "equation": "004000-full-angle",
+          "after": "blocks have all their angles at most c."
+        },
+        {
+          "equation": "004000-projection-square",
+          "after": "plus Q minus P Q minus Q P."
+        },
+        {
+          "equation": "004000-full-sine",
+          "after": "of the absolute value of P minus Q."
+        },
+        {
+          "equation": "004000-trial-cosine",
+          "after": "trial subspace itself. Both are called Theta zero."
+        },
+        {
+          "equation": "004000-escaping-map",
+          "after": "star S is sine squared of Theta zero."
+        },
+        {
+          "equation": "004000-sine-modulus",
+          "after": "the modulus of S is sine Theta zero."
+        },
+        {
+          "equation": "004000-unwanted-coordinates",
+          "after": "reads off the bound for sine Theta zero."
+        }
+      ]
+    },
+    "004500": {
+      "inline": [
+        {
+          "equation": "004500-defects",
+          "after": "whole source. The paper calls this D one."
+        },
+        {
+          "equation": "004500-defect-signs",
+          "after": "defect condition is the weaker of the two."
+        },
+        {
+          "equation": "004500-generic-compression",
+          "after": "spectrum may come arbitrarily close to either end."
+        },
+        {
+          "equation": "004500-off-diagonal-block",
+          "after": "the modulus of B is C times S."
+        },
+        {
+          "equation": "004500-polar-block",
+          "after": "so the bottom right block is S squared."
+        },
+        {
+          "equation": "004500-halmos-diagonal",
+          "after": "cosine is C and whose sine is S."
+        },
+        {
+          "equation": "004500-generic-invariant",
+          "after": "and their generic angle operators are unitarily equivalent."
+        },
+        {
+          "equation": "004500-unequal-defects",
+          "after": "shows, no direct rotation carries U onto V."
+        }
+      ]
+    },
+    "005000": {
+      "inline": [
+        {
+          "equation": "005000-intertwining",
+          "after": "for the block from the complement to itself."
+        },
+        {
+          "equation": "005000-positive-blocks",
+          "after": "through an angle between zero and ninety degrees."
+        },
+        {
+          "equation": "005000-preliminary-transport",
+          "after": "onto the complement of V; add the results."
+        },
+        {
+          "equation": "005000-polar-modulus",
+          "after": "Theta. The modulus of T is cosine Theta."
+        },
+        {
+          "equation": "005000-polar-factor",
+          "after": "as T times the inverse of cosine Theta."
+        },
+        {
+          "equation": "005000-source-diagonal",
+          "after": "come out as negatives of each other's adjoints."
+        },
+        {
+          "equation": "005000-reflection-inverse",
+          "after": "picture through U reverses the direction of turning."
+        },
+        {
+          "equation": "005000-product-of-reflections",
+          "after": "reflections is the square of the direct rotation."
+        },
+        {
+          "equation": "005000-angle-form",
+          "after": "These are the commutation statements of Proposition 3.5."
+        }
+      ]
+    },
+    "005500": {
+      "inline": [
+        {
+          "equation": "005500-right-angle-square",
+          "after": "are exactly the features that persist in general."
+        },
+        {
+          "equation": "005500-forced-diagonal",
+          "after": "complement gives C one equals cosine Theta one."
+        },
+        {
+          "equation": "005500-defect-transport",
+          "after": "and the target defect have the same dimension."
+        },
+        {
+          "equation": "005500-defect-square",
+          "after": "quarter turn whose square is minus the identity."
+        },
+        {
+          "equation": "005500-existence",
+          "after": "there is a whole circle of direct rotations."
+        },
+        {
+          "equation": "005500-shift-defects",
+          "after": "unitary with positive diagonal blocks can do it."
+        },
+        {
+          "equation": "005500-acute-square-criterion",
+          "after": "carrying the mirror image of V across U onto V."
+        },
+        {
+          "equation": "005500-reflected-projection",
+          "after": "in the definition hold precisely in that range."
+        }
+      ]
+    },
+    "001000": {
+      "inline": [
+        {
+          "equation": "001000-example-spectrum",
+          "after": "normalized; and for five it is e three."
+        },
+        {
+          "equation": "001000-exact-frames",
+          "after": "diagonal with blocks Lambda zero and Lambda one."
+        },
+        {
+          "equation": "001000-reducing",
+          "after": "operator exactly when P commutes with the operator."
+        },
+        {
+          "equation": "001000-intertwining",
+          "after": "F zero Lambda zero in the same way."
+        },
+        {
+          "equation": "001000-block-spectrum",
+          "after": "the union of one and three with five."
+        },
+        {
+          "equation": "001000-finite-spectral-theorem",
+          "after": "the plane of e one and e two."
+        },
+        {
+          "equation": "001000-spectral-integral",
+          "after": "is the familiar sum of eigenvalues times eigenprojections."
+        },
+        {
+          "equation": "001000-spectral-projection",
+          "after": "half, with spectrum from one half to one."
+        },
+        {
+          "equation": "001000-riesz-projection",
+          "after": "on the others: it is the spectral projection."
+        }
+      ]
+    },
+    "011000": {
+      "inline": [
+        {
+          "equation": "011000-beam",
+          "after": "the squares of its natural frequencies, suitably scaled."
+        },
+        {
+          "equation": "011000-diagonal-domain",
+          "after": "squared absolute value of a n is finite."
+        },
+        {
+          "equation": "011000-domain-integrability",
+          "after": "value of a n being finite, as before."
+        },
+        {
+          "equation": "011000-spectral-cutoff",
+          "after": "sine and tangent estimates uses exactly this pattern."
+        },
+        {
+          "equation": "011000-quadratic-bound",
+          "after": "squared length on the domain of Lambda one."
+        },
+        {
+          "equation": "011000-exact-intertwining",
+          "after": "The domain inclusion is part of the hypothesis."
+        },
+        {
+          "equation": "011000-unbounded-residual",
+          "after": "extension is the residual R in the estimates."
+        },
+        {
+          "equation": "011000-inherited-domain",
+          "after": "E zero, which is bounded because H is."
+        }
+      ]
+    },
+    "003000": {
+      "inline": [
+        {
+          "equation": "003000-vector-residual",
+          "after": "equal to A hat v minus rho v."
+        },
+        {
+          "equation": "003000-rayleigh-quotient",
+          "after": "choice, the residual r is perpendicular to v."
+        },
+        {
+          "equation": "003000-projected-residual",
+          "after": "The true value is zero point six four."
+        },
+        {
+          "equation": "003000-one-vector-bound",
+          "after": "every unitarily invariant norm, and in infinite dimensions."
+        },
+        {
+          "equation": "003000-isometry",
+          "after": "to the trial subspace, written in trial coordinates."
+        },
+        {
+          "equation": "003000-residual",
+          "after": "the bounded operator agreeing with the difference there."
+        },
+        {
+          "equation": "003000-in-subspace-residual",
+          "after": "equals E zero star A hat E zero."
+        },
+        {
+          "equation": "003000-compression",
+          "after": "vector, and therefore in every unitarily invariant norm."
+        },
+        {
+          "equation": "003000-perturbation-residual",
+          "after": "we only know that the perturbation is small."
+        },
+        {
+          "equation": "003000-spectral-distance",
+          "after": "the spectral measure in place of the eigenbasis."
+        }
+      ]
+    },
+    "002000": {
+      "inline": [
+        {
+          "equation": "002000-interlaced-example",
+          "after": "it is genuinely weaker than the other two."
+        },
+        {
+          "equation": "002000-interval-exterior",
+          "after": "extending to infinity on one or both sides."
+        },
+        {
+          "equation": "002000-ordered",
+          "after": "from b plus delta. Both may be unbounded."
+        },
+        {
+          "equation": "002000-distance",
+          "after": "between the two spectra is at least delta."
+        },
+        {
+          "equation": "002000-centered-bounds",
+          "after": "so it works for every unitarily invariant norm."
+        },
+        {
+          "equation": "002000-exponential-decay",
+          "after": "That argument handles unbounded operators on both sides."
+        },
+        {
+          "equation": "002000-sine-theta-pair",
+          "after": "long as the residual is formed with it."
+        },
+        {
+          "equation": "002000-doubled-sine-pair",
+          "after": "the trial operator is needed for that estimate."
+        },
+        {
+          "equation": "002000-doubled-tangent-pair",
+          "after": "blocks, H zero and H one both zero."
+        }
+      ]
+    },
+    "006000": {
+      "inline": [
+        {
+          "equation": "006000-unitary-invariance",
+          "after": "depends only on the list of singular values."
+        },
+        {
+          "equation": "006000-symmetric-gauge",
+          "after": "sum are not the sums of singular values."
+        },
+        {
+          "equation": "006000-rank-one-normalization",
+          "after": "at most the sum of all of them."
+        },
+        {
+          "equation": "006000-contraction",
+          "after": "the right is similar, applied to the adjoint."
+        },
+        {
+          "equation": "006000-ky-fan-sum",
+          "after": "bound it from above, bound every such sum."
+        },
+        {
+          "equation": "006000-ky-fan-dominance",
+          "after": "at most the corresponding partial sum for L."
+        },
+        {
+          "equation": "006000-weak-majorization-example",
+          "after": "and the trace norms are four and four."
+        },
+        {
+          "equation": "006000-q-norm",
+          "after": "Z star Z, which is not a norm."
+        }
+      ]
+    },
+    "013000": {
+      "inline": [
+        {
+          "equation": "013000-approximation-number",
+          "after": "to an operator of rank less than j."
+        },
+        {
+          "equation": "013000-finite-gauge-ideal",
+          "after": "ideal means, by analogy with ideals in rings."
+        },
+        {
+          "equation": "013000-schatten-norm",
+          "after": "is Hilbert–Schmidt, and a Hilbert–Schmidt operator is compact."
+        },
+        {
+          "equation": "013000-diagonal-hilbert-schmidt",
+          "after": "finite exactly when p is greater than one."
+        },
+        {
+          "equation": "013000-ideal-bound",
+          "after": "of Theta zero maps trial coordinates to themselves."
+        },
+        {
+          "equation": "013000-cutoff-limit",
+          "after": "converges to the j-th approximation number of K."
+        },
+        {
+          "equation": "013000-truncation",
+          "after": "in two ideals and useless in a third."
+        }
+      ]
+    },
+    "008000": {
+      "inline": [
+        {
+          "equation": "008000-cross-block",
+          "after": "X equals the same norm of the sine."
+        },
+        {
+          "equation": "008000-residual-equation",
+          "after": "equals Lambda one X minus X A zero."
+        },
+        {
+          "equation": "008000-entry-form",
+          "after": "entry of Y divided by an eigenvalue difference."
+        },
+        {
+          "equation": "008000-diagonal-estimate",
+          "after": "and Kahan record this as their inequality 5.1."
+        },
+        {
+          "equation": "008000-window-assumptions",
+          "after": "Then delta times the norm of X is at most the norm of Y."
+        },
+        {
+          "equation": "008000-rearrangement",
+          "after": "sides. Delta times the norm of X is at most the norm of Y."
+        },
+        {
+          "equation": "008000-centered-inverse",
+          "after": "These are exactly the hypotheses of Theorem 5.1."
+        },
+        {
+          "equation": "008000-sine-bound",
+          "after": "including the case where Lambda one is unbounded."
+        }
+      ]
+    },
+    "009000": {
+      "inline": [
+        {
+          "equation": "009000-scalar-integral",
+          "after": "is just the integral of a decaying exponential."
+        },
+        {
+          "equation": "009000-ordered-form-bounds",
+          "after": "any unitarily invariant norm, by the contraction law."
+        },
+        {
+          "equation": "009000-solution-integral",
+          "after": "is the norm of Y divided by delta."
+        },
+        {
+          "equation": "009000-sylvester-identity",
+          "after": "is C X minus X B equals Y."
+        },
+        {
+          "equation": "009000-integrand-estimate",
+          "after": "integral still converges, and the estimate still holds."
+        },
+        {
+          "equation": "009000-domain-inclusion",
+          "after": "and the boundary terms checked on those vectors."
+        },
+        {
+          "equation": "009000-scalar-sharpness",
+          "after": "equality in every unitarily invariant norm at once."
+        },
+        {
+          "equation": "009000-sine-bound",
+          "after": "both A zero and Lambda one are unbounded."
+        }
+      ]
+    },
+    "010000": {
+      "inline": [
+        {
+          "equation": "010000-hilbert-schmidt-inner-product",
+          "after": "conjugate of one matrix's entry times the other's."
+        },
+        {
+          "equation": "010000-sylvester-map",
+          "after": "X goes to C X minus X B."
+        },
+        {
+          "equation": "010000-spectral-differences",
+          "after": "C and b in the spectrum of B."
+        },
+        {
+          "equation": "010000-hilbert-schmidt-estimate",
+          "after": "the Hilbert–Schmidt norm of Y divided by delta."
+        },
+        {
+          "equation": "010000-operator-norm-obstruction",
+          "after": "square root of twenty-eight is less than six."
+        },
+        {
+          "equation": "010000-finite-rank-estimate",
+          "after": "six, which indeed exceeds five point one six."
+        },
+        {
+          "equation": "010000-sine-distance-estimate",
+          "after": "an operator-norm bound with the factor root rank."
+        }
+      ]
+    },
+    "012000": {
+      "inline": [
+        {
+          "equation": "012000-residual-domain",
+          "after": "one equal to F one Lambda one there."
+        },
+        {
+          "equation": "012000-duality-bound",
+          "after": "zero x, because F one is an isometry."
+        },
+        {
+          "equation": "012000-unbounded-identity",
+          "after": "the bounded right-hand side F one star R."
+        },
+        {
+          "equation": "012000-cutoff-projection",
+          "after": "x in the domain converges to C x."
+        },
+        {
+          "equation": "012000-filled-cutoff",
+          "after": "is that same bound, and the upper-bound analogue."
+        },
+        {
+          "equation": "012000-compressed-unknown",
+          "after": "keep the coefficients' spectra on the correct sides."
+        },
+        {
+          "equation": "012000-uniform-ky-fan-bound",
+          "after": "Fan k-norm of Y, by the contraction law."
+        },
+        {
+          "equation": "012000-ky-fan-limit",
+          "after": "invariant norm N in which both are finite."
+        }
+      ]
+    },
     "020000": {
       "inline": [
         {
@@ -104,6 +1599,490 @@
         {
           "equation": "certified-separation",
           "after": "only the second goes into the theorem."
+        }
+      ]
+    },
+    "020500": {
+      "inline": [
+        {
+          "equation": "020500-directed-sharpness",
+          "after": "is root two, the length of the residual."
+        },
+        {
+          "equation": "020500-full-angle-obstruction",
+          "after": "conclusion. Davis and Kahan give this warning explicitly."
+        },
+        {
+          "equation": "020500-pinching",
+          "after": "J two, which is the norm of K."
+        },
+        {
+          "equation": "020500-projected-perturbation",
+          "after": "size of F zero star H E one."
+        },
+        {
+          "equation": "020500-direct-sum-angle",
+          "after": "direct sum of X zero and X one."
+        },
+        {
+          "equation": "020500-symmetric-bound",
+          "after": "which is at most the size of H."
+        },
+        {
+          "equation": "020500-frame-lower-bound",
+          "after": "at least epsilon times the length of x."
+        },
+        {
+          "equation": "020500-nonorthonormal-bound",
+          "after": "of Theta zero is at most the size of R."
+        }
+      ]
+    },
+    "020700": {
+      "inline": [
+        {
+          "equation": "020700-complexification",
+          "after": "space, the complexification is two copies of E."
+        },
+        {
+          "equation": "020700-complexified-action",
+          "after": "the complexification of T. Many properties are preserved."
+        },
+        {
+          "equation": "020700-singular-values",
+          "after": "zero. That direction, called realification, will matter shortly."
+        },
+        {
+          "equation": "020700-real-ky-fan-bound",
+          "after": "for every k, and dominance gives every norm."
+        },
+        {
+          "equation": "020700-direct-rotation-cost",
+          "after": "norm is four sine of theta over two."
+        },
+        {
+          "equation": "020700-phase-rotation-cost",
+          "after": "decreases the trace norm of the full displacement."
+        },
+        {
+          "equation": "020700-realified-pair-cost",
+          "after": "acting on one plane at a time can."
+        },
+        {
+          "equation": "020700-unequal-pair-cost",
+          "after": "matching problem that the paper's final theorem solves."
+        }
+      ]
+    },
+    "014000": {
+      "inline": [
+        {
+          "equation": "014000-line-graph",
+          "after": "the line is the tangent of its angle."
+        },
+        {
+          "equation": "014000-graph",
+          "after": "part is determined by the first through T."
+        },
+        {
+          "equation": "014000-bounded-graph-criterion",
+          "after": "every angle stays bounded away from ninety degrees."
+        },
+        {
+          "equation": "014000-principal-vector-slope",
+          "after": "i to tangent theta i times w i."
+        },
+        {
+          "equation": "014000-halmos-slope",
+          "after": "On the common directions the slope is zero."
+        },
+        {
+          "equation": "014000-convert-to-sine",
+          "after": "side as a sine estimate is always stronger."
+        },
+        {
+          "equation": "014000-tangent-corner",
+          "after": "the directed tangent theorem to the full one."
+        }
+      ]
+    },
+    "021000": {
+      "inline": [
+        {
+          "equation": "021000-ritz-condition",
+          "after": "of the perturbed operator to the trial subspace."
+        },
+        {
+          "equation": "021000-directed-tangent",
+          "after": "concerns the full angle and the whole perturbation."
+        },
+        {
+          "equation": "021000-off-diagonal-residual",
+          "after": "the same norm in every unitarily invariant norm."
+        },
+        {
+          "equation": "021000-tangent-identity",
+          "after": "rotation, which encodes the sines, on the right."
+        },
+        {
+          "equation": "021000-principal-vector-estimate",
+          "after": "x is at least delta times sine theta."
+        },
+        {
+          "equation": "021000-ky-fan-tangent",
+          "after": "have the same norms, the directed conclusion follows."
+        },
+        {
+          "equation": "021000-comparable-tangent",
+          "after": "corner. So delta times the norm of the tangent of Theta is at most the norm of H."
+        },
+        {
+          "equation": "021000-planar-saturation",
+          "after": "is sine over cosine, the tangent of theta."
+        },
+        {
+          "equation": "021000-interlaced-failure",
+          "after": "noticing as much as the tangent would require."
+        }
+      ]
+    },
+    "016000": {
+      "inline": [
+        {
+          "equation": "016000-reflection-sign",
+          "after": "and A minus H have the same spectrum."
+        },
+        {
+          "equation": "016000-planar-eigenvalues",
+          "after": "from two to about two point two four."
+        },
+        {
+          "equation": "016000-preserved-gap",
+          "after": "eigenvalues away from the gap, never into it."
+        },
+        {
+          "equation": "016000-acute-projection",
+          "after": "plus delta. That is the spectrally corresponding choice."
+        },
+        {
+          "equation": "016000-acute-branch",
+          "after": "the only reducing subspace satisfying the angle bound."
+        },
+        {
+          "equation": "016000-repulsion-form",
+          "after": "A mirror-image inequality holds for the lower blocks."
+        },
+        {
+          "equation": "016000-eigenvalue-repulsion",
+          "after": "angle. Davis and Kahan call this spectral repulsion."
+        }
+      ]
+    },
+    "022000": {
+      "inline": [
+        {
+          "equation": "022000-perturbed-gap",
+          "after": "from beta minus delta to alpha plus delta."
+        },
+        {
+          "equation": "022000-doubled-sine-ambient",
+          "after": "zero, delta times the norm of the sine of two Theta zero is at most twice the norm of R."
+        },
+        {
+          "equation": "022000-reflected-subspace",
+          "after": "the same gap condition, with the same delta."
+        },
+        {
+          "equation": "022000-difference-norm",
+          "after": "norm at most twice the norm of H."
+        },
+        {
+          "equation": "022000-doubled-sine-directed",
+          "after": "So delta times the norm of the sine of two Theta zero is at most twice the norm of R."
+        },
+        {
+          "equation": "022000-plane-equality",
+          "after": "doubled-sine bound with the factor two is exact."
+        },
+        {
+          "equation": "022000-residual-factor-two",
+          "after": "twice the residual, with no room to spare."
+        },
+        {
+          "equation": "022000-smallness",
+          "after": "every angle is strictly less than forty-five degrees."
+        },
+        {
+          "equation": "022000-continuation",
+          "after": "from Q are therefore all below forty-five degrees."
+        }
+      ]
+    },
+    "023000": {
+      "inline": [
+        {
+          "equation": "023000-off-diagonal",
+          "after": "the angle between the reference subspace and Q."
+        },
+        {
+          "equation": "023000-doubled-tangent-bound",
+          "after": "is at most twice the norm of H."
+        },
+        {
+          "equation": "023000-planar-angle",
+          "after": "which annihilates one off-diagonal entry at a time."
+        },
+        {
+          "equation": "023000-planar-values",
+          "after": "but still below it, as the theorem guarantees."
+        },
+        {
+          "equation": "023000-principal-plane-inequality",
+          "after": "is the planar formula turned into an inequality."
+        },
+        {
+          "equation": "023000-doubled-tangent-ambient",
+          "after": "to the full angle and the full perturbation."
+        },
+        {
+          "equation": "023000-beam-bound",
+          "after": "sum of the doubled tangents of both angles."
+        }
+      ]
+    },
+    "017000": {
+      "inline": [
+        {
+          "equation": "017000-transporter",
+          "after": "complement of U onto the complement of V."
+        },
+        {
+          "equation": "017000-freedom",
+          "after": "acting within U and one within its complement."
+        },
+        {
+          "equation": "017000-turning-chord",
+          "after": "degrees, to its negative, moves it by two."
+        },
+        {
+          "equation": "017000-restricted-displacement",
+          "after": "vector moves. Vectors perpendicular to U are ignored."
+        },
+        {
+          "equation": "017000-squared-displacement",
+          "after": "of the singular values of the full displacement."
+        },
+        {
+          "equation": "017000-singular-value-bound",
+          "after": "two sine of theta k over two exactly."
+        },
+        {
+          "equation": "017000-angle-to-target",
+          "after": "least two sine of theta k over two."
+        },
+        {
+          "equation": "017000-restricted-minimizer",
+          "after": "the restricted displacement in every unitarily invariant norm."
+        }
+      ]
+    },
+    "018000": {
+      "inline": [
+        {
+          "equation": "018000-vector-angle",
+          "after": "of lengths times the cosine of the angle."
+        },
+        {
+          "equation": "018000-one-vector-bound",
+          "after": "of v that does not lie in V."
+        },
+        {
+          "equation": "018000-basis-independent-sum",
+          "after": "operator is the same in every orthonormal basis."
+        },
+        {
+          "equation": "018000-proposition-bound",
+          "after": "the inequality still holds in the extended sense."
+        },
+        {
+          "equation": "018000-angle-basis-example",
+          "after": "the principal basis the sum is exactly one."
+        }
+      ]
+    },
+    "018500": {
+      "inline": [
+        {
+          "equation": "018500-squared-displacement",
+          "after": "squared singular values of the identity minus W."
+        },
+        {
+          "equation": "018500-direct-rotation-gram",
+          "after": "is the corresponding operator for the complementary subspaces."
+        },
+        {
+          "equation": "018500-restricted-gram",
+          "after": "identity minus W, times the identity minus P."
+        },
+        {
+          "equation": "018500-squared-minimizer",
+          "after": "squared displacement is minimized by the direct rotation."
+        },
+        {
+          "equation": "018500-q-norm",
+          "after": "at most N of the identity minus W."
+        },
+        {
+          "equation": "018500-q-norm-minimizer",
+          "after": "4.4. It requires no restriction on the angles."
+        },
+        {
+          "equation": "018500-roots-reverse-trace",
+          "after": "particular it does not give the trace-norm comparison."
+        }
+      ]
+    },
+    "024000": {
+      "inline": [
+        {
+          "equation": "024000-direct-trace-cost",
+          "after": "D is eight sine of theta over two."
+        },
+        {
+          "equation": "024000-coupled-trace-cost",
+          "after": "and its trace norm is four sine theta."
+        },
+        {
+          "equation": "024000-strict-trace-improvement",
+          "after": "as the angle shrinks, but it never closes."
+        },
+        {
+          "equation": "024000-trace-lower-bound",
+          "after": "the same norm of the identity minus W."
+        },
+        {
+          "equation": "024000-attains-trace-lower-bound",
+          "after": "displacement among all orthogonal transporters, real or complex."
+        },
+        {
+          "equation": "024000-reversed-operator-norm",
+          "after": "can be best in every unitarily invariant norm."
+        },
+        {
+          "equation": "024000-restriction-obstruction",
+          "after": "plus two, which is four. It is not."
+        },
+        {
+          "equation": "024000-complex-phase",
+          "after": "a coupled pair of planes can imitate it."
+        }
+      ]
+    },
+    "025000": {
+      "inline": [
+        {
+          "equation": "025000-objective",
+          "after": "minus W, the sum of its singular values."
+        },
+        {
+          "equation": "025000-singleton-cost",
+          "after": "seventy-five degrees it is two, from the reflection."
+        },
+        {
+          "equation": "025000-pair-cost",
+          "after": "That is the pair cost e i j."
+        },
+        {
+          "equation": "025000-matching-cost",
+          "after": "singleton costs s i over its unmatched labels."
+        },
+        {
+          "equation": "025000-equal-minima",
+          "after": "places no determinant or principal-plane restriction on W."
+        },
+        {
+          "equation": "025000-edge-saving",
+          "after": "Pairs with negative weight are never worth choosing."
+        },
+        {
+          "equation": "025000-worked-optimum",
+          "after": "takes the single edge with the largest saving."
+        }
+      ]
+    },
+    "025500": {
+      "inline": [
+        {
+          "equation": "025500-smoothed-cost",
+          "after": "the end, we let p decrease to one."
+        },
+        {
+          "equation": "025500-feasibility",
+          "after": "minimizer exists. Fix one and call it W."
+        },
+        {
+          "equation": "025500-feasible-variation",
+          "after": "curve, at t equal to zero, must vanish."
+        },
+        {
+          "equation": "025500-spectral-gradient",
+          "after": "combinations of the identity and the same quarter-turn."
+        },
+        {
+          "equation": "025500-first-variation",
+          "after": "cancels the mixing parts without changing the derivative."
+        },
+        {
+          "equation": "025500-gradient-reflection",
+          "after": "identity is the source of the block structure."
+        },
+        {
+          "equation": "025500-complex-structure",
+          "after": "x over g becoming a single complex line."
+        },
+        {
+          "equation": "025500-real-part-relations",
+          "after": "algebraic relations coming from Pi squared equals Pi."
+        },
+        {
+          "equation": "025500-paired-real-block",
+          "after": "block with one source direction and one angle."
+        }
+      ]
+    },
+    "025700": {
+      "inline": [
+        {
+          "equation": "025700-one-angle-minimum",
+          "after": "phi of theta and two to the p."
+        },
+        {
+          "equation": "025700-mid-angle-and-half-difference",
+          "after": "is theta i, is at most ninety degrees."
+        },
+        {
+          "equation": "025700-determinant-one-cost",
+          "after": "minus r tilde. Call it b of p."
+        },
+        {
+          "equation": "025700-determinant-minus-one-cost",
+          "after": "the larger-angle plane and rotating the smaller-angle plane."
+        },
+        {
+          "equation": "025700-matching-minimum",
+          "after": "minimum over matchings of the smoothed matching cost."
+        },
+        {
+          "equation": "025700-uniform-limit",
+          "after": "smoothed cost converges to the minimal trace norm."
+        },
+        {
+          "equation": "025700-singleton-limit",
+          "after": "b of p converges to e i j."
+        },
+        {
+          "equation": "025700-pair-endpoint",
+          "after": "p above one and passes to the limit."
         }
       ]
     }
