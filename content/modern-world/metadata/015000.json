@@ -263,12 +263,32 @@
     "Qing period"
   ],
   "places": [
-    "China"
+    "China",
+    "Nanjing, China",
+    "Hong Kong",
+    "Japan"
   ],
-  "description": "Explores nineteenth-century Qing China through trade conflict, the Taiping rebellion, self-strengthening reforms, and pressures on imperial and provincial political authority.",
+  "description": "Explores late Qing China through the Opium Wars and unequal treaties, the Taiping rebellion and its proposed land system, provincial military power, and contested self-strengthening. Traces the impact of the 1894–95 defeat by Japan on educational and constitutional reforms before the dynasty fell in 1911.",
   "tags": [
     "Qing Transformations",
-    "Military history"
+    "Military history",
+    "Late Qing China",
+    "Population and ecological pressure",
+    "Lin Zexu",
+    "Opium Wars",
+    "Treaty of Nanjing",
+    "Treaty ports",
+    "Hong Xiuquan",
+    "Taiping Rebellion",
+    "Taiping Land System",
+    "Provincial military power",
+    "Self-Strengthening Movement",
+    "Shipbuilding and technical education",
+    "Chu Chengbo",
+    "First Sino-Japanese War",
+    "Hundred Days of Reform",
+    "Civil-service examination abolition",
+    "Constitutional reform"
   ],
   "tag_paths": [
     [
@@ -276,6 +296,42 @@
       "World history",
       "Modern history",
       "Qing Transformations"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Qing Transformations",
+      "Opium Wars"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Qing Transformations",
+      "Taiping Rebellion"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Qing Transformations",
+      "Self-strengthening and institutional reform"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1839,
+      "end": 1911,
+      "label": "1839–1911 CE · Late Qing wars and reforms",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "Main dated political sequence runs from the First Opium War to the fall of the Qing; the lecture also discusses earlier demographic and administrative conditions.",
+      "source_ids": [
+        "qing-opium",
+        "qing-key",
+        "qing-reforms"
+      ]
+    }
+  }
 }

@@ -96,6 +96,19 @@
       "source_ids": [
         "ml-kokoro-primary"
       ]
+    },
+    "setting": {
+      "start": 1912,
+      "end": 1912,
+      "label": "1912 CE · Final frame at the end of the Meiji era",
+      "basis": "fictional_setting",
+      "approximate": false,
+      "note": "The retelling explicitly places the father’s illness and Sensei’s final testament around Emperor Meiji’s death and General Nogi’s subsequent death in 1912. Earlier remembered events predate this frame; 1914 remains the separate work date.",
+      "source_ids": [
+        "ml-kokoro-primary",
+        "ml-kokoro-criticism",
+        "ml-kokoro-nogi"
+      ]
     }
   },
   "creators": [
@@ -105,17 +118,43 @@
     }
   ],
   "places": [
-    "Japan"
+    "Japan",
+    "Kamakura, Japan",
+    "Tokyo, Japan",
+    "Zōshigaya Cemetery, Tokyo, Japan"
   ],
   "tags": [
     "Literature",
-    "Novels"
+    "Novels",
+    "Kokoro",
+    "Natsume Sōseki",
+    "Sensei",
+    "K",
+    "Shizu",
+    "Teacher and student",
+    "Inheritance fraud",
+    "Friendship and betrayal",
+    "Confession and secrecy",
+    "Guilt and remorse",
+    "Family obligation",
+    "End of the Meiji era",
+    "Testament and unresolved ending"
   ],
-  "description": "Retells Kokoro from a student’s meeting with Sensei through a troubled household, family obligations, and the confession that turns private betrayal into an inheritance.",
+  "description": "Retells Sōseki’s Kokoro through a student’s friendship with Sensei, his father’s illness, and the testament that reveals Sensei’s inheritance dispute, betrayal of his friend K, and secrecy within his marriage. The confession arrives at the end of the Meiji era and leaves the student with an unresolved obligation.",
   "tag_paths": [
     [
       "Literature",
       "Novels"
+    ],
+    [
+      "Literature",
+      "Japanese literature",
+      "Kokoro"
+    ],
+    [
+      "Literature",
+      "Narrative technique",
+      "Embedded confession"
     ]
   ]
 }

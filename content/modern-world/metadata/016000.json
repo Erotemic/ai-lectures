@@ -295,7 +295,11 @@
   ],
   "citation_method": "One anchored evidence note per substantive spoken paragraph; display-only direct links, locators, access level and limitations.",
   "places": [
-    "Japan"
+    "Japan",
+    "Tomioka, Japan",
+    "Nagano, Japan",
+    "China",
+    "Korea"
   ],
   "periods": [
     "Meiji era"
@@ -304,7 +308,24 @@
   "tags": [
     "Meiji Japan",
     "Colonialism",
-    "East Asian history"
+    "East Asian history",
+    "Meiji Restoration",
+    "Charter Oath",
+    "Domain abolition",
+    "Prefectural centralization",
+    "Land-tax reform",
+    "Land tenure and tenancy",
+    "Rural debt and deflation",
+    "Tomioka Silk Mill",
+    "Silk reeling",
+    "Women textile workers",
+    "Technology transfer",
+    "Freedom and People’s Rights movement",
+    "Meiji Constitution",
+    "Imperial Diet",
+    "Limited suffrage",
+    "First Sino-Japanese War",
+    "Annexation of Korea"
   ],
   "tag_paths": [
     [
@@ -312,6 +333,49 @@
       "World history",
       "Modern history",
       "Meiji Japan"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Meiji Japan",
+      "Fiscal and agrarian reform"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Meiji Japan",
+      "Industrial labor and silk"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Meiji Japan",
+      "Constitutional politics"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Colonialism",
+      "Japanese imperial expansion"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1868,
+      "end": 1910,
+      "label": "1868–1910 CE · Meiji state-building and imperial expansion",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "Core dated sequence is the restoration of 1868 through annexation of Korea in 1910; the lecture also covers late Tokugawa institutions and Perry’s 1853 expedition. This is the narrated coverage, not the full reign of Emperor Meiji.",
+      "source_ids": [
+        "japan-oath",
+        "japan-chron",
+        "japan-1895"
+      ]
+    }
+  }
 }

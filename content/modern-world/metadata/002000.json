@@ -77,12 +77,33 @@
     }
   ],
   "places": [
-    "Atlantic"
+    "Atlantic",
+    "Caribbean",
+    "Greater Antilles",
+    "Americas",
+    "Afro-Eurasia",
+    "Andes",
+    "Europe",
+    "Africa",
+    "Ireland"
   ],
   "description": "Explains the Columbian Exchange through Atlantic crops, epidemic disease, colonial settlement, and coerced labor, showing how biological transfers reshaped Indigenous societies and global food systems.",
   "tags": [
     "Atlantic Connections",
-    "Trade networks"
+    "Trade networks",
+    "Columbian Exchange",
+    "Taíno communities",
+    "Indigenous agriculture",
+    "Smallpox and epidemic disease",
+    "Maize, potatoes and cassava",
+    "Livestock introduction",
+    "Sugar plantations",
+    "Transatlantic slave trade",
+    "Land use and ecological change",
+    "Alfred W. Crosby",
+    "Crop adoption and food security",
+    "Environmental history",
+    "Historical causal inference"
   ],
   "tag_paths": [
     [
@@ -90,6 +111,40 @@
       "World history",
       "Modern history",
       "Atlantic Connections"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Atlantic Connections",
+      "Columbian Exchange"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Colonialism",
+      "Transatlantic slave trade"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Environmental history",
+      "Agricultural exchange"
     ]
-  ]
+  ],
+  "chronology": {
+    "context": {
+      "start": 1492,
+      "end": 1492,
+      "label": "1492 CE · Beginning of sustained Atlantic contact",
+      "basis": "historical_context",
+      "approximate": false,
+      "note": "The lecture identifies 1492 as the beginning of sustained transatlantic contact; crop adoption, epidemics and institutional changes developed over much longer, regionally variable intervals. This does not deny earlier contacts.",
+      "source_ids": [
+        "mw-openstax-exchange"
+      ]
+    }
+  }
 }
