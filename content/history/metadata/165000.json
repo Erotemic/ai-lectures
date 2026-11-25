@@ -1179,7 +1179,21 @@
     "History of science and mathematics",
     "Biography",
     "Julia Bowman Robinson",
-    "Mathematical logic"
+    "Mathematical logic",
+    "First-order logic",
+    "Definability",
+    "First-order theory of the rationals",
+    "Quadratic forms",
+    "Decision problems",
+    "Hilbert's tenth problem",
+    "Existential quantification",
+    "Computably enumerable sets",
+    "Halting problem",
+    "Exponential Diophantine equations",
+    "Exponentiation",
+    "Recurrence sequences",
+    "Davis–Putnam–Robinson–Matiyasevich theorem",
+    "Mixed strategies"
   ],
   "tag_paths": [
     [
@@ -1187,11 +1201,35 @@
       "History of science",
       "Scientific biography",
       "Julia Bowman Robinson"
+    ],
+    [
+      "Mathematics",
+      "Logic",
+      "Definability"
+    ],
+    [
+      "Computer science",
+      "Theory of computation",
+      "Computability",
+      "Undecidability"
+    ],
+    [
+      "Mathematics",
+      "Number theory",
+      "Diophantine equations",
+      "Hilbert's tenth problem"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Zero-sum games"
     ]
   ],
   "places": [
     "San Diego, California",
-    "Berkeley, California"
+    "Berkeley, California",
+    "St. Louis, Missouri",
+    "Cambridge, Massachusetts"
   ],
-  "description": "Follows Julia Robinson's work on Diophantine definability and Hilbert's tenth problem, explaining the mathematical collaboration behind the undecidability result."
+  "description": "Follows Julia Robinson from first-order definability of the integers in the rationals and convergence of an iterative game method to Hilbert’s tenth problem. Explains Diophantine sets, the Robinson hypothesis, the Davis–Putnam–Robinson conditional advance and Matiyasevich’s completion, distinguishing undecidability over the integers from the separate question of rational polynomial solvability."
 }
