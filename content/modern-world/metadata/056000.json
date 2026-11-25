@@ -290,11 +290,47 @@
   ],
   "notes": "20 paragraph-mapped source records; direct URLs, locators, source review scope and limits are in the text-only display ledger. Word counts and runtime estimates are descriptive.",
   "places": [
-    "Europe"
+    "Europe",
+    "United Kingdom",
+    "West Germany",
+    "France",
+    "Italy",
+    "Belgium",
+    "Netherlands",
+    "Luxembourg",
+    "Denmark",
+    "Ireland",
+    "Caribbean",
+    "Portugal",
+    "Greece",
+    "Spain"
   ],
   "description": "Explores European postwar settlement through welfare policies, coal-and-steel integration, common markets, agriculture, migration, and the distribution of growth’s benefits.",
   "tags": [
-    "European Integration and Welfare"
+    "European Integration and Welfare",
+    "National Health Service",
+    "Commonwealth health worker recruitment",
+    "Social insurance",
+    "Unpaid care work",
+    "European Coal and Steel Community",
+    "Treaty of Rome",
+    "European Economic Community",
+    "Euratom",
+    "Customs union",
+    "Common external tariff",
+    "European Social Fund",
+    "European Investment Bank",
+    "Council of Europe",
+    "European Social Charter",
+    "Social market economy",
+    "Collective bargaining",
+    "Common Agricultural Policy",
+    "Agricultural price supports",
+    "1973 European enlargement",
+    "1973 oil shock",
+    "Regional development aid",
+    "European Parliament direct elections",
+    "Democratic transition"
   ],
   "tag_paths": [
     [
@@ -302,6 +338,50 @@
       "World history",
       "Modern history",
       "European Integration And Welfare"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "European Integration And Welfare",
+      "National welfare states"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "European Integration And Welfare",
+      "European economic institutions"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "European Integration And Welfare",
+      "Common Agricultural Policy"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "European Integration And Welfare",
+      "Regional inequality and enlargement"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1948,
+      "end": 1979,
+      "label": "1948–1979 CE · Welfare and European integration milestones",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "Principal dated institutional milestones, not the entire postwar reconstruction or later history of these institutions.",
+      "source_ids": [
+        "e-nhs",
+        "e-parliament",
+        "e-treaty",
+        "e-cap"
+      ]
+    }
+  }
 }

@@ -340,9 +340,32 @@
     }
   ],
   "notes": "22 paragraph-level research mappings for narrated manuscript; exact source locators, access scopes and caveats in display-only ledger. No mandatory word-count or duration policy.",
-  "description": "Juxtaposes nuclear weapons testing and Pacific testimony with the space race, from the Cuban Missile Crisis to Apollo, examining technology, risk, and political power.",
+  "description": "Connects nuclear testing and Marshallese testimony, Japanese antinuclear organizing, scientific diplomacy, the Cuban Missile Crisis and Partial Test Ban Treaty with the International Geophysical Year and the space race through Apollo. Examines dual-use technology, unequal exposure to risk, scientific labor, and public authority.",
   "tags": [
-    "Nuclear and Space Public Experience"
+    "Nuclear and Space Public Experience",
+    "Nuclear fallout",
+    "Marshallese testimony",
+    "Castle Bravo",
+    "Nuclear displacement",
+    "Radiation exposure",
+    "Lucky Dragon Number Five",
+    "Japanese antinuclear movement",
+    "Russell–Einstein Manifesto",
+    "Pugwash Conferences",
+    "Cuban Missile Crisis",
+    "Secret diplomacy",
+    "Partial Test Ban Treaty",
+    "International Geophysical Year",
+    "Sputnik",
+    "Yuri Gagarin",
+    "Valentina Tereshkova",
+    "Katherine Johnson",
+    "Human computers",
+    "Apollo 11",
+    "Lunar rendezvous",
+    "Dual-use technology",
+    "Public risk governance",
+    "Gender and racial exclusion in science"
   ],
   "tag_paths": [
     [
@@ -350,6 +373,53 @@
       "World history",
       "Modern history",
       "Nuclear And Space Public Experience"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Nuclear And Space Public Experience",
+      "Nuclear testing and public health"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Nuclear And Space Public Experience",
+      "Antinuclear movements and diplomacy"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Nuclear And Space Public Experience",
+      "Spaceflight and scientific labor"
     ]
-  ]
+  ],
+  "places": [
+    "Marshall Islands",
+    "Bikini Atoll, Marshall Islands",
+    "Enewetak Atoll, Marshall Islands",
+    "Rongelap Atoll, Marshall Islands",
+    "Japan",
+    "Cuba",
+    "Turkey",
+    "Soviet Union",
+    "United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1946,
+      "end": 1969,
+      "label": "1946–1969 CE · Nuclear testing and the space age",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "Principal dated cases run from the beginning of Marshall Islands testing through Apollo 11; the opening also refers to the 1945 bombings of Japan.",
+      "source_ids": [
+        "ns-marshall",
+        "ns-apollo",
+        "ns-treaty"
+      ]
+    }
+  }
 }
