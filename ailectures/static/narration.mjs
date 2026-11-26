@@ -220,13 +220,26 @@ export class NarrationControls {
   }
 }
 
-export function matchesPreparation(job, settings) {
+export function matchesPreparation(item, settings) {
   return (
-    job.profile === settings.profile &&
+    item.profile === settings.profile &&
     (settings.profile_revision
-      ? job.profile_revision === settings.profile_revision
-      : job.voice === settings.voice && job.speed === settings.speed)
+      ? item.profile_revision === settings.profile_revision
+      : item.voice === settings.voice && (item.speed ?? item.speech_speed ?? 1) === settings.speed)
   );
+}
+
+export function collectionPreparationProgress(lectures, jobs, settings) {
+  const byId = new Map(lectures.map((row) => [row.id, row]));
+  const active = jobs.filter((job) => {
+    const row = byId.get(job.lecture_id);
+    return row && job.spoken_sha256 === row.spoken_sha256 &&
+      ["queued", "running"].includes(job.state) && matchesPreparation(job, settings);
+  });
+  const ready = [...byId.values()].filter((row) => row.recordings.some((recording) =>
+    recording.complete && recording.generator && matchesPreparation(recording.generator, settings),
+  )).length;
+  return { active, ready, total: byId.size, generating: new Set(active.map((job) => job.lecture_id)).size };
 }
 
 export function wholePreparationQueued(jobs, selection) {
@@ -248,7 +261,7 @@ export function wholePreparationQueued(jobs, selection) {
 export function preparationPanel({
   lectureId = null,
   courseId = null,
-  lectureIds = null,
+  lectures = null,
   revision = null,
   label,
   description,
@@ -311,22 +324,21 @@ export function preparationPanel({
         status.textContent =
           "Generation requires the production tools on this server.";
       let pending = [];
-      const selectedLectures = new Set(lectureIds || []);
       const selection = lectureId
         ? { lecture_id: lectureId, ...(revision ? { revision } : {}) }
         : courseId
           ? { course_id: courseId }
-          : { lecture_ids: lectureIds };
+          : { lecture_ids: lectures?.map((row) => row.id) };
       const poll = async () => {
+        const listed = (await api("/api/library/production/jobs")).jobs;
         const settings = narrator.settings();
-        const jobs = (await api("/api/library/production/jobs")).jobs.filter(
+        const progress = lectures && collectionPreparationProgress(lectures, listed, settings);
+        const jobs = progress?.active ?? listed.filter(
           (job) =>
             (lectureId
               ? job.lecture_id === lectureId &&
                 (!revision || job.revision === revision)
-              : lectureIds
-                ? selectedLectures.has(job.lecture_id)
-                : pending.some((item) => item.id === job.id)) &&
+              : pending.some((item) => item.id === job.id)) &&
             matchesPreparation(job, settings),
         );
         pending = jobs;
@@ -339,10 +351,12 @@ export function preparationPanel({
         const completed = jobs.find((job) => job.state === "ready");
         ready.hidden = !completed || !onPlay;
         ready.onclick = () => onPlay?.(completed);
-        if (jobs.length === 1)
+        if (progress) {
+          status.textContent = `${progress.ready}/${progress.total} lectures ready in this voice · ${progress.generating} queued or running`;
+        } else if (jobs.length === 1)
           status.textContent = `${jobs[0].state} · ${jobs[0].inventory.ready}/${jobs[0].inventory.total || "?"} audio blocks ready${jobs[0].error ? " · " + jobs[0].error : ""}`;
         else if (jobs.length)
-          status.textContent = `${unfinished.length} queued or running · ${jobs.filter((job) => job.state === "ready").length}/${jobs.length} lectures ready`;
+          status.textContent = `${unfinished.length} queued or running · ${jobs.filter((job) => job.state === "ready").length} finished jobs`;
         else
           status.textContent =
             "Queue all audio blocks for the selected narrator. Completed matching blocks are reused.";
@@ -378,8 +392,11 @@ export function preparationPanel({
           stop.disabled = !pending.some((job) =>
             ["queued", "running"].includes(job.state),
           );
-          const count = result.jobs?.length || 1;
-          status.textContent = `${count === 1 ? "Lecture" : count + " lectures"} queued for ${narrator.selectedProfile()?.label || settings.voice || settings.profile}. Completed matching audio blocks are reused.`;
+          if (lectures) await poll();
+          else {
+            const count = result.jobs?.length || 1;
+            status.textContent = `${count === 1 ? "Lecture" : count + " lectures"} queued for ${narrator.selectedProfile()?.label || settings.voice || settings.profile}. Completed matching audio blocks are reused.`;
+          }
         } catch (error) {
           status.textContent = error.message;
         } finally {

@@ -545,7 +545,13 @@ export class CatalogBrowser {
       resources.append(preparation);
       let loaded=false;
       preparation.ontoggle=()=>{
-        if(preparation.open&&!loaded){loaded=true;preparation.append(preparationPanel({lectureIds:audioRows.map(row=>row.id),label:"Generate collection audio",description:"Queue all audio lectures in this collection using one saved voice profile. Existing matching audio is reused."}));}
+        if (!preparation.open || loaded) return;
+        loaded = true;
+        preparation.append(preparationPanel({
+          lectures: audioRows,
+          label: "Generate collection audio",
+          description: "Queue all audio lectures in this collection using one saved voice profile. Existing matching audio is reused.",
+        }));
       };
       api("/api/library/production?probe=0").then(profiles=>{
         if(preparation.isConnected)preparation.hidden = !profiles.tools_available || !profiles.profiles.some(profile=>profile.available!==false);

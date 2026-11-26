@@ -227,12 +227,39 @@ assert.equal(opened,true);
 assert.equal(immediate.select.value,'prepared');
 completeDiscovery();await immediate.optionsReady;
 
-const {matchesPreparation}=await import('../ailectures/static/narration.mjs');
+const {matchesPreparation, collectionPreparationProgress}=await import('../ailectures/static/narration.mjs');
 assert.ok(matchesPreparation({profile:'voice-one',profile_revision:'revision-a',voice:'reference-one',speed:1},{profile:'voice-one',profile_revision:'revision-a'}));
 assert.equal(matchesPreparation({profile:'voice-one',profile_revision:'revision-b'},{profile:'voice-one',profile_revision:'revision-a'}),false);
 assert.ok(matchesPreparation({profile:'legacy',voice:'af_alloy',speed:1},{profile:'legacy',voice:'af_alloy',speed:1}));
 assert.equal(matchesPreparation({profile:'legacy',voice:'am_echo',speed:1},{profile:'legacy',voice:'af_alloy',speed:1}),false);
 console.log('Collection generation tracks saved recipe revisions and legacy voice settings independently.');
+
+const voice = {profile:'voice-one',profile_revision:'revision-a'};
+const recorded = {complete:true,generator:voice};
+const first = {...row,recordings:[recorded,recorded]};
+const second = {...row,id:'stories:002000',recordings:[recorded]};
+const third = {...row,id:'stories:003000',recordings:[
+  {...recorded,complete:false},
+  {...recorded,generator:{...voice,profile_revision:'revision-b'}},
+]};
+const matchingJob = {...voice,lecture_id:third.id,spoken_sha256:third.spoken_sha256};
+const queued = {...matchingJob,id:'current',state:'queued'};
+const extra = {...queued,id:'additional-blocks',state:'running',requested_blocks:[0]};
+const jobHistory = [
+  {...matchingJob,lecture_id:first.id,state:'ready'},
+  {...matchingJob,lecture_id:first.id,state:'ready'},
+  {...matchingJob,lecture_id:second.id,state:'cancelled'},
+  {...matchingJob,state:'ready'},
+  {...matchingJob,state:'running',spoken_sha256:'earlier'},
+  {...matchingJob,state:'queued',profile_revision:'revision-b'},
+];
+assert.deepEqual(collectionPreparationProgress([first,second,third],jobHistory,voice),
+  {active:[],ready:2,total:3,generating:0});
+assert.deepEqual(collectionPreparationProgress([first,second,third],[...jobHistory,queued,extra],voice),
+  {active:[queued,extra],ready:2,total:3,generating:1});
+assert.deepEqual(collectionPreparationProgress([first,second],[],voice),
+  {active:[],ready:2,total:2,generating:0});
+
 const {wholePreparationQueued}=await import('../ailectures/static/narration.mjs');
 const collectionScope={lecture_ids:['first','second']};
 const firstQueued={lecture_id:'first',state:'queued',requested_blocks:null};
