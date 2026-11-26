@@ -70,6 +70,13 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (25 November 2026, batch 73)
+
+- Upgraded 12 previously partial World History lectures to full spoken-manuscript reviews (47,200 words): the Popol Wuj, Mali trade networks, Berenike, Belitung, the Swahili coast, ancient harbors, Egyptian manuscripts and all five Haitian Revolution installments. World History now has 81 of 111 full reviews, 30 partial reviews and no untouched description scopes. History remains complete (192 of 192).
+- Refined 2 descriptions and retained 10; added 198 topical tags, 39 hierarchy paths and 18 place labels across 12 changed sidecars. No tags removed or titles changed. Emphasized distinctions among archaeological dating, production and provenance; the disputed identification of Muziris with Pattanam; language versus ancestry; scribal versus authorial attribution; political equality versus emancipation; and indemnity versus associated borrowing and refinancing.
+- Appended 12 scoped receipts (60 fingerprints) covering description, title, tags, tag paths and geography; all checked against the final inventory. Overall status: 1,491 full, 30 partial, 878 never recorded of 2,399 lectures. No manuscripts, chronology records, source registries, prerequisites or prior receipts modified; independent source verification remains outside scope.
+- **Queue decision (user instruction): defer Journey to the West until the very end of the audit.** The six partial installments are intentionally untouched by this batch. Next complete the twelve outstanding Three Kingdoms and twelve Shahnameh reviews, then proceed with the other non-Journey-to-the-West backlog. Do not treat the deferred installments as reviewed or use them to fill a batch quota; return to them at the end.
+
 ## Audit progress (25 November 2026, batch 72)
 
 - Upgraded 16 previously targeted World History archaeology lectures to full spoken-manuscript reviews (57,915 words), including Tutankhamun, Maya decipherment, Pacific settlement, Olduvai and Laetoli, Uluburun, three provenance-method lectures, and eight archaeology methods lectures. All previously recorded partial receipts remain intact. World History now has 69 of 111 full reviews, 42 partial reviews and no untouched description scopes. History remains complete (192 of 192).
