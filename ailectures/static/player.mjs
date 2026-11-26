@@ -53,11 +53,16 @@ export class Player {
     this.blockCache = new AudioBlockCache();
     document.getElementById("toggle-play").onclick = () => this.toggle();
     const speed = document.getElementById("playback-rate");
-    speed.value = String(getStored("rate", 1));
-    speed.onchange = () => {
-      this.audio.playbackRate = Number(speed.value);
-      store("rate", Number(speed.value));
+    const applySpeed = (value) => {
+      speed.value = String(value);
+      if (!speed.value) speed.value = "1";
+      const rate = Number(speed.value);
+      this.audio.defaultPlaybackRate = rate;
+      this.audio.playbackRate = rate;
+      return rate;
     };
+    applySpeed(getStored("rate", 1));
+    speed.onchange = () => store("rate", applySpeed(speed.value));
     this.audio.onplay = () => {
       this.started = true;
       this.reveal();
@@ -225,9 +230,7 @@ export class Player {
     this.audio.onloadedmetadata = () => {
       if (token !== this.loadToken) return;
       this.ready = true;
-      this.audio.playbackRate = Number(
-        document.getElementById("playback-rate").value,
-      );
+      this.audio.playbackRate = this.audio.defaultPlaybackRate;
       this.audio.currentTime = Math.min(
         seconds,
         Math.max(0, this.audio.duration - 0.05),

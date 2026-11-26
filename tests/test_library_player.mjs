@@ -24,11 +24,21 @@ const audio = { currentTime:0, paused:true, duration:10,
   removeAttribute(name){delete this[name];}, getAttribute(name){return this[name];},
   play(){this.paused=false;return Promise.resolve();} };
 elements.set('audio',audio);
+let speedValue = '0.75';
+elements.set('playback-rate', {
+  get value() { return speedValue; },
+  set value(value) { speedValue = ['0.75', '1', '1.25'].includes(value) ? value : ''; },
+});
 globalThis.document = {getElementById:element,querySelector:()=>null};
 globalThis.window = {addEventListener(){}};
-globalThis.localStorage = {getItem:()=>null,setItem(){}};
+const preferences = new Map();
+globalThis.localStorage = {getItem:key=>preferences.get(key) ?? null,setItem:(key,value)=>preferences.set(key,value)};
 const checkpoints=[],next=[];
-const player=new Player({checkpoint:point=>checkpoints.push(point),message(){},next:options=>next.push(options)});
+const callbacks = {checkpoint:point=>checkpoints.push(point),message(){},next:options=>next.push(options)};
+const player=new Player(callbacks);
+assert.equal(speedValue, '1');
+assert.equal(audio.playbackRate, 1);
+assert.equal(audio.defaultPlaybackRate, 1);
 const recording={id:'recording',variant:'prepared',complete:true,pages:['First.','Second.'],segments:[{index:0,duration:10,url:'/first.wav'},{index:1,duration:20,url:'/second.wav'}]};
 const row={id:'track:001000',revision:'current',spoken_sha256:'spoken',title:'First lecture',recordings:[recording],origin:{release:'source'}};
 player.open(row,null,recording.id,'track:branch');
@@ -80,3 +90,20 @@ player.lectureController.cancelPlayback=()=>{cancelled++;player.lectureControlle
 player.syncControls();assert.equal(element('toggle-play').textContent,'Cancel playback');
 player.toggle();assert.equal(cancelled,1);
 console.log('Shared playback controls follow media events and can cancel pending playback');
+
+preferences.set('ailectures:rate', '0.9');
+const ratePlayer = new Player(callbacks);
+assert.equal(speedValue, '1');
+assert.equal(audio.playbackRate, 1);
+const speed = element('playback-rate');
+speed.value = '0.75';
+speed.onchange();
+assert.equal(preferences.get('ailectures:rate'), '0.75');
+ratePlayer.open(row, null, recording.id, 'track:survey');
+audio.playbackRate = 1;
+audio.onloadedmetadata();
+assert.equal(audio.playbackRate, 0.75);
+new Player(callbacks);
+assert.equal(speedValue, '0.75');
+assert.equal(audio.defaultPlaybackRate, 0.75);
+console.log('Normal-speed default, invalid preference recovery and chosen playback rates passed');
