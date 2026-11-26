@@ -70,6 +70,12 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (25 November 2026, batch 72)
+
+- Upgraded 16 previously targeted World History archaeology lectures to full spoken-manuscript reviews (57,915 words), including Tutankhamun, Maya decipherment, Pacific settlement, Olduvai and Laetoli, Uluburun, three provenance-method lectures, and eight archaeology methods lectures. All previously recorded partial receipts remain intact. World History now has 69 of 111 full reviews, 42 partial reviews and no untouched description scopes. History remains complete (192 of 192).
+- Refined 6 descriptions and retained 10; added 245 topical tags, 35 hierarchy paths and 33 place labels across 16 changed sidecars. No tags removed or titles changed. Improvements include Berlin's emblem glyphs, Laetoli Site S, Ohalo II versus Çatalhöyük crop ecology, production vats and amphora reuse, and parasite studies in Sagalassos and Çatalhöyük. Provenance indexing separates candidate regions from demonstrated origins and material movement from individual journeys; no new historical or scientific verdict is implied.
+- Appended 16 scoped receipts (80 fingerprints) covering description, title, tags, tag paths and geography; all fingerprints checked against the final inventory. Overall status: 1,479 full, 42 partial, 878 never recorded of 2,399 lectures. Chose to complete 16 full reviews rather than repeat targeted checks across an expanded 32-lecture selection; the remaining 42 partial World History lectures still require complete readings. No manuscripts, chronology records, source registries, prerequisites or prior receipts modified. Independent source verification remains outside scope.
+
 ## Audit progress (25 November 2026, batch 71)
 
 - Completed full spoken-manuscript reviews of the remaining 16 partial History biographies (Maxwell through Wiles), totaling 89,058 words. History now has 192 of 192 current full-manuscript description reviews; no partial or unrecorded description scopes remain in this track. These are manuscript-alignment reviews, not independent fact checks.
