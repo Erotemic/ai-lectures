@@ -151,6 +151,28 @@ def test_cleanup_retains_shared_snapshot_text_and_referenced_segment_releases(tm
     assert not garbage_plan(library, keep_text_versions=1)['candidates']
 
 
+def test_replaced_release_keeps_surviving_recording_urls_and_cleanup_protection(tmp_path):
+    library, replacement, path = stale_library(tmp_path)
+    previous = digest('release before removing one recording')
+    with library.store.connect() as db:
+        db.execute('INSERT INTO release_aliases VALUES (?,?)', (previous, replacement['release']))
+    lecture, directory = library.store.historical(previous, 'audio-test:001000')
+    recording = lecture['recordings'][0]
+    media, _ = library.store.media_file(previous, recording['id'], 0)
+    assert directory == path and media.read_bytes().startswith(b'RIFF')
+    with pytest.raises(KeyError, match='Unknown recording'):
+        library.store.media_file(previous, digest('removed recording'), 0)
+
+    state = ListenerState(library.store.state)
+    listener = state.create_profile('Listener')['id']
+    with state.connect() as db:
+        db.execute(
+            'INSERT INTO progress VALUES (?,?,?,?)',
+            (listener, lecture['id'], 1, json.dumps({'release': previous})),
+        )
+    assert not garbage_plan(library, keep_text_versions=1)['candidates']
+
+
 def test_live_sources_pick_up_published_media_and_http_bundle_restores(tmp_path):
     repo=tmp_path/'repo';source=repo/'draft-stages/tts-music';source.mkdir(parents=True)
     (source/'001000-song.md').write_text('# Intervals\n<!-- BEGIN SPOKEN LECTURE -->\nHear the interval.\n<!-- END SPOKEN LECTURE -->\n')

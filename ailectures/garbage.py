@@ -118,6 +118,10 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
         spec = json.loads(job['specification'])
         if base := spec.get('base_recording'): protected.add(base['release'])
         if job.get('published'): protected.add(job['published'])
+    with library.store.connect() as db:
+        for original, replacement in db.execute('SELECT original,replacement FROM release_aliases'):
+            if original in protected:
+                protected.add(replacement)
     def stale(rows):
         return bool(rows) and all(key in hashes and row['spoken_sha256'] not in hashes[key] for key,row in rows.items())
     candidates, retained = [], []

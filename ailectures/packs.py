@@ -330,6 +330,8 @@ class PackStore:
                 CREATE TABLE IF NOT EXISTS releases (
                     release TEXT PRIMARY KEY, pack_id TEXT NOT NULL, directory TEXT NOT NULL,
                     manifest TEXT NOT NULL, catalog TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS release_aliases (
+                    original TEXT PRIMARY KEY, replacement TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS release_validation (release TEXT PRIMARY KEY, signature TEXT NOT NULL);
             """)
 
@@ -648,29 +650,32 @@ class PackStore:
                 self._snapshot_key = key
             return deepcopy(self._snapshot_cache) if copy else self._snapshot_cache
 
-    def historical(self, release_id, lecture_id):
-        checksum(release_id)
-        qualified(lecture_id)
+    def _lookup_release(self, release_id):
         with self.connect() as db:
             row = db.execute(
                 "SELECT * FROM releases WHERE release=?", (release_id,)
             ).fetchone()
+            if row is None:
+                row = db.execute(
+                    """SELECT r.* FROM release_aliases a
+                       JOIN releases r ON r.release=a.replacement WHERE a.original=?""",
+                    (release_id,),
+                ).fetchone()
         if row is None:
-            raise KeyError("Unknown historical release")
-        row = self.release_row(row)
+            raise KeyError("Unknown release")
+        return self.release_row(row)
+
+    def historical(self, release_id, lecture_id):
+        checksum(release_id)
+        qualified(lecture_id)
+        row = self._lookup_release(release_id)
         lecture = json.loads(row["catalog"])["lectures"][lecture_id]
         return lecture, Path(row["directory"])
 
     def media_file(self, release_id, recording_id, index, *, allow_changed=False):
         checksum(release_id)
         checksum(recording_id)
-        with self.connect() as db:
-            row = db.execute(
-                "SELECT * FROM releases WHERE release=?", (release_id,)
-            ).fetchone()
-        if row is None:
-            raise KeyError("Unknown release")
-        row = self.release_row(row)
+        row = self._lookup_release(release_id)
         catalog = json.loads(row["catalog"])
         for lecture in catalog["lectures"].values():
             for rec in lecture.get("recordings", []):
