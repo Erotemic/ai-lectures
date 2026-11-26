@@ -70,6 +70,13 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (26 November 2026, batch 74)
+
+- Upgraded all 12 remaining partial *Romance of the Three Kingdoms* lectures to full spoken-manuscript reviews (55,956 catalog spoken words), including Parts IV–X, XII–XIV, XVI and the source-critical capstone. The 17-lecture series now has current full-manuscript description reviews throughout. World History now has 93 of 111 full reviews and 18 partial reviews. History remains complete (192 of 192).
+- Refined 7 descriptions and retained 5; added 187 topical tags, 25 hierarchical paths and 35 place labels across 12 sidecars. No tags removed or titles changed. The main description additions are Emperor Xian's resistance, the distributed Red Cliffs coalition, Copper Bird Terrace and Pang Tong, Cao Cao's northwest campaign, the disputed Empty Fort story, the posthumous wooden image, and Jiang Wei's failed restoration plot. Places are narrated settings, not independently verified historical routes. The capstone distinguishes source dependence, quoted versus endorsed anecdotes, the 1494 preface versus the surviving 1522 edition, and recension-specific chapter numbering.
+- Appended 12 scoped receipts (60 fingerprints) covering description, title, tags, tag paths and geography. Overall status: 1,503 full, 18 partial, 878 never recorded of 2,399 lectures. No manuscripts, chronology records, source registries, prerequisites or prior receipts modified; independent source verification remains outside scope.
+- **Queue:** Next complete the twelve outstanding *Shahnameh* manuscripts; then proceed with other non-*Journey to the West* work. The six partial *Journey to the West* reviews remain deferred until the very end, as instructed. This pass stops at the completed Three Kingdoms series boundary.
+
 ## Audit progress (25 November 2026, batch 73)
 
 - Upgraded 12 previously partial World History lectures to full spoken-manuscript reviews (47,200 words): the Popol Wuj, Mali trade networks, Berenike, Belitung, the Swahili coast, ancient harbors, Egyptian manuscripts and all five Haitian Revolution installments. World History now has 81 of 111 full reviews, 30 partial reviews and no untouched description scopes. History remains complete (192 of 192).
