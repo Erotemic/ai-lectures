@@ -70,6 +70,13 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (26 November 2026, batch 75)
+
+- Upgraded all 12 outstanding *Shahnameh* manuscripts (075000–086000) to full spoken-manuscript reviews (51,431 whitespace-delimited spoken words). Including the already reviewed source-critical capstone (087000), the 13-lecture series is now fully reviewed. World History has 105 of 111 full reviews and six deferred partial *Journey to the West* reviews. History remains complete (192 of 192).
+- Refined 9 descriptions and retained 3; added 155 topical tags, 28 hierarchical paths and 18 geographic labels. No tags removed or titles changed. The revised previews include Tahmuras's writing, Manuchehr's revenge, the Simorgh's childbirth assistance, Siyavashgard and Giv's search, Piran's death and Lohrasp's accession, Daqiqi's embedded verse, the legendary Iskandar genealogy, the game and fable traditions at Khosrow's court, and the late Sasanian restoration and reversal. Legendary geography is not treated as a documented historical itinerary; no fabricated locations added for legendary cities or borders.
+- Appended 12 scoped receipts (60 fingerprints) covering description, title, tags, tag paths and geography. Overall status: 1,515 full, six partial, 878 never recorded of 2,399 lectures. All non-deferred partial description reviews have been resolved. No manuscripts, chronology records, source registries, prerequisites or prior receipts modified; independent source verification remains outside scope.
+- **Queue:** Return to the untouched non-deferred backlog, prioritizing non-mathematical tracks before mathematics where possible. Keep *Journey to the West* until the very end of the audit, including its six partial reviews; do not use the series to fill another batch quota.
+
 ## Audit progress (26 November 2026, batch 74)
 
 - Upgraded all 12 remaining partial *Romance of the Three Kingdoms* lectures to full spoken-manuscript reviews (55,956 catalog spoken words), including Parts IV–X, XII–XIV, XVI and the source-critical capstone. The 17-lecture series now has current full-manuscript description reviews throughout. World History now has 93 of 111 full reviews and 18 partial reviews. History remains complete (192 of 192).
