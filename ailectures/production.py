@@ -793,19 +793,34 @@ class GenerationManager:
             epoch = self.jobs.cache_epoch(scope)
             if epoch:
                 spec["cache_epoch"] = epoch
-            job_id = digest(
-                dict(
-                    lecture=lecture_id,
-                    revision=row["revision"],
-                    profile=profile_id,
-                    render_revision=profile["revision"],
-                    cache_epoch=epoch,
-                )
-            )
-            requests.append((job_id, spec))
+            requests.append((self._saved_job_id(spec), spec))
         return requests
 
+    @staticmethod
+    def _saved_job_id(spec):
+        return digest(dict(
+            lecture=spec["row"]["id"], revision=spec["row"]["revision"],
+            profile=spec["profile"], render_revision=spec["voice_profile"]["revision"],
+            cache_epoch=spec.get("cache_epoch"),
+        ))
+
+    def queue_saved_repair(self, lecture_id, recording, *, snapshot):
+        from .audio_audit import REPAIR_CACHE_PREFIX
+
+        generator = recording["generator"]
+        (_, spec), = self.saved_requests(
+            [lecture_id], generator["profile"],
+            profile_revision=generator["profile_revision"], snapshot=snapshot,
+        )
+        if self.variant(spec) != recording["variant"]:
+            raise ValueError("The saved recipe would produce a different recording variant")
+        spec["cache_epoch"] = REPAIR_CACHE_PREFIX + uuid4().hex
+        job_id = self._saved_job_id(spec)
+        self.jobs.enqueue([(job_id, spec)], fresh_cache=True)
+        return job_id
+
     def _open_saved(self, record, *, start=True):
+        from .audio_audit import REPAIR_CACHE_PREFIX, signal_problem
         from .render_recipe import compile_recipe, page_processor
         from .voice_profiles import profile_cache_key
         from dkvis.presentation.audio_library import AudioLectureLibrary
@@ -856,6 +871,16 @@ class GenerationManager:
         )
         cache.mkdir(parents=True, exist_ok=True)
         factory = self.engine_factory or AudioLectureLibrary
+        process_page = page_processor(saved["recipe"])
+        if (spec.get("cache_epoch") or "").startswith(REPAIR_CACHE_PREFIX):
+            original_process_page = process_page
+
+            def process_page(path, output_format, task):
+                if original_process_page is not None:
+                    original_process_page(path, output_format, task)
+                if problem := signal_problem(path):
+                    raise ValueError(f"Regenerated audio failed its signal check: {problem['issue']}")
+
         engine = factory(
             sources=sources,
             cache=cache,
@@ -866,7 +891,7 @@ class GenerationManager:
             output_format=saved["recipe"]["config"]["output_format"],
             title_handling=saved["recipe"]["title_enabled"],
             page_chars=saved["recipe"]["reader"]["page_chars"],
-            page_processor=page_processor(saved["recipe"]),
+            page_processor=process_page,
         )
         settings = engine.settings(saved["recipe"]["config"]["voice"], speed)
         job = dict(

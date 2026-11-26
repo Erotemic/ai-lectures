@@ -124,6 +124,14 @@ def main(argv=None):
     gc.add_argument("--keep-days", type=float, default=30)
     gc.add_argument("--keep-text-versions", type=int, default=2)
     gc.add_argument("--apply", metavar="PLAN_ID")
+    audio_audit = commands.add_parser("audio-audit", help="Find silent or unusable published audio blocks")
+    audio_audit.add_argument("--installed-only", action="store_true")
+    audio_audit.add_argument("--repository", type=Path)
+    audio_audit.add_argument("--lecture", action="append", default=[], help="Qualified lecture ID, repeat to scan several")
+    audio_audit.add_argument("--workers", type=int, default=4, help="Parallel FFmpeg decoders (default: %(default)s)")
+    audio_audit.add_argument("--json", action="store_true")
+    audio_audit.add_argument("--queue-repairs", action="store_true", help="Queue fresh audio for affected saved-profile recordings")
+    audio_audit.add_argument("--tts-config", type=Path)
     backup = commands.add_parser("backup")
     backup.add_argument("output", type=Path)
     restore = commands.add_parser("restore")
@@ -394,6 +402,46 @@ def main(argv=None):
             policy = dict(keep_days=args.keep_days,keep_text_versions=args.keep_text_versions)
             result = collect_garbage(library,args.apply,**policy) if args.apply else garbage_plan(library,**policy)
             print(json.dumps(result,indent=2))
+        elif args.command == "audio-audit":
+            from .audio_audit import audit_audio, queue_repairs
+            from .library import Library
+
+            last_update = 0.0
+
+            def progress(checked, total):
+                nonlocal last_update
+                now = time.monotonic()
+                if checked in {0, total} or now - last_update >= 5:
+                    print(f"Audio audit: {checked}/{total} files checked", file=sys.stderr, flush=True)
+                    last_update = now
+
+            with media_lock(args.library):
+                print("Audio audit: reading the current catalog", file=sys.stderr, flush=True)
+                library = Library(args.library, repository=repository)
+                report = audit_audio(library, args.lecture, workers=args.workers, report_progress=progress)
+                if args.queue_repairs:
+                    report["repairs"] = {"queued": [], "skipped": []}
+                    if report["findings"]:
+                        from .production import GenerationManager
+
+                        manager = GenerationManager(library, config=args.tts_config, repository=repository)
+                        try:
+                            report["repairs"] = queue_repairs(manager, report["findings"])
+                        finally:
+                            manager.close()
+            if args.json:
+                print(json.dumps(report, indent=2))
+            else:
+                print(f"{report['files_checked']} files checked, {len(report['findings'])} flagged blocks")
+                for item in report["findings"]:
+                    level = f" ({item['rms_dbfs']:.1f} dBFS)" if item.get("rms_dbfs") is not None else ""
+                    print(f"{item['lecture']} · {item['label']} · block {item['block'] + 1}: {item['issue'].replace('_', ' ')}{level}")
+                    print(f"  {item['path']}")
+                if repairs := report.get("repairs"):
+                    for repair in repairs["queued"]:
+                        print(f"Queued {repair['lecture']} as job {repair['job']}")
+                    for repair in repairs["skipped"]:
+                        print(f"Could not queue {repair['lecture']}: {repair['reason']}")
         elif args.command == "backup":
             from .storage import backup_library
 

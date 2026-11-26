@@ -96,15 +96,21 @@ class JobStore:
         with self.connect() as db:
             return dict(db.execute("SELECT id,state FROM jobs"))
 
-    def enqueue(self, specifications, *, blocks=None, requeue_ready=False):
+    def enqueue(self, specifications, *, blocks=None, requeue_ready=False, fresh_cache=False):
         now = time.time()
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             for job_id, specification in specifications:
                 checksum(job_id)
+                scope = self.cache_scope(specification)
+                if fresh_cache:
+                    new_epoch = specification.get("cache_epoch")
+                    if not scope or not new_epoch:
+                        raise ValueError("Fresh preparation requires a voice cache scope and epoch")
+                    self._clear_voice(db, scope, new_epoch)
                 epoch = db.execute(
                     "SELECT epoch FROM cache_epochs WHERE scope=?",
-                    (self.cache_scope(specification),),
+                    (scope,),
                 ).fetchone()
                 if specification.get("cache_epoch") != (epoch[0] if epoch else None):
                     raise ValueError(
@@ -194,23 +200,25 @@ class JobStore:
         """Fence enqueue/publication while retiring this voice's current cache."""
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
-            matching = [
-                self.decode(row)
-                for row in db.execute("SELECT * FROM jobs")
-                if self.cache_scope(self.decode(row)["specification"]) == scope
-            ]
-            if any(row["state"] in {"queued", "running"} for row in matching):
-                raise ValueError(
-                    "Stop generation for this lecture and voice before clearing its cache"
-                )
+            self._clear_voice(db, scope, epoch, callback)
+
+    def _clear_voice(self, db, scope, epoch, callback=None):
+        matching = [
+            (row["id"], row["state"])
+            for row in db.execute("SELECT id,state,specification FROM jobs")
+            if self.cache_scope(json.loads(row["specification"])) == scope
+        ]
+        if any(state in {"queued", "running"} for _, state in matching):
+            raise ValueError(
+                "Stop generation for this lecture and voice before clearing its cache"
+            )
+        if callback is not None:
             callback()
-            db.execute(
-                "INSERT OR REPLACE INTO cache_epochs VALUES (?,?)", (scope, epoch)
-            )
-            db.executemany(
-                "UPDATE jobs SET state='cleared',inventory=NULL,published=NULL WHERE id=?",
-                [(row["id"],) for row in matching],
-            )
+        db.execute("INSERT OR REPLACE INTO cache_epochs VALUES (?,?)", (scope, epoch))
+        db.executemany(
+            "UPDATE jobs SET state='cleared',inventory=NULL,published=NULL WHERE id=?",
+            [(job_id,) for job_id, _ in matching],
+        )
 
     def claim(self, owner, *, limit=2, lease_seconds=60):
         now = time.time()

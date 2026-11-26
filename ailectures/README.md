@@ -48,6 +48,25 @@ its heading. It starts expanded and remembers the open/closed choice for each
 listener in that browser. The expanded section retains resume, next-item and
 full listening-history links.
 
+### Audit published audio
+
+Run `audio-audit` with FFmpeg on `PATH`. It checks the currently visible
+recordings and lists silent, near-silent, missing, undecodable, or changed
+blocks. Near silence means a decoded RMS level at or below −55 dBFS. The
+measurement flags low signal levels and cannot verify the spoken words.
+
+```bash
+python -m ailectures --library library-data audio-audit
+python -m ailectures --library library-data audio-audit --lecture music-theory:001000 --json
+```
+
+Add `--queue-repairs` to regenerate affected reader-produced recordings with
+their saved voice recipes. The reader's production worker regenerates the
+whole affected recording from a fresh cache and checks the new audio before
+publication. The existing release stays available during generation and remains
+in history after replacement. The report identifies recordings that need manual
+repair, such as imported audio without its original rendering recipe.
+
 ### Illustrations
 
 Season sections and their episodes share covers declared in a pack's
