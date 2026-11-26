@@ -10,7 +10,7 @@ from .core import Conflict, digest, read_json, write_json
 from .maintenance import media_lock
 from .narration import speech_cache_key
 from .voice_profiles import profile_cache_key
-from .source_snapshots import expand_snapshot
+from .source_snapshots import SCHEMA, expand_snapshot
 
 
 def readonly(path):
@@ -29,19 +29,73 @@ def directory_facts(path):
                 modified=max(row[2] for row in files)/1e9, fingerprint=digest(files))
 
 
+def retain_source_history(db, hashes, referenced, keep_text_versions):
+    protected = set(referenced)
+    pending = set(hashes) if keep_text_versions > 1 else set()
+    if not pending and not referenced:
+        return protected
+
+    # Keep only the text hashes for shared rows. A library may have thousands
+    # of snapshots of largely the same catalog, plus older inline snapshots.
+    shared_hashes = {}
+    if pending:
+        snapshots = db.execute(
+            'SELECT release,catalog FROM source_snapshots ORDER BY rowid DESC'
+        )
+    else:
+        snapshots = (
+            row
+            for release in referenced
+            for row in db.execute(
+                'SELECT release,catalog FROM source_snapshots WHERE release=?',
+                (release,),
+            )
+        )
+    for snapshot in snapshots:
+        release, raw = snapshot
+        if release in referenced:
+            for row in expand_snapshot(db, raw).values():
+                for rec in row.get('recordings', []):
+                    if rec.get('_release'):
+                        protected.add(rec['_release'])
+                    protected.update(
+                        segment['_release'] for segment in rec['segments'] if segment.get('_release')
+                    )
+        if not pending:
+            continue
+        catalog = json.loads(raw)
+        shared = catalog.get('_schema') == SCHEMA
+        rows = catalog['lectures'] if shared else catalog
+        for key in pending.intersection(rows):
+            row = rows[key]
+            if shared:
+                identity = row['row']
+                if identity not in shared_hashes:
+                    stored = db.execute(
+                        "SELECT json_extract(document, '$.spoken_sha256') "
+                        'FROM source_snapshot_rows WHERE id=?',
+                        (identity,),
+                    ).fetchone()
+                    if stored is None:
+                        raise ValueError('Historical lecture row is missing')
+                    shared_hashes[identity] = stored[0]
+                spoken_hash = shared_hashes[identity]
+            else:
+                spoken_hash = row['spoken_sha256']
+            if spoken_hash not in hashes[key]:
+                hashes[key].append(spoken_hash)
+                if len(hashes[key]) == keep_text_versions:
+                    pending.remove(key)
+    return protected
+
+
 def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
     if type(keep_days) not in (int,float) or not 0 <= keep_days <= 36500: raise ValueError('keep_days must be 0–36500')
     if type(keep_text_versions) is not int or not 1 <= keep_text_versions <= 20: raise ValueError('keep_text_versions must be 1–20')
     snapshot = library.snapshot(copy=False)
     current = snapshot['lectures']
     hashes = {key:[row['spoken_sha256']] for key,row in current.items()}
-    with library.store.connect() as db:
-        releases = [dict(row) for row in db.execute('SELECT * FROM releases')]
-        snapshots = {row['release']:expand_snapshot(db, row['catalog']) for row in db.execute('SELECT release,catalog FROM source_snapshots ORDER BY rowid DESC')}
-    for rows in snapshots.values():
-        for key,row in rows.items():
-            if key in hashes and len(hashes[key]) < keep_text_versions and row['spoken_sha256'] not in hashes[key]: hashes[key].append(row['spoken_sha256'])
-    protected = set()
+    referenced = set()
     # Historical audio named in progress or feedback remains reachable.
     listener_db = library.store.state/'listeners.sqlite3'
     if listener_db.exists():
@@ -52,11 +106,9 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
             for field in ('release','pack_release'):
                 release = ref.get(field)
                 if not release: continue
-                protected.add(release)
-                for row in snapshots.get(release,{}).values():
-                    for rec in row.get('recordings',[]):
-                        if rec.get('_release'): protected.add(rec['_release'])
-                        protected.update(segment['_release'] for segment in rec['segments'] if segment.get('_release'))
+                referenced.add(release)
+    with library.store.connect() as db:
+        protected = retain_source_history(db, hashes, referenced, keep_text_versions)
     job_db = library.store.state/'production.sqlite3'
     jobs = []
     if job_db.exists():
@@ -78,12 +130,15 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
         if facts['modified'] >= cutoff: retained.append(dict(record,reason='Within retention period'))
         else: candidates.append(record)
     stale_releases = set()
-    for release in releases:
-        manifest, catalog = json.loads(release['manifest']),json.loads(release['catalog'])
-        if manifest.get('kind') != 'media': continue
-        if release['release'] in protected or not stale(catalog['lectures']): continue
-        stale_releases.add(release['release'])
-        consider(library.store.packs/release['pack_id']/release['release'],'media-release',release=release['release'],pack_id=release['pack_id'])
+    with library.store.connect() as db:
+        for release in db.execute('SELECT release,pack_id,manifest,catalog FROM releases'):
+            release_id, pack_id, manifest, catalog = release
+            if release_id in protected or json.loads(manifest).get('kind') != 'media':
+                continue
+            if not stale(json.loads(catalog)['lectures']):
+                continue
+            stale_releases.add(release_id)
+            consider(library.store.packs/pack_id/release_id, 'media-release', release=release_id, pack_id=pack_id)
     for path in (library.store.root/'exports').glob('*'):
         if path.is_dir() and (path/'pack.json').is_file():
             try:

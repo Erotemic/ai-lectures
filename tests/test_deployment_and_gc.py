@@ -15,6 +15,7 @@ from ailectures.garbage import garbage_plan, collect_garbage
 from ailectures.jobs import JobStore
 from ailectures.library import Library
 from ailectures.packs import export_release
+from ailectures.source_snapshots import save_snapshot
 from ailectures.state import ListenerState
 from ailectures.storage import restore_library
 from ailectures.web import create_app
@@ -126,6 +127,28 @@ def test_cleanup_keeps_progress_references_recent_text_and_running_work(tmp_path
     with pytest.raises(ValueError,match='Finish or cancel'):
         collect_garbage(library,plan['plan_id'],keep_text_versions=1)
     assert path.exists()
+
+
+def test_cleanup_retains_shared_snapshot_text_and_referenced_segment_releases(tmp_path):
+    library, old, _ = stale_library(tmp_path)
+    media = next(r for r in library.store.active() if r['release'] == old['release'])
+    row = json.loads(media['catalog'])['lectures']['audio-test:001000']
+    row['recordings'][0]['segments'][0]['_release'] = old['release']
+    historical = digest('source snapshot with old audio')
+    with library.store.connect() as db:
+        save_snapshot(db, historical, {row['id']: row})
+
+    assert not garbage_plan(library)['candidates']
+    assert garbage_plan(library, keep_text_versions=1)['candidates']
+
+    state = ListenerState(library.store.state)
+    listener = state.create_profile('Listener')['id']
+    with state.connect() as db:
+        db.execute(
+            'INSERT INTO progress VALUES (?,?,?,?)',
+            (listener, row['id'], 1, json.dumps({'pack_release': historical})),
+        )
+    assert not garbage_plan(library, keep_text_versions=1)['candidates']
 
 
 def test_live_sources_pick_up_published_media_and_http_bundle_restores(tmp_path):
