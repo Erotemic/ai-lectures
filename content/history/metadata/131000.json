@@ -444,9 +444,15 @@
     "Linearized inverse conductivity problem",
     "John Sylvester",
     "Gunther Uhlmann",
-    "Forward problems"
+    "Forward problems",
+    "Lp spaces",
+    "Pseudodifferential operators",
+    "Electrical impedance tomography",
+    "Ill-conditioned inverse problems",
+    "Chicago school of analysis",
+    "Alexandra Bellow"
   ],
-  "description": "Follows Alberto Calderón from engineering in Argentina through Chicago and MIT, explaining principal-value singular integrals, the Calderón–Zygmund decomposition, cancellation estimates and uniqueness questions for Cauchy problems. Introduces his inverse conductivity problem and distinguishes the linearized analysis from later nonlinear uniqueness results.",
+  "description": "Follows Alberto Calderón from engineering in Argentina through Chicago and MIT, explaining principal-value singular integrals, the Calderón–Zygmund decomposition, operator estimates, pseudodifferential operators and uniqueness for Cauchy problems. Introduces inverse conductivity and distinguishes linearized analysis, later nonlinear uniqueness results and the difficulty of stable reconstruction.",
   "tag_paths": [
     [
       "History",
@@ -488,12 +494,25 @@
       "Analysis",
       "Inverse problems",
       "Inverse conductivity"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Harmonic analysis",
+      "Pseudodifferential operators"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Inverse problems",
+      "Electrical impedance tomography"
     ]
   ],
   "places": [
     "Mendoza",
     "Buenos Aires",
     "Chicago",
-    "Cambridge (Massachusetts)"
+    "Cambridge (Massachusetts)",
+    "Zug, Switzerland"
   ]
 }

@@ -70,6 +70,13 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (25 November 2026, batch 70)
+
+- Revisited all 26 remaining partial History lectures. Completed ten full manuscript reviews (Ulugh Beg, Calderón, Chike Obi, Lavoisier, Pasteur, Humboldt, Mendeleev, Payne-Gaposchkin, Haber I and Oppenheimer I), totaling 40,165 spoken words; 16 received additional targeted reviews and remain partial. The selected manuscripts contain 129,223 words. The full-manuscript audit of History is not yet complete.
+- Refined 7 descriptions and retained 19; added 142 flat tags, 60 hierarchy paths and 26 geographic labels. Added 26 append-only receipts covering 114 scoped fingerprints, checked against the final inventory. No registry titles, manuscripts, chronology, sources or prerequisites changed. The Pasteur, Humboldt and Haber I title variants identify their lectures and were retained.
+- Full-review improvements include Calderón's pseudodifferential operators and inverse reconstruction, Obi's external education and return maps, Payne-Gaposchkin's later variability work, Haber's industrial collaborations and environmental effects, and Oppenheimer's prewar nuclear and relativistic stellar research. Targeted improvements include Semmelweis's nonrandomized comparisons and later clinical reform, Darwin's seed-dispersal work, Einstein's quantum statistics and Wiles's early arithmetic geometry.
+- Description status: 1,447 fully reviewed, 74 partial, 878 never recorded across 2,399 lectures; History 176 full, 16 partial, 0 never recorded. Next: complete the remaining 16 History partials. Independent factual/proof verification remains outside this scope; prior Hotelling II follow-up retained.
+
 ## Audit progress (25 November 2026, batch 69)
 
 - Continued the 32-lecture History batch. Completed full spoken-manuscript metadata reviews for the 17 outstanding targeted reviews from batch 68 (Nash through Blackwell), and targeted 15 additional biographies (Ulugh Beg through Tharp). Read 53,200 spoken words in full manuscripts; all selected manuscripts contain 121,120 words. The targeted reviews remain partial.
