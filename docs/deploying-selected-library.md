@@ -59,8 +59,10 @@ not automatically added.
 
 # Clean up stale audio
 
-Packs → Library storage → **Preview stale audio cleanup** shows eligible paths
-and bytes, with an exact command for applying that preview. CLI preview:
+Packs → Library storage → **Preview stale audio cleanup** shows the current scan
+stage, elapsed time, and counts when a stage has a known total. The finished
+preview shows eligible paths and bytes with a command to apply the plan. To
+preview from the CLI, run
 
 ```bash
 python -m ailectures --library library-data gc --repository .

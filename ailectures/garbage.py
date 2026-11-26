@@ -29,7 +29,26 @@ def directory_facts(path):
                 modified=max(row[2] for row in files)/1e9, fingerprint=digest(files))
 
 
-def retain_source_history(db, hashes, referenced, keep_text_versions):
+def scan_stage(items, report_progress, stage, total=None):
+    if report_progress is None:
+        yield from items
+        return
+
+    report_progress(stage, 0, total)
+    checked = last_checked = 0
+    next_update = time.monotonic() + 0.25
+    for checked, item in enumerate(items, 1):
+        yield item
+        now = time.monotonic()
+        if now >= next_update:
+            report_progress(stage, checked, total)
+            last_checked = checked
+            next_update = now + 0.25
+    if checked != last_checked:
+        report_progress(stage, checked, total)
+
+
+def retain_source_history(db, hashes, referenced, keep_text_versions, report_progress):
     protected = set(referenced)
     pending = set(hashes) if keep_text_versions > 1 else set()
     if not pending and not referenced:
@@ -38,7 +57,10 @@ def retain_source_history(db, hashes, referenced, keep_text_versions):
     # Keep only the text hashes for shared rows. A library may have thousands
     # of snapshots of largely the same catalog, plus older inline snapshots.
     shared_hashes = {}
+    total = None
     if pending:
+        if report_progress is not None:
+            total = db.execute('SELECT count(*) FROM source_snapshots').fetchone()[0]
         snapshots = db.execute(
             'SELECT release,catalog FROM source_snapshots ORDER BY rowid DESC'
         )
@@ -51,7 +73,7 @@ def retain_source_history(db, hashes, referenced, keep_text_versions):
                 (release,),
             )
         )
-    for snapshot in snapshots:
+    for snapshot in scan_stage(snapshots, report_progress, 'snapshots', total):
         release, raw = snapshot
         if release in referenced:
             for row in expand_snapshot(db, raw).values():
@@ -89,14 +111,18 @@ def retain_source_history(db, hashes, referenced, keep_text_versions):
     return protected
 
 
-def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
+def garbage_plan(library, *, keep_days=30, keep_text_versions=2, report_progress=None):
     if type(keep_days) not in (int,float) or not 0 <= keep_days <= 36500: raise ValueError('keep_days must be 0–36500')
     if type(keep_text_versions) is not int or not 1 <= keep_text_versions <= 20: raise ValueError('keep_text_versions must be 1–20')
+    if report_progress is not None:
+        report_progress('catalog', 0, None)
     snapshot = library.snapshot(copy=False)
     current = snapshot['lectures']
     hashes = {key:[row['spoken_sha256']] for key,row in current.items()}
     referenced = set()
     # Historical audio named in progress or feedback remains reachable.
+    if report_progress is not None:
+        report_progress('references', 0, None)
     listener_db = library.store.state/'listeners.sqlite3'
     if listener_db.exists():
         with readonly(listener_db) as db:
@@ -108,7 +134,7 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
                 if not release: continue
                 referenced.add(release)
     with library.store.connect() as db:
-        protected = retain_source_history(db, hashes, referenced, keep_text_versions)
+        protected = retain_source_history(db, hashes, referenced, keep_text_versions, report_progress)
     job_db = library.store.state/'production.sqlite3'
     jobs = []
     if job_db.exists():
@@ -135,7 +161,9 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
         else: candidates.append(record)
     stale_releases = set()
     with library.store.connect() as db:
-        for release in db.execute('SELECT release,pack_id,manifest,catalog FROM releases'):
+        total = db.execute('SELECT count(*) FROM releases').fetchone()[0] if report_progress is not None else None
+        releases = db.execute('SELECT release,pack_id,manifest,catalog FROM releases')
+        for release in scan_stage(releases, report_progress, 'releases', total):
             release_id, pack_id, manifest, catalog = release
             if release_id in protected or json.loads(manifest).get('kind') != 'media':
                 continue
@@ -143,7 +171,8 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
                 continue
             stale_releases.add(release_id)
             consider(library.store.packs/pack_id/release_id, 'media-release', release=release_id, pack_id=pack_id)
-    for path in (library.store.root/'exports').glob('*'):
+    exports = list((library.store.root/'exports').glob('*'))
+    for path in scan_stage(exports, report_progress, 'exports', len(exports)):
         if path.is_dir() and (path/'pack.json').is_file():
             try:
                 manifest = read_json(path/'pack.json')
@@ -151,7 +180,7 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
                     consider(path,'export-copy')
             except (OSError,ValueError,KeyError): pass
     groups = {}
-    for job in jobs:
+    for job in scan_stage(jobs, report_progress, 'generation', len(jobs)):
         spec = json.loads(job['specification'])
         row = spec.get('row',{})
         old = row.get('id') in hashes and row.get('spoken_sha256') not in hashes[row['id']]
@@ -161,8 +190,10 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
             key = (profile_cache_key(row['id'], spec['voice_profile'], spec.get('cache_epoch'))
                    if spec.get('voice_profile') else speech_cache_key(row['id'],spec['configuration']))
             groups.setdefault(key,[]).append(old and terminal)
-    for key, eligible in groups.items():
+    for key, eligible in scan_stage(groups.items(), report_progress, 'speech', len(groups)):
         if all(eligible): consider(library.store.root/'build-cache/speech'/key,'speech-cache')
+    if report_progress is not None:
+        report_progress('finalizing', 0, None)
     candidates.sort(key=lambda row:row['path'])
     policy = dict(keep_days=keep_days,keep_text_versions=keep_text_versions)
     return dict(schema_version=1,policy=policy,plan_id=digest(dict(policy=policy,candidates=candidates)),

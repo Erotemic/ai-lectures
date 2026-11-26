@@ -1,4 +1,4 @@
-import { api, el } from "./api.mjs";
+import { api, clock, el, post } from "./api.mjs";
 
 const shellQuote = value => "'" + value.replaceAll("'", "'\\''") + "'";
 
@@ -10,6 +10,83 @@ export function bytes(value) {
     ["KiB", 1024],
   ])
     if (value >= divisor) return `${(value / divisor).toFixed(1)} ${unit}`;
+}
+
+const cleanupURL = "/api/library/storage/gc";
+const scanStages = {
+  catalog: "Reading the current catalog",
+  references: "Checking listening history and feedback",
+  snapshots: "Checking historical text snapshots",
+  releases: "Checking installed releases",
+  exports: "Checking exported copies",
+  generation: "Checking generation jobs",
+  speech: "Checking speech caches",
+  finalizing: "Preparing the cleanup plan",
+};
+
+function showCleanupPlan(report, plan, data) {
+  const count = plan.candidates.length;
+  report.replaceChildren(el("p", {
+    role: "status",
+    text: count
+      ? `${count} stale audio/cache directories · ${bytes(plan.bytes)} reclaimable. Nothing has been deleted.`
+      : "No stale audio or cache directories are eligible for cleanup.",
+  }));
+  if (plan.retained_recent.length) {
+    report.append(el("p", {
+      text: `Directories still within the ${plan.policy.keep_days}-day grace period: ${plan.retained_recent.length}.`,
+    }));
+  }
+  if (!count) return;
+  const source = data.repository_root ? `--repository ${shellQuote(data.repository_root)}` : "--installed-only";
+  report.append(
+    el("p", { text: "Finish generation and stop the reader before applying the reviewed plan from a terminal." }),
+    el("pre", { text: `python -m ailectures --library ${shellQuote(data.library_root)} gc ${source} --apply ${plan.plan_id}` }),
+    el("details", {}, el("summary", { text: "Candidate paths" }), el("ul", {},
+      ...plan.candidates.map(item => el("li", { text: `${item.path} · ${bytes(item.bytes)}` })))),
+  );
+}
+
+function cleanupControls(data, refresh) {
+  const button = el("button", { type: "button", text: "Preview stale audio cleanup" });
+  const report = el("div");
+  button.onclick = async () => {
+    button.disabled = refresh.disabled = true;
+    const status = el("p", { role: "status", text: "Starting cleanup preview…" });
+    const elapsed = el("p", { class: "muted", text: "0:00 elapsed" });
+    const progress = el("progress", { "aria-label": "Files and records checked in this stage", hidden: true });
+    report.replaceChildren(status, progress, elapsed);
+    const started = performance.now();
+    const timer = setInterval(() => {
+      elapsed.textContent = `${clock((performance.now() - started) / 1000)} elapsed`;
+    }, 1000);
+
+    try {
+      let preview = await post(cleanupURL, {});
+      while (preview.state === "running" && report.isConnected) {
+        const { stage, checked, total } = preview.progress;
+        const label = scanStages[stage];
+        const text = total > 0 ? `${label} · ${Math.min(checked, total)} of ${total}` : `${label}…`;
+        if (status.textContent !== text) status.textContent = text;
+        progress.hidden = !(total > 0);
+        if (!progress.hidden) {
+          progress.max = total;
+          progress.value = checked;
+        }
+        await new Promise(resolve => setTimeout(resolve, 500));
+        if (report.isConnected) preview = await api(`${cleanupURL}/${preview.id}`);
+      }
+      if (!report.isConnected) return;
+      if (preview.state === "failed") throw new Error(preview.error);
+      showCleanupPlan(report, preview.plan, data);
+    } catch (error) {
+      report.replaceChildren(el("p", { class: "notice", role: "status", text: `Cleanup preview failed. ${error.message}` }));
+    } finally {
+      clearInterval(timer);
+      button.disabled = refresh.disabled = false;
+    }
+  };
+  return [el("h3", { text: "Clean up stale audio" }), button, report];
 }
 
 export async function showStorage(panel, cards, catalog) {
@@ -85,20 +162,8 @@ export async function showStorage(panel, cards, catalog) {
         el("pre", {
           text: "ailectures --library LIBRARY_DIRECTORY backup BACKUP.zip\nailectures --library NEW_LIBRARY_DIRECTORY restore BACKUP.zip",
         }),
+        ...cleanupControls(data, refresh),
       );
-      const cleanup=el("button",{type:"button",text:"Preview stale audio cleanup"});
-      const report=el("div");
-      cleanup.onclick=async()=>{
-        cleanup.disabled=true;
-        try {
-          const plan=await api("/api/library/storage/gc");
-          report.replaceChildren(el("p",{text:`${plan.candidates.length} stale audio/cache directories · ${bytes(plan.bytes)} reclaimable. Nothing has been deleted.`}),
-            el("p",{text:"Default policy keeps the current and previous text revisions, a 30-day grace period, and historical audio referenced by progress or feedback. Finish generation and stop the reader before applying the reviewed plan from a terminal."}),
-            el("pre",{text:`python -m ailectures --library ${shellQuote(data.library_root)} gc ${data.repository_root ? "--repository " + shellQuote(data.repository_root) : "--installed-only"} --apply ${plan.plan_id}`}),
-            el("details",{},el("summary",{text:"Candidate paths"}),el("ul",{},...plan.candidates.map(item=>el("li",{text:item.path+" · "+bytes(item.bytes)})))));
-        } catch(error){report.textContent=error.message;} finally{cleanup.disabled=false;}
-      };
-      content.append(el("h3",{text:"Clean up stale audio"}),cleanup,report);
     } catch (error) {
       content.replaceChildren(
         el("p", {

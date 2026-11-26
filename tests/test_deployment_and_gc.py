@@ -3,6 +3,7 @@ from copy import deepcopy
 import json
 import os
 from pathlib import Path
+from threading import Event
 import time
 from zipfile import ZipFile
 
@@ -108,6 +109,45 @@ def test_cleanup_is_previewed_and_requires_matching_plan_and_stopped_reader(tmp_
     assert 'audio-test:001000' in Library(library.store.root).snapshot()['lectures']
     with library.store.connect() as db:
         assert not db.execute('SELECT 1 FROM releases WHERE release=?',(old['release'],)).fetchone()
+
+
+def test_cleanup_preview_reports_progress_before_returning_the_plan(tmp_path, monkeypatch):
+    library, _, path = stale_library(tmp_path)
+    expected = garbage_plan(library)
+    reached_releases, resume = Event(), Event()
+
+    def slow_scan(library, *, report_progress=None):
+        def report(stage, checked, total):
+            report_progress(stage, checked, total)
+            if stage == 'releases' and checked == 0:
+                reached_releases.set()
+                assert resume.wait(5)
+
+        return garbage_plan(library, report_progress=report if report_progress else None)
+
+    monkeypatch.setattr('ailectures.garbage.garbage_plan', slow_scan)
+    with TestClient(create_app(library.store.root)) as client:
+        url = '/api/library/storage/gc'
+        started = client.post(url)
+        assert started.status_code == 202
+        preview_id = started.json()['id']
+        status = f'{url}/{preview_id}'
+        try:
+            assert reached_releases.wait(5)
+            preview = client.get(status).json()
+            assert preview['state'] == 'running' and 'plan' not in preview
+            assert preview['progress'] == {'stage': 'releases', 'checked': 0, 'total': 2}
+            assert client.post(url).json()['id'] == preview_id
+        finally:
+            resume.set()
+        for _ in range(100):
+            preview = client.get(status).json()
+            if preview['state'] != 'running':
+                break
+            time.sleep(0.01)
+        assert preview['state'] == 'complete'
+        assert preview['plan'] == expected == client.get(url).json()
+        assert path.exists()
 
 
 def test_cleanup_keeps_progress_references_recent_text_and_running_work(tmp_path):

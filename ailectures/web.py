@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import gzip
 import json
+import logging
 import re
 import sqlite3
 import threading
@@ -39,6 +40,7 @@ from .discovery import discovery_fields
 from .descriptions import description_fields
 
 STATIC = Path(__file__).with_name("static")
+logger = logging.getLogger(__name__)
 
 
 def accepts_gzip(header):
@@ -143,6 +145,8 @@ def create_app(
     catalog_lock = threading.Lock()
     cloud_cache = {}
     cloud_lock = threading.Lock()
+    cleanup_previews = {}
+    cleanup_task = None
 
     def production():
         if playback_disabled():
@@ -466,7 +470,52 @@ def create_app(
 
     async def garbage_preview(request):
         from .garbage import garbage_plan
-        return JSONResponse(await run_in_threadpool(garbage_plan,library),headers={"Cache-Control":"no-store"})
+        if request.method == "GET":
+            return JSONResponse(
+                await run_in_threadpool(garbage_plan, library),
+                headers={"Cache-Control": "no-store"},
+            )
+
+        nonlocal cleanup_task
+        if cleanup_task is None or cleanup_task.done():
+            preview_id = uuid4().hex
+            preview = {
+                "id": preview_id,
+                "state": "running",
+                "progress": {"stage": "catalog", "checked": 0, "total": None},
+            }
+            cleanup_previews[preview_id] = preview
+            if len(cleanup_previews) > 2:
+                cleanup_previews.pop(next(iter(cleanup_previews)))
+            loop = asyncio.get_running_loop()
+
+            def report_progress(stage, checked, total):
+                loop.call_soon_threadsafe(
+                    preview.update,
+                    {"progress": {"stage": stage, "checked": checked, "total": total}},
+                )
+
+            async def scan():
+                try:
+                    plan = await run_in_threadpool(garbage_plan, library, report_progress=report_progress)
+                except (OSError, ValueError, sqlite3.Error) as exc:
+                    preview.update(state="failed", error=str(exc))
+                except Exception:
+                    logger.exception("Stale audio preview failed")
+                    preview.update(state="failed", error="The server could not finish the scan")
+                else:
+                    preview.update(state="complete", plan=plan)
+
+            cleanup_task = asyncio.create_task(scan())
+        else:
+            preview = cleanup_previews[next(reversed(cleanup_previews))]
+        return JSONResponse(preview, status_code=202, headers={"Cache-Control": "no-store"})
+
+    async def garbage_preview_status(request):
+        preview = cleanup_previews.get(request.path_params["preview_id"])
+        if preview is None:
+            raise KeyError("This cleanup preview has expired. Start a new preview to scan again.")
+        return JSONResponse(preview, headers={"Cache-Control": "no-store"})
 
     async def pack_export(request):
         from .exports import export_pack
@@ -1357,6 +1406,8 @@ def create_app(
                     await task
                 except asyncio.CancelledError:
                     pass
+                if cleanup_task is not None:
+                    await cleanup_task
                 if producer is not None:
                     await run_in_threadpool(producer.close)
                 if legacy:
@@ -1394,7 +1445,8 @@ def create_app(
         Route("/api/library/word-cloud/find", word_cloud_find),
         Route("/api/library/storage", storage),
         Route("/api/library/deployment", deployment, methods=["POST"]),
-        Route("/api/library/storage/gc", garbage_preview),
+        Route("/api/library/storage/gc", garbage_preview, methods=["GET", "POST"]),
+        Route("/api/library/storage/gc/{preview_id}", garbage_preview_status),
         Route("/api/library/learning-map", learning_map),
         Route("/api/library/learning-plan", learning_plan, methods=["POST"]),
         Route(
