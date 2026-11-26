@@ -325,7 +325,10 @@
   "places": [
     "Princeton",
     "Princeton, New Jersey",
-    "West Virginia"
+    "West Virginia",
+    "Bluefield, West Virginia",
+    "Pittsburgh, Pennsylvania",
+    "Norway"
   ],
   "tags": [
     "History of science and mathematics",
@@ -348,9 +351,15 @@
     "Nash–Moser methods",
     "Smoothing iteration",
     "Partial differential equation regularity",
-    "Ennio De Giorgi"
+    "Ennio De Giorgi",
+    "Minimax theorem",
+    "Zero-sum games",
+    "Best responses",
+    "Brouwer fixed-point theorem",
+    "Kakutani fixed-point theorem",
+    "Equilibrium and social welfare"
   ],
-  "description": "Follows John Nash from West Virginia to Princeton and Carnegie, exploring equilibrium existence for finite games, mixed strategies and bargaining. Explains his separate work on isometric embeddings, smoothing methods and regularity of partial differential equations, alongside his interrupted research career, family, illness and later recognition without treating illness as an explanation of mathematical achievement.",
+  "description": "Follows John Nash from West Virginia through Carnegie and Princeton, distinguishing equilibrium existence for finite games from zero-sum minimax and exploring mixed strategies and bargaining. Explains his work on isometric embeddings, smoothing and PDE regularity alongside his interrupted research career, family, illness and later recognition without treating illness as an explanation of mathematical achievement.",
   "tag_paths": [
     [
       "History",
@@ -383,6 +392,21 @@
       "Geometry",
       "Differential geometry",
       "Isometric embeddings"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Nash equilibrium"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Zero-sum games"
+    ],
+    [
+      "Mathematics",
+      "Topology",
+      "Fixed-point theorems"
     ]
   ],
   "chronology": {

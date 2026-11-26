@@ -229,7 +229,9 @@
   "places": [
     "Scotland",
     "Edinburgh",
-    "St Andrews, Scotland"
+    "St Andrews, Scotland",
+    "Merchiston",
+    "London"
   ],
   "tags": [
     "History of science and mathematics",
@@ -252,9 +254,18 @@
     "Arithmetic and geometric progressions",
     "Rabdologiae",
     "Right spherical triangles",
-    "Napier’s rules"
+    "Napier’s rules",
+    "Scottish Reformation",
+    "A Plaine Discovery of the Whole Revelation of Saint John",
+    "Religious polemic",
+    "Union of the Crowns",
+    "Numerical interpolation",
+    "Table rounding",
+    "Partial products",
+    "Hand computation",
+    "Logarithmic scales"
   ],
-  "description": "Explains John Napier’s scaled logarithms for trigonometric tables, their distinction from modern logarithm conventions, calculating rods and spherical-triangle rules amid sixteenth-century Scottish landholding and religious conflict. Follows the publication of his methods and later collaboration with Henry Briggs.",
+  "description": "Explains John Napier’s scaled logarithms for trigonometric tables, their distinction from modern logarithms, calculating rods and spherical-triangle rules. Places these methods alongside his landholding and polemical writing on Revelation during the Scottish Reformation, and follows their publication and his later exchanges with Henry Briggs.",
   "tag_paths": [
     [
       "History",
@@ -288,6 +299,17 @@
       "Geometry",
       "Spherical trigonometry",
       "Right spherical triangles"
+    ],
+    [
+      "History",
+      "Religious history",
+      "Scottish Reformation"
+    ],
+    [
+      "Mathematics",
+      "Numerical analysis",
+      "Numerical computation",
+      "Table interpolation"
     ]
   ],
   "chronology": {

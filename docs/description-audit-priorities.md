@@ -70,6 +70,13 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (25 November 2026, batch 69)
+
+- Continued the 32-lecture History batch. Completed full spoken-manuscript metadata reviews for the 17 outstanding targeted reviews from batch 68 (Nash through Blackwell), and targeted 15 additional biographies (Ulugh Beg through Tharp). Read 53,200 spoken words in full manuscripts; all selected manuscripts contain 121,120 words. The targeted reviews remain partial.
+- Refined 11 descriptions and retained 21; added 230 flat tags, 88 hierarchy paths and 48 geographic labels. No title, manuscript, chronology, source or prerequisite changes. Added 32 receipts covering 145 scoped fingerprints; all checked against the final inventory.
+- Important description improvements: Nash's chronology and minimax distinction, Hamilton's optical characteristic function, Erdős's elementary prime-number theorem and monotone subsequences, Khayyam's philosophical writing and uncertain poetic attribution, and Napier's theological work. Targeted updates distinguish numerical precision from measurement uncertainty (Ulugh Beg), linearized from nonlinear inverse conductivity results (Calderón), and soundings from inferred physiographic terrain (Tharp).
+- Description status: 1,437 fully reviewed, 84 partial, 878 never recorded across 2,399 lectures; History 166 full, 26 partial, 0 never recorded. Next: complete the targeted biographies in this batch, then the remaining 11 partial History reviews. Independent factual/proof verification remains outside this scope. Prior Hotelling II follow-up is retained.
+
 ## Audit progress (25 November 2026, batch 68)
 
 **1,420 current distinct full-manuscript description reviews out of 2,399 lectures (59.19%)** are recorded, up from 1,405 after batch 67. Maintained the 32-lecture batch size: completed all fifteen targeted reviews carried over from batch 67, then made targeted reviews of seventeen further partial History biographies through Blackwell. The 32 spoken manuscripts contain 88,249 whitespace-separated words; the fifteen complete reads contain 35,049. History now has **149 full, 43 partial, zero untouched**; globally, 101 partial and 878 never-recorded description scopes remain, with zero stale.

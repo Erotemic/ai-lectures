@@ -434,9 +434,19 @@
     "Inverse conductivity problem",
     "Identifiability",
     "Stability of inverse problems",
-    "Geophysics"
+    "Geophysics",
+    "Weak-type estimates",
+    "Norm estimates",
+    "Good-bad decomposition",
+    "PDE regularity",
+    "Uniqueness of Cauchy problems",
+    "Linearization",
+    "Linearized inverse conductivity problem",
+    "John Sylvester",
+    "Gunther Uhlmann",
+    "Forward problems"
   ],
-  "description": "Follows Alberto Calderón from engineering in Argentina through Chicago and MIT, explaining principal-value singular integrals, the Calderón–Zygmund decomposition and cancellation estimates, and the inverse problem of recovering interior conductivity from boundary electrical measurements.",
+  "description": "Follows Alberto Calderón from engineering in Argentina through Chicago and MIT, explaining principal-value singular integrals, the Calderón–Zygmund decomposition, cancellation estimates and uniqueness questions for Cauchy problems. Introduces his inverse conductivity problem and distinguishes the linearized analysis from later nonlinear uniqueness results.",
   "tag_paths": [
     [
       "History",
@@ -460,6 +470,24 @@
       "Mathematics",
       "Analysis",
       "Inverse problems"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Harmonic analysis",
+      "Weak-type estimates"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Partial differential equations",
+      "Cauchy problems"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Inverse problems",
+      "Inverse conductivity"
     ]
   ],
   "places": [
